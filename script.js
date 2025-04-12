@@ -5424,4 +5424,4 @@ let currentQuestionIndex = 0;
    shuffleQuestions(activeQuestions);
    switchTab('quiz')
    renderQuestion();
- }););
+ });
