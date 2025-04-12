@@ -5661,13 +5661,18 @@ function resetProgress() {
 function switchTab(tab) {
   const quizSection = document.getElementById("quiz-section");
   const eduSection = document.getElementById("educational-section");
+  const conditionsSection = document.getElementById("conditions-section");
 
-  if (tab === "education") {
-    quizSection.style.display = "none";
-    eduSection.style.display = "block";
-  } else {
+  quizSection.style.display = "none";
+  eduSection.style.display = "none";
+  conditionsSection.style.display = "none";
+
+  if (tab === "quiz") {
     quizSection.style.display = "block";
-    eduSection.style.display = "none";
+  } else if (tab === "education") {
+    eduSection.style.display = "block";
+  } else if (tab === "conditions") {
+    conditionsSection.style.display = "block";
   }
 }
 
