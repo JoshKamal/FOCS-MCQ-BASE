@@ -5222,17 +5222,19 @@ function checkAnswer(selectedIndex) {
   feedbackBox.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   feedbackBox.innerHTML = `<strong>${isCorrect ? "Correct!" : "Incorrect."}</strong><br><br>`;
   feedbackBox.innerHTML += `<div class="explanations">` +
-    q.explanations.map((exp, idx) => {
-      const isCorrect = exp.startsWith("Correct:");
-      const label = isCorrect ? `<strong>Correct:</strong>` : `<strong>Incorrect:</strong>`;
-      const explanationText = exp.replace(/^Correct:|^Incorrect:/, "").trim();
-      return `
-        <div style="margin-bottom: 12px;">
-          <strong>${q.options[idx]}</strong><br>
-          ${label} ${explanationText}
-        </div>
-      `;
-    }).join("") +
+    q.shuffledOptions.map((optionObj, idx) => {
+  const originalIdx = optionObj.index;
+  const explanation = q.explanations[originalIdx];
+  const isCorrect = explanation.startsWith("Correct:");
+  const label = isCorrect ? `<strong>Correct:</strong>` : `<strong>Incorrect:</strong>`;
+  const explanationText = explanation.replace(/^Correct:|^Incorrect:/, "").trim();
+  return `
+    <div style="margin-bottom: 12px;">
+      <strong>${optionObj.text}</strong><br>
+      ${label} ${explanationText}
+    </div>
+  `;
+}).join("") +
     `</div>`;
   feedbackBox.innerHTML += `<p><em>Source: ${q.slideLink}</em></p>`;
 
