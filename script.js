@@ -5383,17 +5383,32 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function loginUser() {
-  const input = document.getElementById("username-input");
-  const name = input.value.trim();
+  const username = prompt("Enter your username:");
+  if (!username) return;
 
-  if (!name) {
-    alert("Please enter a valid name.");
-    return;
+  currentUser = username;
+  const key = `${currentUser}_progress`;
+  const existing = localStorage.getItem(key);
+
+  if (existing) {
+    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
+  } else {
+    alert(`Hello ${username}, let's get started!`);
   }
 
-  currentUsername = name;
-  localStorage.setItem("username", currentUsername);
-  startApp();
+  document.getElementById("auth-section").style.display = "none";
+  document.getElementById("app-container").style.display = "block";
+  document.getElementById("auth-status").innerText = `Signed in as ${username}`;
+  document.getElementById("logout-btn").style.display = "block";
+
+  const progress = getProgress();
+  activeQuestions = questions
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
+
+  shuffleQuestions(activeQuestions);
+  switchTab('quiz');
+  renderQuestion();
 }
 
 function logoutUser() {
