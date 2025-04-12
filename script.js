@@ -5331,12 +5331,20 @@ function exitReview() {
 }
 
 function loginUser() {
-  const input = document.getElementById("username-input");
-  const username = input.value.trim();
-  if (!username) return alert("Please enter your name.");
+  const username = document.getElementById("username-input").value.trim();
+  if (!username) return;
 
   currentUser = username;
+  const key = `${currentUser}_progress`;
+  const existing = localStorage.getItem(key);
 
+  if (existing) {
+    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
+  } else {
+    alert(`Hello ${username}, let's get started!`);
+  }
+
+  // Hide login, show app
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
 
