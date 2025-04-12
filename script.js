@@ -5233,7 +5233,7 @@ function nextQuestion() {
   if (currentQuestionIndex < activeQuestions.length - 1) {
     currentQuestionIndex++;
     renderQuestion();
-  if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
+    if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
   }
 }
 
