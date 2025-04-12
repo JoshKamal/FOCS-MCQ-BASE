@@ -5424,4 +5424,4 @@ function renderQuestion() {
    shuffleQuestions(activeQuestions);
    switchTab('quiz')
    renderQuestion();
- }););
+ });
