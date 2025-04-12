@@ -5322,18 +5322,29 @@ function switchTab(tab) {
   document.getElementById("educational-section").style.display = tab === "education" ? "block" : "none";
 }
 
+
+
 function loginUser() {
   const username = document.getElementById("username-input").value.trim();
-  if (!username) return alert("Please enter a username!");
+  if (!username) {
+    alert("Please enter your name.");
+    return;
+  }
 
   currentUser = username;
   localStorage.setItem("username", username);
-  startApp();
-}
 
-function logoutUser() {
-  localStorage.removeItem("username");
-  location.reload();
+  document.getElementById("auth-section").style.display = "none";
+  document.getElementById("app-container").style.display = "block";
+
+  const progress = getProgress();
+  activeQuestions = questions
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
+
+  shuffleQuestions(activeQuestions);
+  switchTab("quiz");
+  renderQuestion();
 }
 
 function startApp() {
@@ -5350,21 +5361,32 @@ function startApp() {
   renderQuestion();
 }
 
+
+
 window.addEventListener("DOMContentLoaded", () => {
+  const savedUsername = localStorage.getItem("username");
+  if (savedUsername) {
+    currentUser = savedUsername;
+    document.getElementById("auth-section").style.display = "none";
+    document.getElementById("app-container").style.display = "block";
+
+    const progress = getProgress();
+    activeQuestions = questions
+      .map((q, i) => ({ ...q, originalIndex: i }))
+      .filter(q => !progress[q.originalIndex]);
+
+    shuffleQuestions(activeQuestions);
+    renderQuestion();
+  } else {
+    document.getElementById("auth-section").style.display = "block";
+    document.getElementById("app-container").style.display = "none";
+  }
+
+  // Summary toggles (keep this as is)
   document.querySelectorAll(".summary-toggle").forEach(button => {
     button.addEventListener("click", () => {
       const content = button.nextElementSibling;
       content.style.display = content.style.display === "block" ? "none" : "block";
     });
   });
-
-  const savedUsername = localStorage.getItem("username");
-  if (savedUsername) {
-    currentUser = savedUsername;
-    startApp();
-  } else {
-    document.getElementById("auth-section").style.display = "block";
-    document.getElementById("app-container").style.display = "none";
-  }
 });
-
