@@ -2897,44 +2897,6 @@
     "slideLink": "Nerve.pdf (Slide: Nerve structure)"
   },
   {
-    "question": "Which condition results from failure of the anterior neuropore to close during development?",
-    "options": [
-      "A) Spina bifida",
-      "B) Anencephaly",
-      "C) Hydrocephalus",
-      "D) Meningocele",
-      "E) Encephalocele"
-    ],
-    "correctIndex": 1,
-    "explanations": [
-      "Incorrect: Spina bifida results from failure of the posterior neuropore to close.",
-      "Correct: Anencephaly occurs when the anterior neuropore fails to close, leading to absence of brain structures.",
-      "Incorrect: Hydrocephalus involves CSF accumulation, not neural tube closure.",
-      "Incorrect: Meningocele is a type of spina bifida.",
-      "Incorrect: Encephalocele is a herniation, not due to neuropore closure."
-    ],
-    "slideLink": "Embryology – Neural Tube Development"
-  },
-  {
-    "question": "Which process removes damaged mitochondria from cells?",
-    "options": [
-      "A) Ubiquitination",
-      "B) Phagocytosis",
-      "C) Autophagy",
-      "D) Endocytosis",
-      "E) Exocytosis"
-    ],
-    "correctIndex": 2,
-    "explanations": [
-      "Incorrect: Ubiquitination targets proteins, not organelles.",
-      "Incorrect: Phagocytosis is used for large particles or pathogens.",
-      "Correct: Autophagy involves lysosomal degradation of damaged organelles including mitochondria.",
-      "Incorrect: Endocytosis brings materials into the cell but does not target mitochondria.",
-      "Incorrect: Exocytosis expels materials from the cell."
-    ],
-    "slideLink": "Cell Death and Survival Pathways (Slide: Mitophagy)"
-  },
-  {
     "question": "Which of the following best explains why demyelination slows action potential propagation in multiple sclerosis?",
     "options": [
       "A) Decreased neurotransmitter release",
