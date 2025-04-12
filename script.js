@@ -5351,41 +5351,45 @@ function switchTab(tab) {
   }
 }
 
-let currentUser = null; // will hold the entered username
+let currentUsername = null;
 
-// Prompt for a username and log them in locally
+// Show login screen until user signs in
+window.addEventListener("DOMContentLoaded", () => {
+  const savedUsername = localStorage.getItem("username");
+  if (savedUsername) {
+    currentUsername = savedUsername;
+    startApp();
+  } else {
+    document.getElementById("auth-section").style.display = "block";
+    document.getElementById("app-container").style.display = "none";
+  }
+});
+
 function loginUser() {
-  const username = prompt("Enter your username:");
-  if (!username) return;
+  const input = document.getElementById("username-input");
+  const name = input.value.trim();
 
-  currentUser = username;
-  document.getElementById("auth-section").style.display = "none";
-  document.getElementById("app-container").style.display = "block";
-  document.getElementById("auth-status").innerText = `Signed in as ${username}`;
-  document.getElementById("logout-btn").style.display = "block";
+  if (!name) {
+    alert("Please enter a valid name.");
+    return;
+  }
 
-  const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]);
-
-  shuffleQuestions(activeQuestions);
-  switchTab('quiz');
-  renderQuestion();
-}
-
-function registerUser() {
-  // Just re-use loginUser since we’re not storing credentials
-  loginUser();
+  currentUsername = name;
+  localStorage.setItem("username", currentUsername);
+  startApp();
 }
 
 function logoutUser() {
-  currentUser = null;
-  document.getElementById("auth-section").style.display = "block";
-  document.getElementById("app-container").style.display = "none";
-  document.getElementById("auth-status").innerText = "";
-  document.getElementById("logout-btn").style.display = "none";
+  localStorage.removeItem("username");
+  location.reload();
 }
+
+function getUserProgress() {
+  const key = `${currentUsername}_progress`;
+  return JSON.parse(localStorage.getItem(key)) || {};
+}
+
+
 
 // LocalStorage-based progress per username
 function getProgress() {
