@@ -5383,18 +5383,24 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function loginUser() {
-  const username = prompt("Enter your username:");
-  if (!username) return;
+  const username = document.getElementById("username-input").value.trim();
+  if (!username) return alert("Please enter a username!");
 
   currentUser = username;
-  const key = `${currentUser}_progress`;
-  const existing = localStorage.getItem(key);
+  localStorage.setItem("username", username); // Save username for session
 
-  if (existing) {
-    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
-  } else {
-    alert(`Hello ${username}, let's get started!`);
-  }
+  document.getElementById("auth-section").style.display = "none";
+  document.getElementById("app-container").style.display = "block";
+
+  const progress = getProgress();
+  activeQuestions = questions
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
+
+  shuffleQuestions(activeQuestions);
+  switchTab("quiz");
+  renderQuestion();
+}
 
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
@@ -5426,15 +5432,14 @@ function getUserProgress() {
 // LocalStorage-based progress per username
 function getProgress() {
   if (!currentUser) return {};
-  const key = `${currentUser}_progress`;
-  return JSON.parse(localStorage.getItem(key)) || {};
+  return JSON.parse(localStorage.getItem(`${currentUser}_progress`)) || {};
 }
 
 function saveQuestionStatus(index, isCorrect) {
   if (!currentUser) return;
   const key = `${currentUser}_progress`;
   const progress = JSON.parse(localStorage.getItem(key)) || {};
-  progress[index] = isCorrect ? 'correct' : 'incorrect';
+  progress[index] = isCorrect ? "correct" : "incorrect";
   localStorage.setItem(key, JSON.stringify(progress));
 }
 
@@ -5454,13 +5459,21 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]); // only show unseen
-
-  shuffleQuestions(activeQuestions);
-  switchTab('quiz')
-  renderQuestion();
+  // Load saved user session
+  const savedUsername = localStorage.getItem("username");
+  if (savedUsername) {
+    currentUser = savedUsername;
+    document.getElementById("auth-section").style.display = "none";
+    document.getElementById("app-container").style.display = "block";
+    const progress = getProgress();
+    activeQuestions = questions
+      .map((q, i) => ({ ...q, originalIndex: i }))
+      .filter(q => !progress[q.originalIndex]);
+    shuffleQuestions(activeQuestions);
+    renderQuestion();
+  } else {
+    document.getElementById("auth-section").style.display = "block";
+    document.getElementById("app-container").style.display = "none";
+  }
 });
 
