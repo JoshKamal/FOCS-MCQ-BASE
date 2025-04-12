@@ -23,6 +23,63 @@
         slideLink: "Lecture 22 – Enzymes, Krebs, ATP"
     },
     {
+        "question": "Which protein is responsible for forming the contractile ring during cytokinesis?",
+        "options": [
+            "A) Tubulin",
+            "B) Actin",
+            "C) Myosin II",
+            "D) Lamin A/C",
+            "E) Desmin"
+        ],
+        "correctIndex": 2,
+        "explanations": [
+            "Incorrect: Tubulin is part of microtubules, not involved in contractile ring formation.",
+            "Incorrect: Actin forms the ring but does not generate the contractile force alone.",
+            "Correct: Myosin II interacts with actin filaments to contract the ring during cytokinesis.",
+            "Incorrect: Lamins form the nuclear envelope, not the contractile ring.",
+            "Incorrect: Desmin is an intermediate filament in muscle cells."
+        ],
+        "slideLink": "Lecture 12 – Cytoskeleton (Slide: Cytokinesis)"
+    },
+    {
+        "question": "Which motor protein is involved in anterograde transport along microtubules in neurons?",
+        "options": [
+            "A) Kinesin",
+            "B) Dynein",
+            "C) Myosin V",
+            "D) Spectrin",
+            "E) Ankyrin"
+        ],
+        "correctIndex": 0,
+        "explanations": [
+            "Correct: Kinesin moves cargo from the cell body toward the axon terminal (anterograde).",
+            "Incorrect: Dynein moves in the retrograde direction (toward the cell body).",
+            "Incorrect: Myosin V works along actin filaments, not microtubules.",
+            "Incorrect: Spectrin is a cytoskeletal protein for membrane stability, not transport.",
+            "Incorrect: Ankyrin links membrane proteins to the cytoskeleton, not transport."
+        ],
+        "slideLink": "Lecture 12 – Cytoskeleton (Slide: Microtubule motors)"
+    },
+    {
+        "question": "What is the most likely cellular consequence of a mutation in the lamin A gene?",
+        "options": [
+            "A) Increased protein synthesis",
+            "B) Impaired cytokinesis",
+            "C) Abnormal nuclear envelope structure",
+            "D) Defective microtubule polymerization",
+            "E) Hyperactive mitochondria"
+        ],
+        "correctIndex": 2,
+        "explanations": [
+            "Incorrect: Lamin mutations do not primarily affect translation.",
+            "Incorrect: Cytokinesis involves actin and myosin, not lamins.",
+            "Correct: Lamins provide nuclear envelope stability; mutations lead to envelope deformation.",
+            "Incorrect: Microtubule dynamics are unrelated to lamins.",
+            "Incorrect: Lamins are not involved in mitochondrial function."
+        ],
+        "slideLink": "Lecture 12 – Cytoskeleton (Slide: Nuclear lamins & Progeria)"
+    },
+    {
         "question": "Which component of a homeostatic system directly carries out the response to a detected deviation?",
         "options": ["Receptor", "Effector", "Sensor", "Integrator"],
         "correctIndex": 1,
