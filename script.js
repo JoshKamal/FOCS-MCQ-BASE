@@ -5301,13 +5301,15 @@ function switchTab(tab) {
 }
 
 // Firebase Setup
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDdpvFJH7OTPb-BYHqJSol6yXKpKw96YnY",
   authDomain: "focsmcqs.firebaseapp.com",
   projectId: "focsmcqs",
-  storageBucket: "focsmcqs.appspot.com",
+  storageBucket: "focsmcqs.firebasestorage.app",
   messagingSenderId: "574269913614",
-  appId: "1:574269913614:web:a5483e8d35247304745a5f"
+  appId: "1:574269913614:web:a5483e8d35247304745a5f",
+  measurementId: "G-T2C5N5NMF1"
 };
 
 firebase.initializeApp(firebaseConfig);
