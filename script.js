@@ -5319,24 +5319,63 @@ function exitReview() {
   renderQuestion();
 }
 
+let currentUser = null; // will hold the entered username
 
-function saveQuestionStatus(index, isCorrect) {
+// Prompt for a username and log them in locally
+function loginUser() {
+  const username = prompt("Enter your username:");
+  if (!username) return;
+
+  currentUser = username;
+  document.getElementById("auth-section").style.display = "none";
+  document.getElementById("app-container").style.display = "block";
+  document.getElementById("auth-status").innerText = `Signed in as ${username}`;
+  document.getElementById("logout-btn").style.display = "block";
+
   const progress = getProgress();
-  progress[index] = isCorrect ? 'correct' : 'incorrect';
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  activeQuestions = questions
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
+
+  shuffleQuestions(activeQuestions);
+  switchTab('quiz');
+  renderQuestion();
 }
 
+function registerUser() {
+  // Just re-use loginUser since we’re not storing credentials
+  loginUser();
+}
+
+function logoutUser() {
+  currentUser = null;
+  document.getElementById("auth-section").style.display = "block";
+  document.getElementById("app-container").style.display = "none";
+  document.getElementById("auth-status").innerText = "";
+  document.getElementById("logout-btn").style.display = "none";
+}
+
+// LocalStorage-based progress per username
 function getProgress() {
-  return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+  if (!currentUser) return {};
+  const key = `${currentUser}_progress`;
+  return JSON.parse(localStorage.getItem(key)) || {};
+}
+
+function saveQuestionStatus(index, isCorrect) {
+  if (!currentUser) return;
+  const key = `${currentUser}_progress`;
+  const progress = JSON.parse(localStorage.getItem(key)) || {};
+  progress[index] = isCorrect ? 'correct' : 'incorrect';
+  localStorage.setItem(key, JSON.stringify(progress));
 }
 
 function resetProgress() {
-  if (confirm("Are you sure you want to reset all your progress?")) {
-    localStorage.removeItem(STORAGE_KEY);
+  if (currentUser && confirm("Are you sure you want to reset all your progress?")) {
+    localStorage.removeItem(`${currentUser}_progress`);
     location.reload();
   }
 }
-
 // FOR EDUCATIONAL SUMMARIES
 function switchTab(tab) {
   const quizSection = document.getElementById("quiz-section");
