@@ -322,7 +322,15 @@
   </style>
 </head>
 <body>
-
+<div id="auth-section" style="max-width: 400px; margin: 40px auto;">
+  <h2>User Login / Register</h2>
+  <input type="email" id="email" placeholder="Email" style="width:100%; padding:10px; margin: 10px 0;">
+  <input type="password" id="password" placeholder="Password" style="width:100%; padding:10px; margin-bottom: 10px;">
+  <button onclick="loginUser()" style="width:48%; padding:10px;">Login</button>
+  <button onclick="registerUser()" style="width:48%; padding:10px; float:right;">Register</button>
+  <div id="auth-status" style="margin-top: 15px; color: green;"></div>
+  <button onclick="logoutUser()" style="margin-top: 20px; background:#c53030; color:white; padding:10px; display:none;" id="logout-btn">Logout</button>
+</div>
   <h1>FOCS Synoptic MCQ Practice</h1>
   
 
@@ -795,14 +803,6 @@
 	
 
 <!-- Auth UI -->
-<div id="auth-section" style="max-width: 400px; margin: 40px auto;">
-  <h2>User Login / Register</h2>
-  <input type="email" id="email" placeholder="Email" style="width:100%; padding:10px; margin: 10px 0;">
-  <input type="password" id="password" placeholder="Password" style="width:100%; padding:10px; margin-bottom: 10px;">
-  <button onclick="loginUser()" style="width:48%; padding:10px;">Login</button>
-  <button onclick="registerUser()" style="width:48%; padding:10px; float:right;">Register</button>
-  <div id="auth-status" style="margin-top: 15px; color: green;"></div>
-  <button onclick="logoutUser()" style="margin-top: 20px; background:#c53030; color:white; padding:10px; display:none;" id="logout-btn">Logout</button>
-</div>
+
 </body>
 </html>
