@@ -5330,34 +5330,34 @@ function renderQuestion() {
  let currentUser = null; // will hold the entered username
  
  // Prompt for a username and log them in locally
- function loginUser() {
-   const username = prompt("Enter your username:");
-   if (!username) return;
- 
-   currentUser = username;
-   const key = `${currentUser}_progress`;
-   const existing = localStorage.getItem(key);
- 
-   if (existing) {
-     alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
-   } else {
-     alert(`Hello ${username}, let's get started!`);
-   }
- 
-   document.getElementById("auth-section").style.display = "none";
-   document.getElementById("app-container").style.display = "block";
-   document.getElementById("auth-status").innerText = `Signed in as ${username}`;
-   document.getElementById("logout-btn").style.display = "block";
- 
-   const progress = getProgress();
-   activeQuestions = questions
-     .map((q, i) => ({ ...q, originalIndex: i }))
-     .filter(q => !progress[q.originalIndex]);
- 
-   shuffleQuestions(activeQuestions);
-   switchTab('quiz');
-   renderQuestion();
- }
+function loginUser() {
+  const username = document.getElementById("username-input").value.trim();
+  if (!username) return;
+
+  currentUser = username;
+  const key = `${currentUser}_progress`;
+  const existing = localStorage.getItem(key);
+
+  if (existing) {
+    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
+  } else {
+    alert(`Hello ${username}, let's get started!`);
+  }
+
+  document.getElementById("auth-section").style.display = "none";
+  document.getElementById("app-container").style.display = "block";
+  document.getElementById("auth-status").innerText = `Signed in as ${username}`;
+  document.getElementById("logout-btn").style.display = "block";
+
+  const progress = getProgress();
+  activeQuestions = questions
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
+
+  shuffleQuestions(activeQuestions);
+  switchTab('quiz');
+  renderQuestion();
+}
  
  function registerUser() {
    // Just re-use loginUser since we’re not storing credentials
