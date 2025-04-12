@@ -5327,6 +5327,15 @@ function loginUser() {
   if (!username) return;
 
   currentUser = username;
+  const key = `${currentUser}_progress`;
+  const existing = localStorage.getItem(key);
+
+  if (existing) {
+    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
+  } else {
+    alert(`Hello ${username}, let's get started!`);
+  }
+
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
   document.getElementById("auth-status").innerText = `Signed in as ${username}`;
