@@ -426,11 +426,22 @@
  <body>
  	<!-- Login Section -->
   <div id="auth-section" style="max-width: 400px; margin: 60px auto; text-align: center;">
-    <h2>Welcome!</h2>
-    <input id="username-input" type="text" placeholder="Enter your name" style="padding: 12px; width: 100%; margin-bottom: 15px;" />
-    <button onclick="loginUser()" style="padding: 10px 20px;">Start Practice</button>
-    <div id="auth-status" style="margin-top: 20px; font-weight: bold;"></div>
-  </div>
+     <h2>Welcome!</h2>
+     <input id="username-input" type="text" placeholder="Enter your name" style="padding: 12px; width: 100%; margin-bottom: 15px;" />
+     <button onclick="loginUser()" style="padding: 10px 20px;">Start Practice</button>
+     <div id="auth-status" style="margin-top: 20px; font-weight: bold;"></div>
+   </div>
+ <div id="app-container" style="display: none;">
+   <h1>FOCS Synoptic MCQ Practice</h1>
+ 
+   <div class="nav-buttons" style="justify-content: center;">
+     <button onclick="switchTab('quiz')">Practice MCQs</button>
+     <button onclick="switchTab('education')">Educational Summaries</button>
+ 	  <div id="user-stats" style="margin-top: 20px; text-align: center; display: none;">
+   <h3>Your Progress</h3>
+   <p id="stats-summary">Loading...</p>
+ </div>
+   </div>
 
    <!-- Quiz Section -->
    <div id="quiz-section">
