@@ -5432,6 +5432,7 @@ firebase.auth().onAuthStateChanged((user) => {
 
 
 window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("email").focus();
   document.querySelectorAll(".summary-toggle").forEach(button => {
     button.addEventListener("click", () => {
       const content = button.nextElementSibling;
