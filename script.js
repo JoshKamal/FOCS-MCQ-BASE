@@ -23,6 +23,196 @@
         slideLink: "Lecture 22 – Enzymes, Krebs, ATP"
     },
     {
+	  question: "Which of the following structures is directly responsible for detecting body temperature changes in the context of thermoregulation?",
+	  options: [
+	    "Thyroid gland",
+	    "Thermoreceptor neurons",
+	    "Pancreatic beta cells",
+	    "Skin keratinocytes",
+	    "Adrenal medulla"
+	  ],
+	  correctIndex: 1,
+	  explanations: [
+	    "Incorrect: The thyroid regulates metabolic rate, not temperature detection.",
+	    "Correct: Thermoreceptor neurons detect changes in body temperature and relay information to the hypothalamus.",
+	    "Incorrect: Beta cells detect glucose levels, not temperature.",
+	    "Incorrect: Keratinocytes are structural skin cells, not temperature sensors.",
+	    "Incorrect: The adrenal medulla is involved in the fight or flight response, not thermoregulation detection."
+	  ],
+	  slideLink: "Lecture 59 - Homeostasis & Control Systems"
+	},
+	{
+	  question: "Which structure acts as the control centre in the negative feedback loop for thermoregulation?",
+	  options: [
+	    "Adrenal cortex",
+	    "Cerebral cortex",
+	    "Hypothalamus",
+	    "Spinal cord",
+	    "Pituitary gland"
+	  ],
+	  correctIndex: 2,
+	  explanations: [
+	    "Incorrect: The adrenal cortex regulates hormone release but not thermoregulation.",
+	    "Incorrect: The cerebral cortex is involved in higher cognition, not reflexive control.",
+	    "Correct: The hypothalamus receives input from thermoreceptors and initiates responses to maintain homeostasis.",
+	    "Incorrect: The spinal cord relays signals but does not act as the control centre.",
+	    "Incorrect: The pituitary gland regulates hormones but is not the primary thermoregulatory centre."
+	  ],
+	  slideLink: "Lecture 59 - Homeostasis & Control Systems"
+	},
+	{
+	  question: "What is the effect of sympathetic stimulation on non-glabrous skin during thermoregulation?",
+	  options: [
+	    "Active vasodilation via cholinergic nerves",
+	    "Passive vasodilation",
+	    "No change in blood flow",
+	    "Constriction via parasympathetic stimulation",
+	    "Mediated by histamine release"
+	  ],
+	  correctIndex: 0,
+	  explanations: [
+	    "Correct: Non-glabrous skin (e.g. arms, face) undergoes active vasodilation via sympathetic cholinergic nerves.",
+	    "Incorrect: Passive vasodilation occurs in glabrous skin.",
+	    "Incorrect: Blood flow changes actively to maintain core temperature.",
+	    "Incorrect: Parasympathetic system is not involved in skin vasoconstriction.",
+	    "Incorrect: Histamine is involved in inflammation, not thermoregulation."
+	  ],
+	  slideLink: "Lecture 59 - Homeostasis & Control Systems"
+	},
+	{
+	  question: "In the baroreflex, what effect does increased blood pressure have on sympathetic output to the heart?",
+	  options: [
+	    "Increased sympathetic activity",
+	    "Decreased sympathetic activity",
+	    "No effect on autonomic output",
+	    "Increased parasympathetic output with unchanged sympathetic tone",
+	    "Increased heart rate"
+	  ],
+	  correctIndex: 1,
+	  explanations: [
+	    "Incorrect: Increased BP reduces sympathetic activity via feedback.",
+	    "Correct: The baroreflex reduces sympathetic outflow to the heart to decrease heart rate and force.",
+	    "Incorrect: Autonomic output is tightly regulated based on BP changes.",
+	    "Incorrect: Both sympathetic and parasympathetic outputs are affected.",
+	    "Incorrect: Heart rate is reduced, not increased."
+	  ],
+	  slideLink: "Lecture 47 - ANS Part 2"
+	},
+	{
+	  question: "Which of the following best describes mitochondrial DNA?",
+	  options: [
+	    "Linear, double-stranded, with introns",
+	    "Circular, double-stranded, mostly coding",
+	    "Circular, single-stranded, mostly non-coding",
+	    "Linear, mostly coding, inherited from both parents",
+	    "Circular, with 1000 copies per cell, and only coding tRNA"
+	  ],
+	  correctIndex: 1,
+	  explanations: [
+	    "Incorrect: Linear chromosomes are found in the nucleus and have introns.",
+	    "Correct: Mitochondrial DNA is circular, double-stranded, and mostly coding.",
+	    "Incorrect: Mitochondrial DNA is double-stranded.",
+	    "Incorrect: Mitochondrial DNA is maternally inherited and circular.",
+	    "Incorrect: It codes for more than just tRNA."
+	  ],
+	  slideLink: "Lecture 23 - Forms of Inheritance"
+	},
+	{
+	  question: "Which of the following is true about caseating granulomas?",
+	  options: [
+	    "Associated with sarcoidosis",
+	    "Show no necrosis on histology",
+	    "Contain eosinophils",
+	    "Typically ZN stain positive",
+	    "Always formed in autoimmune conditions"
+	  ],
+	  correctIndex: 3,
+	  explanations: [
+	    "Incorrect: Sarcoidosis is associated with non-caseating granulomas.",
+	    "Incorrect: Caseating granulomas show central necrosis.",
+	    "Incorrect: Eosinophils are not typically found in granulomas.",
+	    "Correct: Caseating granulomas (e.g. in TB) are often ZN stain positive due to presence of mycobacteria.",
+	    "Incorrect: They are primarily seen in infections like TB, not always autoimmune disease."
+	  ],
+	  slideLink: "Histopathology of Inflammation Summary"
+	},
+	{
+	  question: "Which feedback mechanism typically controls blood pressure and thermoregulation?",
+	  options: [
+	    "Positive feedback",
+	    "Negative feedback",
+	    "Feed-forward loop",
+	    "Hormonal amplification",
+	    "Neuroendocrine escalation"
+	  ],
+	  correctIndex: 1,
+	  explanations: [
+	    "Incorrect: Positive feedback amplifies change and is less common in homeostasis.",
+	    "Correct: Negative feedback loops are central to maintaining homeostasis, including blood pressure and temperature regulation.",
+	    "Incorrect: Feed-forward is predictive, not common in these systems.",
+	    "Incorrect: Amplification is not part of routine control loops.",
+	    "Incorrect: Neuroendocrine responses occur but are modulated by negative feedback."
+	  ],
+	  slideLink: "Lecture 59 - Homeostasis & Control Systems"
+	},
+	{
+	  question: "Which glial cell type contributes most directly to the blood-brain barrier?",
+	  options: [
+	    "Microglia",
+	    "Astrocytes",
+	    "Oligodendrocytes",
+	    "Ependymal cells",
+	    "Schwann cells"
+	  ],
+	  correctIndex: 1,
+	  explanations: [
+	    "Incorrect: Microglia are immune cells, not BBB support cells.",
+	    "Correct: Astrocytes maintain the blood-brain barrier through end-feet interactions with capillaries.",
+	    "Incorrect: Oligodendrocytes myelinate CNS neurons, not support BBB.",
+	    "Incorrect: Ependymal cells produce CSF, not maintain the BBB.",
+	    "Incorrect: Schwann cells are PNS myelination cells."
+	  ],
+	  slideLink: "Glial Cell Summary"
+	},
+	{
+	  question: "In an autosomal recessive disorder, what is the chance of two carrier parents having an affected child?",
+	  options: [
+	    "0%",
+	    "25%",
+	    "50%",
+	    "75%",
+	    "100%"
+	  ],
+	  correctIndex: 1,
+	  explanations: [
+	    "Incorrect: Carriers can produce affected children.",
+	    "Correct: Each child has a 25% chance of inheriting both defective alleles.",
+	    "Incorrect: 50% would be the chance of being a carrier, not affected.",
+	    "Incorrect: 75% includes both carriers and affected.",
+	    "Incorrect: Only a fraction of offspring will be affected."
+	  ],
+	  slideLink: "Lecture 23 - Forms of Inheritance"
+	},
+	{
+	  question: "What defines a 'positive feedback loop' in physiology?",
+	  options: [
+	    "A system that restores baseline conditions",
+	    "A system where change is opposed",
+	    "A system where output reinforces the original stimulus",
+	    "A hormonal inhibition pathway",
+	    "A reflex arc involving baroreceptors"
+	  ],
+	  correctIndex: 2,
+	  explanations: [
+	    "Incorrect: That describes negative feedback.",
+	    "Incorrect: Opposing change is negative feedback.",
+	    "Correct: Positive feedback reinforces the original disturbance, e.g. childbirth, clotting.",
+	    "Incorrect: Hormonal inhibition is part of negative feedback.",
+	    "Incorrect: Baroreflex is a negative feedback loop."
+	  ],
+	  slideLink: "Lecture 59 - Homeostasis & Control Systems"
+	},
+    {
         "question": "Which protein is responsible for forming the contractile ring during cytokinesis?",
         "options": [
             "A) Tubulin",
