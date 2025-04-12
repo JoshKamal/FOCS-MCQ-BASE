@@ -5185,6 +5185,7 @@ if (currentUser) {
     optionsContainer.appendChild(btn);
   });
 
+  updateStats();
   updateProgress();
   updateDropdown();
   updateScore();
@@ -5354,6 +5355,7 @@ function loginUser() {
     .map((q, i) => ({ ...q, originalIndex: i }))
     .filter(q => !progress[q.originalIndex]);
 
+  updateStats();
   shuffleQuestions(activeQuestions);
   switchTab('quiz');
   renderQuestion();
@@ -5370,6 +5372,7 @@ function logoutUser() {
   document.getElementById("app-container").style.display = "none";
   document.getElementById("auth-status").innerText = "";
   document.getElementById("logout-btn").style.display = "none";
+  updateStats();
 }
 
 // LocalStorage-based progress per username
@@ -5405,6 +5408,21 @@ function switchTab(tab) {
     quizSection.style.display = "block";
     eduSection.style.display = "none";
   }
+}
+
+function updateStats() {
+  const progress = getProgress();
+  const values = Object.values(progress);
+
+  const total = values.length;
+  const correct = values.filter(v => v === 'correct').length;
+  const incorrect = values.filter(v => v === 'incorrect').length;
+  const accuracy = total ? Math.round((correct / total) * 100) : 0;
+
+  document.getElementById('stat-total').innerText = total;
+  document.getElementById('stat-correct').innerText = correct;
+  document.getElementById('stat-incorrect').innerText = incorrect;
+  document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
 }
 
 
