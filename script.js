@@ -5408,4 +5408,3 @@ window.addEventListener("DOMContentLoaded", () => {
   switchTab('quiz')
   renderQuestion();
 });
-
