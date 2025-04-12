@@ -322,13 +322,12 @@
   </style>
 </head>
 <body>
-	<div id="auth-section">
-    <h2>Welcome!</h2>
-    <input id="username-input" type="text" placeholder="Enter your name" />
-    <button onclick="loginUser()">Start Practice</button>
-    <div id="auth-status"></div>
+	<div id="auth-section" style="max-width: 400px; margin: 60px auto; text-align: center;">
+    <h2>User Login</h2>
+    <button onclick="loginUser()" style="padding: 12px 24px; font-size: 16px;">Enter Username</button>
+    <div id="auth-status" style="margin-top: 20px; font-weight: bold;"></div>
   </div>
-<div id="app-container" style="display: none;">
+ <div id="app-container" style="display: none; max-width: 900px; margin: auto;">
   <h1>FOCS Synoptic MCQ Practice</h1>
 
   <div class="nav-buttons" style="justify-content: center;">
