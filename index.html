@@ -431,9 +431,23 @@
   </div>
 <div id="app-container" style="display: none;">
   <h1>FOCS Synoptic MCQ Practice</h1>
-<div id="user-stats" style="margin-top: 20px; text-align: center; display: none;">
-  <h3>Your Progress</h3>
-  <p id="stats-summary">Loading...</p>
+<div class="stats-bar">
+  <div class="stat-card">
+    <h4>Total Answered</h4>
+    <p id="stat-total">0</p>
+  </div>
+  <div class="stat-card">
+    <h4>Correct</h4>
+    <p id="stat-correct">0</p>
+  </div>
+  <div class="stat-card">
+    <h4>Accuracy</h4>
+    <p id="stat-accuracy">0%</p>
+  </div>
+  <div class="stat-card">
+    <h4>Redo Needed</h4>
+    <p id="stat-incorrect">0</p>
+  </div>
 </div>
   <div class="nav-buttons" style="justify-content: center;">
     <button onclick="switchTab('quiz')">Practice MCQs</button>
