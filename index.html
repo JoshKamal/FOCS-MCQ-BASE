@@ -319,6 +319,108 @@
 	.summary-content li {
 	  margin-bottom: 8px;
 	}
+	
+	/* Login container */
+	#auth-section {
+	  background: white;
+	  padding: 40px 30px;
+	  border-radius: 12px;
+	  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+	  width: 100%;
+	  max-width: 400px;
+	  text-align: center;
+	  animation: fadeIn 0.5s ease forwards;
+	}
+	
+	#auth-section h2 {
+	  margin-bottom: 20px;
+	  font-size: 1.5rem;
+	  color: #2b6cb0;
+	}
+	
+	/* Input fields */
+	#auth-section input {
+	  width: 100%;
+	  padding: 12px 16px;
+	  margin-bottom: 14px;
+	  border: 1px solid #cbd5e0;
+	  border-radius: 8px;
+	  font-size: 1rem;
+	  transition: border-color 0.2s ease;
+	}
+	
+	#auth-section input:focus {
+	  border-color: #3182ce;
+	  outline: none;
+	}
+	
+	/* Buttons */
+	#auth-section button {
+	  width: 48%;
+	  padding: 12px 16px;
+	  margin-top: 10px;
+	  font-size: 1rem;
+	  font-weight: 600;
+	  color: white;
+	  border: none;
+	  border-radius: 8px;
+	  cursor: pointer;
+	  transition: transform 0.2s ease, background-color 0.3s ease;
+	}
+	
+	#auth-section button:hover {
+	  transform: translateY(-2px);
+	}
+	
+	#auth-section button:active {
+	  transform: scale(0.98);
+	}
+	
+	#auth-section button:first-of-type {
+	  background-color: #2b6cb0;
+	}
+	
+	#auth-section button:first-of-type:hover {
+	  background-color: #2c5282;
+	}
+	
+	#auth-section button:last-of-type {
+	  background-color: #38a169;
+	}
+	
+	#auth-section button:last-of-type:hover {
+	  background-color: #2f855a;
+	}
+	
+	/* Logout button */
+	#logout-btn {
+	  background-color: #e53e3e;
+	  margin-top: 20px;
+	  width: 100%;
+	}
+	
+	#logout-btn:hover {
+	  background-color: #c53030;
+	}
+	
+	/* Status text */
+	#auth-status {
+	  color: #2b6cb0;
+	  margin-top: 15px;
+	  font-weight: 500;
+	}
+	
+	/* Fade animation */
+	@keyframes fadeIn {
+	  from {
+	    opacity: 0;
+	    transform: translateY(15px);
+	  }
+	  to {
+	    opacity: 1;
+	    transform: translateY(0);
+	  }
+	}
   </style>
 </head>
 <body>
