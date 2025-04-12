@@ -5406,14 +5406,29 @@ function logoutUser() {
 // Stay logged in
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
-    document.getElementById("auth-status").innerText = `Signed in as ${user.email}`;
+    // User is signed in
+    document.getElementById("auth-section").style.display = "none";
+    document.getElementById("app-container").style.display = "block";
     document.getElementById("logout-btn").style.display = "block";
+
+    document.getElementById("auth-status").innerText = `Signed in as ${user.email}`;
+
+    // INIT app
+    const progress = getProgress();
+    activeQuestions = questions
+      .map((q, i) => ({ ...q, originalIndex: i }))
+      .filter(q => !progress[q.originalIndex]);
+
+    shuffleQuestions(activeQuestions);
+    switchTab('quiz');
+    renderQuestion();
   } else {
-    document.getElementById("auth-status").innerText = "";
+    // Not signed in
+    document.getElementById("auth-section").style.display = "block";
+    document.getElementById("app-container").style.display = "none";
     document.getElementById("logout-btn").style.display = "none";
   }
 });
-
 
 
 window.addEventListener("DOMContentLoaded", () => {
