@@ -5134,6 +5134,23 @@ scoreFill.appendChild(scoreLabel);
 scoreContainer.appendChild(scoreFill);
 document.querySelector(".question-box").appendChild(scoreContainer);
 
+
+
+function startApp() {
+  document.getElementById("auth-section").style.display = "none";
+  document.getElementById("app-container").style.display = "block";
+
+  const progress = getUserProgress();
+  activeQuestions = questions
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
+
+  shuffleQuestions(activeQuestions);
+  switchTab("quiz");
+  renderQuestion();
+}
+
+
 function shuffleQuestions(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
