@@ -5232,10 +5232,12 @@ function checkAnswer(selectedIndex) {
 }
 
 function nextQuestion() {
+  if (activeQuestions.length === 0) return;
+
   if (currentQuestionIndex < activeQuestions.length - 1) {
     currentQuestionIndex++;
     renderQuestion();
-  if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
+    if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
   }
 }
 
