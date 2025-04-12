@@ -5405,15 +5405,16 @@ function logoutUser() {
 
 // Stay logged in
 firebase.auth().onAuthStateChanged((user) => {
-  if (user) {
-    // User is signed in
-    document.getElementById("auth-section").style.display = "none";
-    document.getElementById("app-container").style.display = "block";
-    document.getElementById("logout-btn").style.display = "block";
+  const authSection = document.getElementById("auth-section");
+  const appContainer = document.getElementById("app-container");
 
+  if (user) {
+    authSection.style.display = "none";
+    appContainer.style.display = "block";
+    document.getElementById("logout-btn").style.display = "block";
     document.getElementById("auth-status").innerText = `Signed in as ${user.email}`;
 
-    // INIT app
+    // ✅ Initialize app AFTER login
     const progress = getProgress();
     activeQuestions = questions
       .map((q, i) => ({ ...q, originalIndex: i }))
@@ -5423,10 +5424,10 @@ firebase.auth().onAuthStateChanged((user) => {
     switchTab('quiz');
     renderQuestion();
   } else {
-    // Not signed in
-    document.getElementById("auth-section").style.display = "block";
-    document.getElementById("app-container").style.display = "none";
+    authSection.style.display = "block";
+    appContainer.style.display = "none";
     document.getElementById("logout-btn").style.display = "none";
+    document.getElementById("auth-status").innerText = "";
   }
 });
 
@@ -5440,13 +5441,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]); // only show unseen
-
-  shuffleQuestions(activeQuestions);
-  switchTab('quiz')
-  renderQuestion();
+ 
 });
 
