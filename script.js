@@ -5330,8 +5330,13 @@ let currentUser = null; // will hold the entered username
 
 // Prompt for a username and log them in locally
 function loginUser() {
-  const username = prompt("Enter your username:");
-  if (!username) return;
+  const usernameInput = document.getElementById("username-input");
+  const username = usernameInput.value.trim();
+
+  if (!username) {
+    alert("Please enter a valid username.");
+    return;
+  }
 
   currentUser = username;
   const key = `${currentUser}_progress`;
@@ -5346,7 +5351,8 @@ function loginUser() {
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
   document.getElementById("auth-status").innerText = `Signed in as ${username}`;
-  document.getElementById("logout-btn").style.display = "block";
+  const logoutBtn = document.getElementById("logout-btn");
+  if (logoutBtn) logoutBtn.style.display = "block";
 
   const progress = getProgress();
   activeQuestions = questions
