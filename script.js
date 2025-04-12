@@ -5339,28 +5339,33 @@ function loginUser() {
   const key = `${currentUser}_progress`;
   const existing = localStorage.getItem(key);
 
-  if (existing) {
-    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
-  } else {
-    alert(`Hello ${username}, let's get started!`);
-  }
+  alert(existing
+    ? `Welcome back, ${username}! Your previous progress will be loaded.`
+    : `Hello ${username}, let's get started!`);
 
+  // Set visibility
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
   document.getElementById("auth-status").innerText = `Signed in as ${username}`;
   document.getElementById("logout-btn").style.display = "block";
 
+  // Now that currentUser is set, progress will load correctly
   const progress = getProgress();
   activeQuestions = questions
     .map((q, i) => ({ ...q, originalIndex: i }))
     .filter(q => !progress[q.originalIndex]);
 
-  updateStats();
+  if (activeQuestions.length === 0) {
+    alert("You’ve completed all questions. Reset progress to start again.");
+    return;
+  }
+
   shuffleQuestions(activeQuestions);
   switchTab('quiz');
+  updateStats();
+  currentQuestionIndex = 0; // reset index
   renderQuestion();
 }
-
 function registerUser() {
   // Just re-use loginUser since we’re not storing credentials
   loginUser();
