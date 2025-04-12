@@ -5112,8 +5112,8 @@ let correctCount = 0;
 let totalAnswered = 0;
 let inReviewMode = false;
 let lastPracticeIndex = 0;
-let activeQuestions = [...questions]; // mutable copy
-let practiceQuestions = []; // backup of active practice set
+let activeQuestions = [];
+let practiceQuestions = [];
 
 const STORAGE_KEY = 'focsProgress';
 const questionText = document.getElementById("question-text");
@@ -5123,7 +5123,7 @@ const progressBar = document.getElementById("progress-bar");
 const select = document.getElementById("question-select");
 const reviewControls = document.getElementById("review-controls");
 
-// Score box
+// Score Box
 const scoreContainer = document.createElement("div");
 scoreContainer.className = "score-box-container";
 const scoreFill = document.createElement("div");
@@ -5142,21 +5142,9 @@ function shuffleQuestions(array) {
 }
 
 function renderQuestion() {
-  const currentList = inReviewMode ? activeQuestions : activeQuestions;
+  const q = activeQuestions[currentQuestionIndex];
+  if (!q) return;
 
-  if (currentList.length === 0) {
-    questionText.innerText = "No questions available to show.";
-    optionsContainer.innerHTML = "";
-    feedbackBox.style.display = "none";
-    return;
-  }
-
-  if (!currentList[currentQuestionIndex]) {
-    console.warn("Invalid question index:", currentQuestionIndex);
-    return;
-  }
-
-  const q = currentList[currentQuestionIndex];
   questionText.innerText = `Q${currentQuestionIndex + 1}: ${q.question}`;
   optionsContainer.innerHTML = "";
   feedbackBox.style.display = "none";
@@ -5164,7 +5152,6 @@ function renderQuestion() {
 
   const optionData = q.options.map((text, index) => ({ text, index }));
   shuffleQuestions(optionData);
-
   q.shuffledOptions = optionData;
   q.shuffledCorrectIndex = optionData.findIndex(opt => opt.index === q.correctIndex);
 
@@ -5172,13 +5159,12 @@ function renderQuestion() {
     const btn = document.createElement("button");
     btn.innerText = optionObj.text;
     btn.disabled = false;
-    btn.style.opacity = "1.0";
     btn.onclick = () => checkAnswer(index);
     optionsContainer.appendChild(btn);
   });
 
-  updateProgress();
   updateDropdown();
+  updateProgress();
   updateScore();
 }
 
@@ -5192,28 +5178,22 @@ function checkAnswer(selectedIndex) {
     q.hasBeenAnswered = true;
   }
 
-  if (!isCorrect && !incorrectAnswers.some(item => item.question === q.question)) {
+  if (!isCorrect && !incorrectAnswers.find(item => item.question === q.question)) {
     incorrectAnswers.push({ ...q, selectedIndex });
   }
 
   feedbackBox.style.display = "block";
   feedbackBox.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   feedbackBox.innerHTML = `<strong>${isCorrect ? "Correct!" : "Incorrect."}</strong><br><br>`;
-  feedbackBox.innerHTML += `<div class="explanations">` +
-  q.explanations.map((exp, idx) => {
-    const isCorrect = exp.startsWith("Correct:");
-    const label = isCorrect ? `<strong>Correct:</strong>` : `<strong>Incorrect:</strong>`;
-    const explanationText = exp.replace(/^Correct:|^Incorrect:/, "").trim();
-    return `
-      <div style="margin-bottom: 12px;">
-        <strong>${q.options[idx]}</strong><br>
-        ${label} ${explanationText}
-      </div>
-    `;
-  }).join("") +
-  `</div>`;
-  feedbackBox.innerHTML += `<p><em>Source: ${q.slideLink}</em></p>`;
 
+  feedbackBox.innerHTML += `<div class="explanations">` +
+    q.explanations.map((exp, idx) => {
+      const label = exp.startsWith("Correct:") ? "<strong>Correct:</strong>" : "<strong>Incorrect:</strong>";
+      const clean = exp.replace(/^Correct:|^Incorrect:/, "").trim();
+      return `<div style="margin-bottom: 12px;"><strong>${q.options[idx]}</strong><br>${label} ${clean}</div>`;
+    }).join("") + `</div>`;
+
+  feedbackBox.innerHTML += `<p><em>Source: ${q.slideLink}</em></p>`;
   updateScore();
   saveQuestionStatus(q.originalIndex ?? currentQuestionIndex, isCorrect);
 
@@ -5225,16 +5205,16 @@ function checkAnswer(selectedIndex) {
 function nextQuestion() {
   if (currentQuestionIndex < activeQuestions.length - 1) {
     currentQuestionIndex++;
+    if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
     renderQuestion();
-  if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
   }
 }
 
 function prevQuestion() {
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
+    if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
     renderQuestion();
-  if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
   }
 }
 
@@ -5269,14 +5249,7 @@ function updateScore() {
   const percent = Math.round((correctCount / totalAnswered) * 100);
   scoreFill.style.width = `${percent}%`;
   scoreLabel.innerText = `${correctCount}/${totalAnswered} correct (${percent}%)`;
-
-  if (percent >= 80) {
-    scoreFill.style.backgroundColor = "#38a169";
-  } else if (percent >= 50) {
-    scoreFill.style.backgroundColor = "#ed8936";
-  } else {
-    scoreFill.style.backgroundColor = "#e53e3e";
-  }
+  scoreFill.style.backgroundColor = percent >= 80 ? "#38a169" : percent >= 50 ? "#ed8936" : "#e53e3e";
 }
 
 function startReview(filterType = 'incorrect') {
@@ -5285,12 +5258,8 @@ function startReview(filterType = 'incorrect') {
     .map((q, i) => ({ ...q, originalIndex: i }))
     .filter(q => progress[q.originalIndex] === filterType);
 
-  if (filtered.length === 0) {
-    alert(`No ${filterType} questions to review.`);
-    return;
-  }
+  if (filtered.length === 0) return alert(`No ${filterType} questions to review.`);
 
-  // ✅ Save the current shuffled practice set before reviewing
   practiceQuestions = [...activeQuestions];
   lastPracticeIndex = currentQuestionIndex;
 
@@ -5303,22 +5272,11 @@ function startReview(filterType = 'incorrect') {
 
 function exitReview() {
   inReviewMode = false;
-
-  if (practiceQuestions.length > 0) {
-    activeQuestions = [...practiceQuestions]; // ✅ Restore previous shuffled list
-  } else {
-    const progress = getProgress();
-    activeQuestions = questions
-      .map((q, i) => ({ ...q, originalIndex: i }))
-      .filter(q => !progress[q.originalIndex]);
-    shuffleQuestions(activeQuestions); // fallback shuffle
-  }
-
+  activeQuestions = [...practiceQuestions];
   currentQuestionIndex = lastPracticeIndex;
   document.getElementById("return-controls").style.display = "none";
   renderQuestion();
 }
-
 
 function saveQuestionStatus(index, isCorrect) {
   const progress = getProgress();
@@ -5331,51 +5289,37 @@ function getProgress() {
 }
 
 function resetProgress() {
-  if (confirm("Are you sure you want to reset all your progress?")) {
+  if (confirm("Reset all progress?")) {
     localStorage.removeItem(STORAGE_KEY);
     location.reload();
   }
 }
 
-// FOR EDUCATIONAL SUMMARIES
 function switchTab(tab) {
-  const quizSection = document.getElementById("quiz-section");
-  const eduSection = document.getElementById("educational-section");
-
-  if (tab === "education") {
-    quizSection.style.display = "none";
-    eduSection.style.display = "block";
-  } else {
-    quizSection.style.display = "block";
-    eduSection.style.display = "none";
-  }
+  document.getElementById("quiz-section").style.display = tab === "quiz" ? "block" : "none";
+  document.getElementById("educational-section").style.display = tab === "education" ? "block" : "none";
 }
 
-
+// Firebase Setup
 const firebaseConfig = {
   apiKey: "AIzaSyDdpvFJH7OTPb-BYHqJSol6yXKpKw96YnY",
   authDomain: "focsmcqs.firebaseapp.com",
   projectId: "focsmcqs",
   storageBucket: "focsmcqs.appspot.com",
   messagingSenderId: "574269913614",
-  appId: "1:574269913614:web:a5483e8d35247304745a5f",
-  measurementId: "G-T2C5N5NMF1"
+  appId: "1:574269913614:web:a5483e8d35247304745a5f"
 };
 
-// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
-
-
 
 function registerUser() {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
   firebase.auth().createUserWithEmailAndPassword(email, password)
-    .then((userCredential) => {
+    .then(() => {
       document.getElementById("auth-status").innerText = "Account created and signed in!";
-      document.getElementById("logout-btn").style.display = "block";
     })
     .catch((error) => {
       document.getElementById("auth-status").innerText = error.message;
@@ -5387,9 +5331,8 @@ function loginUser() {
   const password = document.getElementById("password").value;
 
   firebase.auth().signInWithEmailAndPassword(email, password)
-    .then((userCredential) => {
+    .then(() => {
       document.getElementById("auth-status").innerText = "Signed in!";
-      document.getElementById("logout-btn").style.display = "block";
     })
     .catch((error) => {
       document.getElementById("auth-status").innerText = error.message;
@@ -5400,21 +5343,19 @@ function logoutUser() {
   firebase.auth().signOut().then(() => {
     document.getElementById("auth-status").innerText = "Logged out.";
     document.getElementById("logout-btn").style.display = "none";
+    document.getElementById("app-container").style.display = "none";
+    document.getElementById("auth-section").style.display = "block";
   });
 }
 
-// Stay logged in
+// Handle auth state changes
 firebase.auth().onAuthStateChanged((user) => {
-  const authSection = document.getElementById("auth-section");
-  const appContainer = document.getElementById("app-container");
-
   if (user) {
-    authSection.style.display = "none";
-    appContainer.style.display = "block";
+    document.getElementById("auth-section").style.display = "none";
+    document.getElementById("app-container").style.display = "block";
     document.getElementById("logout-btn").style.display = "block";
     document.getElementById("auth-status").innerText = `Signed in as ${user.email}`;
 
-    // ✅ Initialize app AFTER login
     const progress = getProgress();
     activeQuestions = questions
       .map((q, i) => ({ ...q, originalIndex: i }))
@@ -5424,23 +5365,19 @@ firebase.auth().onAuthStateChanged((user) => {
     switchTab('quiz');
     renderQuestion();
   } else {
-    authSection.style.display = "block";
-    appContainer.style.display = "none";
-    document.getElementById("logout-btn").style.display = "none";
-    document.getElementById("auth-status").innerText = "";
+    document.getElementById("auth-section").style.display = "block";
+    document.getElementById("app-container").style.display = "none";
   }
 });
 
-
 window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("email").focus();
-  document.querySelectorAll(".summary-toggle").forEach(button => {
-    button.addEventListener("click", () => {
-      const content = button.nextElementSibling;
+
+  document.querySelectorAll(".summary-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const content = btn.nextElementSibling;
       content.style.display = content.style.display === "block" ? "none" : "block";
     });
   });
-
- 
 });
 
