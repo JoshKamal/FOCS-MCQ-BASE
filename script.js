@@ -23,6 +23,42 @@
         slideLink: "Lecture 22 – Enzymes, Krebs, ATP"
     },
     {
+        "question": "Which component of a homeostatic system directly carries out the response to a detected deviation?",
+        "options": ["Receptor", "Effector", "Sensor", "Integrator"],
+        "correctIndex": 1,
+        "explanations": [
+            "Incorrect: Receptors detect changes, they do not act.",
+            "Correct: Effectors act to restore the internal environment.",
+            "Incorrect: Sensors are synonymous with receptors.",
+            "Incorrect: Integrators process the signal but don’t act."
+        ],
+        "slideLink": "MED1028 FoCS Lecture 59 - Homeostasis and Control Systems"
+    },
+    {
+        "question": "What is the main neurotransmitter responsible for active vasodilation in non-glabrous skin during thermoregulation?",
+        "options": ["Noradrenaline", "Acetylcholine", "Dopamine", "Serotonin"],
+        "correctIndex": 1,
+        "explanations": [
+            "Incorrect: Noradrenaline is for vasoconstriction.",
+            "Correct: Acetylcholine mediates active vasodilation.",
+            "Incorrect: Dopamine is unrelated here.",
+            "Incorrect: Serotonin is not involved in this function."
+        ],
+        "slideLink": "Thermoregulation and the Autonomic Nervous System"
+    },
+    {
+        "question": "Which physiological process is an example of a positive feedback loop?",
+        "options": ["Blood pressure regulation", "Thermoregulation", "Blood clotting", "Glucose regulation"],
+        "correctIndex": 2,
+        "explanations": [
+            "Incorrect: This is a negative feedback loop.",
+            "Incorrect: Thermoregulation uses negative feedback.",
+            "Correct: Blood clotting amplifies the process.",
+            "Incorrect: Glucose regulation uses negative feedback."
+        ],
+        "slideLink": "MED1028 FoCS Lecture 59 - Homeostasis and Control Systems"
+    },
+    {
         question: "A mutation in a gene causes the insertion of two extra nucleotides early in the coding sequence. Which of the following is the most likely outcome?",
         options: [
             "A) A synonymous mutation",
