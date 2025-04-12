@@ -1712,25 +1712,6 @@
         "slideLink": "Immunology Lecture (Slide: Dendritic cells and antigen presentation)"
     },
     {
-        "question": "In which location does the urea cycle primarily occur?",
-        "options": [
-            "A) Kidney cortex",
-            "B) Liver mitochondria and cytosol",
-            "C) Pancreatic acinar cells",
-            "D) Red blood cells",
-            "E) Intestinal villi"
-        ],
-        "correctIndex": 1,
-        "explanations": [
-            "Incorrect: The kidney excretes urea but doesn’t produce it.",
-            "Correct: The urea cycle takes place in both mitochondrial and cytosolic compartments of hepatocytes.",
-            "Incorrect: The pancreas secretes enzymes, not urea.",
-            "Incorrect: RBCs lack mitochondria.",
-            "Incorrect: The intestine absorbs amino acids but doesn’t process urea."
-        ],
-        "slideLink": "Amino Acids and Metabolism (Slide: Urea cycle)"
-    },
-    {
         "question": "What is the most appropriate reason to avoid antibiotics in viral infections?",
         "options": [
             "A) Viral infections are always mild",
@@ -1914,7 +1895,7 @@
         "explanations": [
             "Incorrect: Glycolysis is not disrupted.",
             "Incorrect: The urea cycle is normal in LNS.",
-            "Correct: LNS is due to HGPRT deficiency in purine salvage.",
+            "Correct: LNS is due to HGPRT (hypoxanthine-guanine phosphoribosyltransferase) deficiency in purine salvage.",
             "Incorrect: Fat metabolism is not involved.",
             "Incorrect: Transamination is related to amino acid metabolism."
         ],
