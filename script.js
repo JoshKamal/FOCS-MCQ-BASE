@@ -5434,12 +5434,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]); // only show unseen
-
-  shuffleQuestions(activeQuestions);
-  switchTab('quiz')
-  renderQuestion();
+  // Don't run anything quiz-related here!
+  // We'll handle rendering inside loginUser()
 });
