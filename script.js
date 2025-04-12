@@ -5144,6 +5144,14 @@ function shuffleQuestions(array) {
 function renderQuestion() {
   const currentList = inReviewMode ? activeQuestions : activeQuestions;
 
+if (currentUser) {
+    const progress = getProgress();
+    const answered = Object.keys(progress).length;
+    const correct = Object.values(progress).filter(v => v === 'correct').length;
+    document.getElementById("user-stats").style.display = "block";
+    document.getElementById("stats-summary").innerText = `You've answered ${answered} questions — ${correct} correct.`;
+  }
+
   if (currentList.length === 0) {
     questionText.innerText = "No questions available to show.";
     optionsContainer.innerHTML = "";
