@@ -5104,17 +5104,17 @@
   
 ]
 
-
 let currentQuestionIndex = 0;
 let incorrectAnswers = [];
 let correctCount = 0;
 let totalAnswered = 0;
 let inReviewMode = false;
 let lastPracticeIndex = 0;
-let activeQuestions = [...questions]; // mutable copy
-let practiceQuestions = []; // backup of active practice set
+let activeQuestions = [...questions];
+let practiceQuestions = [];
 
-const STORAGE_KEY = 'focsProgress';
+let currentUser = null;
+
 const questionText = document.getElementById("question-text");
 const optionsContainer = document.getElementById("options-container");
 const feedbackBox = document.getElementById("feedback-box");
@@ -5133,6 +5133,29 @@ scoreFill.appendChild(scoreLabel);
 scoreContainer.appendChild(scoreFill);
 document.querySelector(".question-box").appendChild(scoreContainer);
 
+// LocalStorage helpers
+function getProgress() {
+  if (!currentUser) return {};
+  const key = `${currentUser}_progress`;
+  return JSON.parse(localStorage.getItem(key)) || {};
+}
+
+function saveQuestionStatus(index, isCorrect) {
+  if (!currentUser) return;
+  const key = `${currentUser}_progress`;
+  const progress = getProgress();
+  progress[index] = isCorrect ? 'correct' : 'incorrect';
+  localStorage.setItem(key, JSON.stringify(progress));
+}
+
+function resetProgress() {
+  if (!currentUser) return;
+  if (confirm("Are you sure you want to reset all your progress?")) {
+    localStorage.removeItem(`${currentUser}_progress`);
+    location.reload();
+  }
+}
+
 function shuffleQuestions(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -5141,15 +5164,7 @@ function shuffleQuestions(array) {
 }
 
 function renderQuestion() {
-  const currentList = inReviewMode ? activeQuestions : activeQuestions;
-
-if (currentUser) {
-    const progress = getProgress();
-    const answered = Object.keys(progress).length;
-    const correct = Object.values(progress).filter(v => v === 'correct').length;
-    document.getElementById("user-stats").style.display = "block";
-    document.getElementById("stats-summary").innerText = `You've answered ${answered} questions — ${correct} correct.`;
-  }
+  const currentList = activeQuestions;
 
   if (currentList.length === 0) {
     questionText.innerText = "No questions available to show.";
@@ -5207,18 +5222,18 @@ function checkAnswer(selectedIndex) {
   feedbackBox.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   feedbackBox.innerHTML = `<strong>${isCorrect ? "Correct!" : "Incorrect."}</strong><br><br>`;
   feedbackBox.innerHTML += `<div class="explanations">` +
-  q.explanations.map((exp, idx) => {
-    const isCorrect = exp.startsWith("Correct:");
-    const label = isCorrect ? `<strong>Correct:</strong>` : `<strong>Incorrect:</strong>`;
-    const explanationText = exp.replace(/^Correct:|^Incorrect:/, "").trim();
-    return `
-      <div style="margin-bottom: 12px;">
-        <strong>${q.options[idx]}</strong><br>
-        ${label} ${explanationText}
-      </div>
-    `;
-  }).join("") +
-  `</div>`;
+    q.explanations.map((exp, idx) => {
+      const isCorrect = exp.startsWith("Correct:");
+      const label = isCorrect ? `<strong>Correct:</strong>` : `<strong>Incorrect:</strong>`;
+      const explanationText = exp.replace(/^Correct:|^Incorrect:/, "").trim();
+      return `
+        <div style="margin-bottom: 12px;">
+          <strong>${q.options[idx]}</strong><br>
+          ${label} ${explanationText}
+        </div>
+      `;
+    }).join("") +
+    `</div>`;
   feedbackBox.innerHTML += `<p><em>Source: ${q.slideLink}</em></p>`;
 
   updateScore();
@@ -5232,16 +5247,16 @@ function checkAnswer(selectedIndex) {
 function nextQuestion() {
   if (currentQuestionIndex < activeQuestions.length - 1) {
     currentQuestionIndex++;
-    renderQuestion();
     if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
+    renderQuestion();
   }
 }
 
 function prevQuestion() {
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
+    if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
     renderQuestion();
-  if (!inReviewMode) lastPracticeIndex = currentQuestionIndex;
   }
 }
 
@@ -5286,7 +5301,7 @@ function updateScore() {
   }
 }
 
-function startReview(filterType = 'incorrect') {
+function startReview(filterType) {
   const progress = getProgress();
   const filtered = questions
     .map((q, i) => ({ ...q, originalIndex: i }))
@@ -5297,7 +5312,6 @@ function startReview(filterType = 'incorrect') {
     return;
   }
 
-  // ✅ Save the current shuffled practice set before reviewing
   practiceQuestions = [...activeQuestions];
   lastPracticeIndex = currentQuestionIndex;
 
@@ -5310,49 +5324,21 @@ function startReview(filterType = 'incorrect') {
 
 function exitReview() {
   inReviewMode = false;
-
-  if (practiceQuestions.length > 0) {
-    activeQuestions = [...practiceQuestions]; // ✅ Restore previous shuffled list
-  } else {
-    const progress = getProgress();
-    activeQuestions = questions
-      .map((q, i) => ({ ...q, originalIndex: i }))
-      .filter(q => !progress[q.originalIndex]);
-    shuffleQuestions(activeQuestions); // fallback shuffle
-  }
-
+  activeQuestions = [...practiceQuestions];
   currentQuestionIndex = lastPracticeIndex;
   document.getElementById("return-controls").style.display = "none";
   renderQuestion();
 }
 
-let currentUser = null; // will hold the entered username
-
-// Prompt for a username and log them in locally
 function loginUser() {
-  const usernameInput = document.getElementById("username-input");
-  const username = usernameInput.value.trim();
-
-  if (!username) {
-    alert("Please enter a valid username.");
-    return;
-  }
+  const input = document.getElementById("username-input");
+  const username = input.value.trim();
+  if (!username) return alert("Please enter your name.");
 
   currentUser = username;
-  const key = `${currentUser}_progress`;
-  const existing = localStorage.getItem(key);
-
-  if (existing) {
-    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
-  } else {
-    alert(`Hello ${username}, let's get started!`);
-  }
 
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
-  document.getElementById("auth-status").innerText = `Signed in as ${username}`;
-  const logoutBtn = document.getElementById("logout-btn");
-  if (logoutBtn) logoutBtn.style.display = "block";
 
   const progress = getProgress();
   activeQuestions = questions
@@ -5364,41 +5350,6 @@ function loginUser() {
   renderQuestion();
 }
 
-function registerUser() {
-  // Just re-use loginUser since we’re not storing credentials
-  loginUser();
-}
-
-function logoutUser() {
-  currentUser = null;
-  document.getElementById("auth-section").style.display = "block";
-  document.getElementById("app-container").style.display = "none";
-  document.getElementById("auth-status").innerText = "";
-  document.getElementById("logout-btn").style.display = "none";
-}
-
-// LocalStorage-based progress per username
-function getProgress() {
-  if (!currentUser) return {};
-  const key = `${currentUser}_progress`;
-  return JSON.parse(localStorage.getItem(key)) || {};
-}
-
-function saveQuestionStatus(index, isCorrect) {
-  if (!currentUser) return;
-  const key = `${currentUser}_progress`;
-  const progress = JSON.parse(localStorage.getItem(key)) || {};
-  progress[index] = isCorrect ? 'correct' : 'incorrect';
-  localStorage.setItem(key, JSON.stringify(progress));
-}
-
-function resetProgress() {
-  if (currentUser && confirm("Are you sure you want to reset all your progress?")) {
-    localStorage.removeItem(`${currentUser}_progress`);
-    location.reload();
-  }
-}
-// FOR EDUCATIONAL SUMMARIES
 function switchTab(tab) {
   const quizSection = document.getElementById("quiz-section");
   const eduSection = document.getElementById("educational-section");
@@ -5412,7 +5363,6 @@ function switchTab(tab) {
   }
 }
 
-
 window.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".summary-toggle").forEach(button => {
     button.addEventListener("click", () => {
@@ -5420,13 +5370,4 @@ window.addEventListener("DOMContentLoaded", () => {
       content.style.display = content.style.display === "block" ? "none" : "block";
     });
   });
-
-  const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]); // only show unseen
-
-  shuffleQuestions(activeQuestions);
-  switchTab('quiz')
-  renderQuestion();
 });
