@@ -631,6 +631,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Intrinsic efficacy)"
   },
   {
+    "question": "What enzyme deficiency is responsible for classic phenylketonuria (PKU)?",
+    "options": [
+      "A) Tyrosine hydroxylase",
+      "B) Methionine synthase",
+      "C) Phenylalanine hydroxylase",
+      "D) Cystathionine beta-synthase",
+      "E) Homogentisate oxidase"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Tyrosine hydroxylase is not involved in phenylalanine metabolism.",
+      "Incorrect: Methionine synthase is involved in homocysteine metabolism.",
+      "Correct: PKU is caused by deficiency of phenylalanine hydroxylase.",
+      "Incorrect: CBS deficiency causes homocystinuria.",
+      "Incorrect: Homogentisate oxidase is linked to alkaptonuria."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: PKU – main points)"
+  },
+  {
+    "question": "Which clinical consequence is associated with poor metabolic control of PKU during pregnancy?",
+    "options": [
+      "A) Congenital hypothyroidism",
+      "B) Macrocephaly",
+      "C) Mental disability in the fetus",
+      "D) Neonatal diabetes",
+      "E) Thalassemia"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Not associated with maternal PKU.",
+      "Incorrect: Microcephaly, not macrocephaly, is seen.",
+      "Correct: High maternal Phe levels can lead to intellectual disability.",
+      "Incorrect: PKU does not affect pancreatic insulin production.",
+      "Incorrect: Thalassemia is a genetic hemoglobin disorder."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: Poor control during pregnancy)"
+  },
+  {
+    "question": "Which molecule activates Protein Kinase A in the cAMP pathway?",
+    "options": [
+      "A) ATP",
+      "B) cAMP",
+      "C) IP3",
+      "D) DAG",
+      "E) ADP"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: ATP is the precursor, not activator.",
+      "Correct: cAMP activates PKA by binding to regulatory subunits.",
+      "Incorrect: IP3 releases calcium from intracellular stores.",
+      "Incorrect: DAG activates PKC, not PKA.",
+      "Incorrect: ADP does not directly affect PKA."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: cAMP-dependent protein kinase)"
+  },
+  {
+    "question": "Which G-protein is associated with α1-adrenoceptors?",
+    "options": [
+      "A) Gs",
+      "B) Gi",
+      "C) Gq",
+      "D) Go",
+      "E) Gt"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Gs is linked to β1 and β2 receptors.",
+      "Incorrect: Gi is inhibitory, seen in α2-adrenoceptors.",
+      "Correct: Gq couples with α1-adrenoceptors to activate PLC.",
+      "Incorrect: Go is less commonly involved in this pathway.",
+      "Incorrect: Gt is involved in visual transduction."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: Example 2: Action of Phospholipase C-β)"
+  },
+  {
+    "question": "Which of the following is used to treat MCADD?",
+    "options": [
+      "A) Ketogenic diet",
+      "B) Frequent feeding to avoid fasting",
+      "C) High-protein diet",
+      "D) Insulin therapy",
+      "E) Corticosteroids"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: A ketogenic diet worsens symptoms in MCADD.",
+      "Correct: Avoiding fasting prevents hypoglycemia in MCADD.",
+      "Incorrect: Protein is not the primary concern in MCADD.",
+      "Incorrect: Insulin is used in diabetes, not MCADD.",
+      "Incorrect: Corticosteroids are not a treatment here."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: MCADD)"
+  },
+  {
+    "question": "What is the intracellular receptor target of glucocorticoids?",
+    "options": [
+      "A) G-protein",
+      "B) Adenylate cyclase",
+      "C) DNA hormone response elements",
+      "D) Tyrosine kinase receptor",
+      "E) IP3 receptor"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: G-proteins are membrane associated.",
+      "Incorrect: Adenylate cyclase is an effector, not a receptor.",
+      "Correct: Steroid hormone receptors bind DNA at HREs.",
+      "Incorrect: Tyrosine kinases are surface receptors.",
+      "Incorrect: IP3 receptors are on the SR, not nuclear."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: Mechanism of action of nuclear receptors)"
+  },
+  {
+    "question": "Which type of necrosis is classically seen in the brain?",
+    "options": [
+      "A) Coagulative",
+      "B) Caseous",
+      "C) Fibrinoid",
+      "D) Colliquative",
+      "E) Fat"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Coagulative necrosis is typical of ischemia in solid organs.",
+      "Incorrect: Caseous necrosis is seen in TB infections.",
+      "Incorrect: Fibrinoid necrosis occurs in vessels.",
+      "Correct: Colliquative (liquefactive) necrosis occurs in brain due to lack of stroma.",
+      "Incorrect: Fat necrosis affects adipose tissue."
+    ],
+    "slideLink": "Cell Death 24sh.pdf (Slide: Colliquative Necrosis)"
+  },
+  {
+    "question": "What initiates muscle contraction in skeletal muscle?",
+    "options": [
+      "A) Release of calcium from mitochondria",
+      "B) Activation of myosin light chain kinase",
+      "C) Binding of acetylcholine to nicotinic receptors",
+      "D) Spontaneous depolarization of sarcolemma",
+      "E) G-protein activation"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Mitochondria are not the calcium source here.",
+      "Incorrect: This kinase is relevant in smooth muscle.",
+      "Correct: ACh binds nicotinic receptors at the NMJ to initiate contraction.",
+      "Incorrect: Skeletal muscle does not depolarize spontaneously.",
+      "Incorrect: G-proteins are not involved in this pathway."
+    ],
+    "slideLink": "C25 FoCS L39 Muscle Contraction 2024 slides for Canvas.pdf (Slide: The neuromuscular junction – initiation of excitation)"
+  },
+  {
+    "question": "Which second messenger causes calcium release from intracellular stores?",
+    "options": [
+      "A) cAMP",
+      "B) cGMP",
+      "C) DAG",
+      "D) IP3",
+      "E) ATP"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: cAMP acts via PKA, not Ca2+ release.",
+      "Incorrect: cGMP works mainly in vasodilation.",
+      "Incorrect: DAG activates PKC but does not release Ca2+.",
+      "Correct: IP3 binds to receptors on SR to release Ca2+.",
+      "Incorrect: ATP is an energy molecule, not a second messenger."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: IP3 second messenger)"
+  },
+  {
+    "question": "Which type of skeletal muscle fiber is most fatigue resistant?",
+    "options": [
+      "A) Type I",
+      "B) Type IIA",
+      "C) Type IIB",
+      "D) Fast glycolytic",
+      "E) Smooth muscle"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: Type I fibers use oxidative metabolism and resist fatigue.",
+      "Incorrect: Type IIA are intermediate in fatigue resistance.",
+      "Incorrect: Type IIB fatigue rapidly.",
+      "Incorrect: Fast glycolytic = Type IIB.",
+      "Incorrect: Smooth muscle is not classified the same way."
+    ],
+    "slideLink": "C25 FoCS L39 Muscle Contraction 2024 slides for Canvas.pdf (Slide: Functional classification of skeletal muscle fibres)"
+  },
+  {
     "question": "What does the biomedical model of health emphasize?",
     "options": [
       "A) Social determinants",
