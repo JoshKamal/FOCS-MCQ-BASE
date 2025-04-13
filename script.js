@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "What type of chemical bond is primarily responsible for the strength of collagen fibrils?",
+    "options": [
+      "A) Disulfide bonds",
+      "B) Ionic bonds",
+      "C) Hydrogen bonds",
+      "D) Covalent cross-links",
+      "E) Hydrophobic interactions"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Disulfide bonds are more common in protein folding, not ECM.",
+      "Incorrect: Ionic bonds play a lesser role in structural rigidity of collagen.",
+      "Incorrect: Hydrogen bonds are weaker and do not provide tensile strength.",
+      "Correct: Covalent cross-linking between lysines provides structural strength to collagen fibrils.",
+      "Incorrect: Hydrophobic interactions stabilize proteins, not ECM fibrils."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagens are covalently cross-linked)"
+  },
+  {
+    "question": "Which disease results from a mutation in COL17A1, affecting skin adhesion?",
+    "options": [
+      "A) Scurvy",
+      "B) Osteogenesis Imperfecta",
+      "C) Epidermolysis Bullosa",
+      "D) Progeria",
+      "E) Marfan syndrome"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Scurvy is due to vitamin C deficiency, not a collagen mutation.",
+      "Incorrect: Osteogenesis Imperfecta involves collagen type I.",
+      "Correct: Junctional EB is caused by mutations in COL17A1, affecting dermal-epidermal adhesion.",
+      "Incorrect: Progeria affects nuclear lamina, not skin.",
+      "Incorrect: Marfan syndrome is caused by mutations in fibrillin."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagen mutations can cause Junctional Epidermolysis Bullosa)"
+  },
+  {
+    "question": "What is the role of integrins in connective tissue?",
+    "options": [
+      "A) They degrade ECM proteins",
+      "B) They polymerize actin filaments",
+      "C) They link cells to ECM via adaptor proteins",
+      "D) They secrete collagen",
+      "E) They bind directly to GAGs"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Matrix metalloproteinases degrade ECM, not integrins.",
+      "Incorrect: Actin polymerization is regulated by actin-binding proteins.",
+      "Correct: Integrins connect ECM proteins like fibronectin to the cytoskeleton.",
+      "Incorrect: Fibroblasts secrete collagen, not integrins.",
+      "Incorrect: GAGs are indirectly connected via proteoglycans and not directly by integrins."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: How do cells attach to the extracellular matrix?)"
+  },
+  {
+    "question": "Which structure connects keratin filaments to the basal lamina in epithelial cells?",
+    "options": [
+      "A) Desmosome",
+      "B) Gap junction",
+      "C) Hemidesmosome",
+      "D) Tight junction",
+      "E) Focal adhesion"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Desmosomes connect cells to other cells.",
+      "Incorrect: Gap junctions allow communication, not anchoring.",
+      "Correct: Hemidesmosomes anchor intermediate filaments to the basal lamina.",
+      "Incorrect: Tight junctions seal epithelial layers but do not anchor filaments.",
+      "Incorrect: Focal adhesions link actin to ECM, not keratin."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: Hemidesmosomes anchor the keratin filaments to the basal lamina)"
+  },
+  {
+    "question": "Which class of ECM molecules helps tissues resist compressive forces?",
+    "options": [
+      "A) Collagen fibers",
+      "B) Glycoproteins",
+      "C) Laminins",
+      "D) Glycosaminoglycans",
+      "E) Integrins"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Collagen resists tensile, not compressive, forces.",
+      "Incorrect: Glycoproteins like fibronectin are for adhesion.",
+      "Incorrect: Laminins are specific to basal lamina, not compression.",
+      "Correct: GAGs are hydrophilic and form gels to resist compression.",
+      "Incorrect: Integrins are transmembrane receptors, not ECM molecules."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: ECM molecules also perform a compression resistance function)"
+  },
+  {
+    "question": "Which fatty acid is saturated?",
+    "options": [
+      "A) Oleic acid",
+      "B) Linoleic acid",
+      "C) Palmitic acid",
+      "D) Arachidonic acid",
+      "E) DHA"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Oleic acid has one double bond (monounsaturated).",
+      "Incorrect: Linoleic acid is polyunsaturated.",
+      "Correct: Palmitic acid contains no double bonds and is saturated.",
+      "Incorrect: Arachidonic acid has multiple double bonds.",
+      "Incorrect: DHA is a polyunsaturated omega-3 fatty acid."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 2.pdf (Slide: Saturated fats)"
+  },
+  {
+    "question": "Which amino acid can form a disulfide bond?",
+    "options": [
+      "A) Glycine",
+      "B) Cysteine",
+      "C) Alanine",
+      "D) Leucine",
+      "E) Serine"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Glycine is the simplest amino acid, lacks sulfur.",
+      "Correct: Cysteine contains a thiol group that can form disulfide bonds.",
+      "Incorrect: Alanine is non-polar and cannot form disulfide bonds.",
+      "Incorrect: Leucine is hydrophobic with no sulfur.",
+      "Incorrect: Serine contains a hydroxyl group, not thiol."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 2.pdf (Slide: Twenty Amino Acids make up all of the proteins in our body)"
+  },
+  {
+    "question": "What type of chemical bond links monosaccharides in a disaccharide?",
+    "options": [
+      "A) Ester bond",
+      "B) Peptide bond",
+      "C) Phosphodiester bond",
+      "D) Glycosidic bond",
+      "E) Ionic bond"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Ester bonds link fatty acids to glycerol.",
+      "Incorrect: Peptide bonds link amino acids.",
+      "Incorrect: Phosphodiester bonds are in DNA/RNA.",
+      "Correct: Glycosidic bonds connect monosaccharides.",
+      "Incorrect: Ionic bonds are not used in sugar linkages."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 1.pdf (Slide: Complex sugars are formed by glycosidic bonds)"
+  },
+  {
+    "question": "Which of the following correctly defines an amphipathic molecule?",
+    "options": [
+      "A) A molecule with multiple double bonds",
+      "B) A molecule that binds covalently with water",
+      "C) A molecule with both hydrophobic and hydrophilic regions",
+      "D) A molecule that only dissolves in fat",
+      "E) A molecule with a ring structure"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Double bonds affect structure but not amphipathicity.",
+      "Incorrect: Amphipathic nature doesn’t require covalent water bonds.",
+      "Correct: Amphipathic molecules have polar and nonpolar regions, e.g., phospholipids.",
+      "Incorrect: That describes hydrophobic molecules only.",
+      "Incorrect: Amphipathicity is not determined by shape alone."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 2.pdf (Slide: Phospholipids aggregate to form cell membranes)"
+  },
+  {
+    "question": "What is the basic unit of a protein?",
+    "options": [
+      "A) Nucleotide",
+      "B) Monosaccharide",
+      "C) Fatty acid",
+      "D) Amino acid",
+      "E) Glycerol"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Nucleotides make up nucleic acids.",
+      "Incorrect: Monosaccharides make up polysaccharides.",
+      "Incorrect: Fatty acids form lipids.",
+      "Correct: Amino acids are the monomers of proteins.",
+      "Incorrect: Glycerol is part of lipids, not proteins."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 2.pdf (Slide: Twenty Amino Acids make up all of the proteins in our body)"
+  },
+  {
     "question": "What is the primary role of the centrosome in microtubule dynamics?",
     "options": [
       "A) Protein synthesis",
