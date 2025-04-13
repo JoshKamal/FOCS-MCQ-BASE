@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which organ is considered a primary lymphoid organ?",
+    "options": [
+      "A) Lymph node",
+      "B) Spleen",
+      "C) Tonsil",
+      "D) Thymus",
+      "E) Peyer’s patch"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Lymph nodes are secondary lymphoid organs.",
+      "Incorrect: The spleen filters blood and is secondary.",
+      "Incorrect: Tonsils are part of secondary lymphoid tissue.",
+      "Correct: The thymus is where T cells mature—it's a primary lymphoid organ.",
+      "Incorrect: Peyer's patches are secondary lymphoid structures in the gut."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Lymphoid organs)"
+  },
+  {
+    "question": "Which of the following drugs targets an ion channel?",
+    "options": [
+      "A) Diazepam",
+      "B) Lisinopril",
+      "C) Clopidogrel",
+      "D) Rifampicin",
+      "E) Amphetamine"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: Diazepam modulates GABA-A receptor-operated Cl- channels.",
+      "Incorrect: Lisinopril inhibits the ACE enzyme.",
+      "Incorrect: Clopidogrel is a pro-drug inhibiting ADP receptors.",
+      "Incorrect: Rifampicin induces liver enzymes.",
+      "Incorrect: Amphetamine affects transporters, not channels."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Ion channels as drug targets)"
+  },
+  {
+    "question": "What is the role of CD4+ helper T cells?",
+    "options": [
+      "A) Destroy infected cells directly",
+      "B) Activate B cells and other immune cells",
+      "C) Produce antibodies",
+      "D) Kill tumor cells",
+      "E) Suppress immune responses"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: That is the role of CD8+ cytotoxic T cells.",
+      "Correct: CD4+ helper T cells coordinate immune responses by activating other cells.",
+      "Incorrect: B cells produce antibodies, not T cells.",
+      "Incorrect: NK cells are involved in tumor cell killing.",
+      "Incorrect: Regulatory T cells perform immune suppression."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: CD4 and CD8)"
+  },
+  {
+    "question": "Which receptor type is directly linked to gene transcription?",
+    "options": [
+      "A) Ion channel receptors",
+      "B) G-protein coupled receptors",
+      "C) Intracellular nuclear receptors",
+      "D) Enzyme-linked receptors",
+      "E) Cytokine receptors"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Ion channels alter membrane potential.",
+      "Incorrect: GPCRs act through second messengers.",
+      "Correct: Nuclear receptors bind ligands like steroids and regulate gene expression.",
+      "Incorrect: Enzyme-linked receptors activate signaling cascades, not transcription directly.",
+      "Incorrect: Cytokine receptors signal via JAK/STAT pathways."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Intracellular receptor proteins)"
+  },
+  {
+    "question": "Which of the following best describes pharmacokinetics?",
+    "options": [
+      "A) Drug-receptor interaction",
+      "B) Drug's effect on the body",
+      "C) Body’s effect on the drug",
+      "D) Drug selectivity",
+      "E) Dose-response curve"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That is part of pharmacodynamics.",
+      "Incorrect: Pharmacodynamics studies drug effects.",
+      "Correct: Pharmacokinetics describes how the body absorbs, distributes, metabolizes, and excretes drugs.",
+      "Incorrect: Selectivity is a pharmacodynamic property.",
+      "Incorrect: Dose-response is pharmacodynamic."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: How do drugs work?)"
+  },
+  {
+    "question": "Which statistical test compares means of two independent normally distributed samples?",
+    "options": [
+      "A) Chi-squared test",
+      "B) Mann-Whitney U test",
+      "C) Paired t-test",
+      "D) Independent samples t-test",
+      "E) Fisher's exact test"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Chi-squared compares proportions.",
+      "Incorrect: Mann-Whitney is non-parametric.",
+      "Incorrect: Paired t-test is for paired samples.",
+      "Correct: Independent t-test compares means between two independent groups.",
+      "Incorrect: Fisher's test is for small-sample categorical data."
+    ],
+    "slideLink": "3 Hypothesis tests 2022 PDF.pdf (Slide: Independent samples t-test)"
+  },
+  {
+    "question": "Which measure of central tendency is least affected by outliers?",
+    "options": [
+      "A) Mean",
+      "B) Standard deviation",
+      "C) Mode",
+      "D) Median",
+      "E) Variance"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Mean is sensitive to extreme values.",
+      "Incorrect: SD depends on the mean.",
+      "Incorrect: Mode can be unstable and not representative.",
+      "Correct: Median is robust to outliers.",
+      "Incorrect: Variance increases with outliers."
+    ],
+    "slideLink": "1 Introduction to statistics 2022 PDF.pdf (Slide: Measures of location)"
+  },
+  {
+    "question": "Which immunoglobulin is most associated with mucosal immunity?",
+    "options": [
+      "A) IgA",
+      "B) IgE",
+      "C) IgG",
+      "D) IgM",
+      "E) IgD"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: IgA is secreted in mucosal areas like the gut and respiratory tract.",
+      "Incorrect: IgE is linked to allergy.",
+      "Incorrect: IgG is in blood and tissues.",
+      "Incorrect: IgM is the first antibody produced.",
+      "Incorrect: IgD has unclear function, mostly found on immature B cells."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: IgA and mucosal immunity)"
+  },
+  {
+    "question": "What does a confidence interval that includes 0 imply for a mean difference?",
+    "options": [
+      "A) The treatment is significant",
+      "B) The null hypothesis is rejected",
+      "C) The difference is not statistically significant",
+      "D) The sample size is too small",
+      "E) The p-value is below 0.05"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Including 0 suggests non-significance.",
+      "Incorrect: We fail to reject the null.",
+      "Correct: Including 0 means no significant difference in means.",
+      "Incorrect: It could suggest low power but not necessarily.",
+      "Incorrect: p-value is likely above 0.05."
+    ],
+    "slideLink": "2 Confidence intervals 2022 PDF.pdf (Slide: CI for a mean difference)"
+  },
+  {
+    "question": "Which glial cell provides immune defense in the CNS?",
+    "options": [
+      "A) Astrocyte",
+      "B) Microglia",
+      "C) Oligodendrocyte",
+      "D) Schwann cell",
+      "E) Ependymal cell"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Astrocytes support neurons but don’t act as immune cells.",
+      "Correct: Microglia are the CNS resident immune cells.",
+      "Incorrect: Oligodendrocytes produce myelin in the CNS.",
+      "Incorrect: Schwann cells myelinate in the PNS.",
+      "Incorrect: Ependymal cells line ventricles and produce CSF."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Glial cell functions)"
+  },
+  {
     "question": "Which part of the adaptive immune response is responsible for antibody production?",
     "options": [
       "A) CD8+ T cells",
