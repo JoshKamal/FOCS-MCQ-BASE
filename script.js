@@ -61,6 +61,196 @@
     "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Centrosomes are where all microtubule filaments begin)"
   },
   {
+    "question": "Which molecule acts as a second messenger in GPCR signaling pathways?",
+    "options": [
+      "A) ATP",
+      "B) GTP",
+      "C) cAMP",
+      "D) Phosphatidylserine",
+      "E) GDP"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: ATP is the substrate for cAMP synthesis, not the messenger.",
+      "Incorrect: GTP activates G-proteins but is not the second messenger.",
+      "Correct: cAMP is a second messenger produced downstream of GPCR activation.",
+      "Incorrect: Phosphatidylserine is a membrane lipid, not a messenger.",
+      "Incorrect: GDP is bound to inactive G-proteins."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Second messengers)"
+  },
+  {
+    "question": "What property of steroid hormones allows them to pass through the plasma membrane?",
+    "options": [
+      "A) Positive charge",
+      "B) Water solubility",
+      "C) Lipid solubility",
+      "D) Protein binding",
+      "E) Large molecular size"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Charged molecules cannot cross lipid membranes easily.",
+      "Incorrect: Water-soluble molecules require membrane receptors.",
+      "Correct: Steroid hormones are lipid-soluble and diffuse through membranes.",
+      "Incorrect: Protein binding affects transport in blood, not membrane crossing.",
+      "Incorrect: Large molecules generally cannot diffuse freely across membranes."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Steroid hormone signaling)"
+  },
+  {
+    "question": "Which ion has the highest intracellular concentration in a typical neuron?",
+    "options": [
+      "A) Na+",
+      "B) Cl−",
+      "C) Ca2+",
+      "D) K+",
+      "E) H+"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Na+ is higher extracellularly.",
+      "Incorrect: Cl− is mostly extracellular.",
+      "Incorrect: Ca2+ is stored in organelles and is low in the cytosol.",
+      "Correct: K+ is the predominant intracellular cation.",
+      "Incorrect: H+ concentration is tightly regulated but not highest."
+    ],
+    "slideLink": "MED1028 FoCS Lecture - C25 FoCS resting membrane potential 2024 accessible.pdf (Slide: RMP and ion concentrations)"
+  },
+  {
+    "question": "Which structure is most important for the absorption of fat-soluble vitamins?",
+    "options": [
+      "A) LDL particles",
+      "B) Chylomicrons",
+      "C) HDL particles",
+      "D) VLDL particles",
+      "E) Glycoproteins"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: LDLs carry cholesterol from liver to tissues, not primarily vitamins.",
+      "Correct: Chylomicrons transport dietary lipids, including fat-soluble vitamins.",
+      "Incorrect: HDL is involved in reverse cholesterol transport.",
+      "Incorrect: VLDL transports endogenous triglycerides.",
+      "Incorrect: Glycoproteins are not involved in lipid transport."
+    ],
+    "slideLink": "Lipid formation and metabolism - MED1028.pptx (Slide: Exogenous lipid pathway)"
+  },
+  {
+    "question": "What is the resting membrane potential (RMP) typically measured at in a mammalian neuron?",
+    "options": [
+      "A) -40 mV",
+      "B) 0 mV",
+      "C) -70 mV",
+      "D) +65 mV",
+      "E) -90 mV"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: -40 mV is too depolarized for RMP.",
+      "Incorrect: RMP is never 0 mV due to ionic gradients.",
+      "Correct: Typical neuronal RMP is -70 mV.",
+      "Incorrect: +65 mV is the equilibrium potential for Na+, not RMP.",
+      "Incorrect: -90 mV is the equilibrium potential for K+, not the actual RMP."
+    ],
+    "slideLink": "MED1028 FoCS Lecture - C25 FoCS resting membrane potential 2024 accessible.pdf (Slide: Typical RMP)"
+  },
+  {
+    "question": "Which anatomical term means 'toward the tail' and is often used in embryology?",
+    "options": [
+      "A) Rostral",
+      "B) Dorsal",
+      "C) Cephalic",
+      "D) Caudal",
+      "E) Superior"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Rostral means toward the nose or face.",
+      "Incorrect: Dorsal refers to the back surface.",
+      "Incorrect: Cephalic means toward the head.",
+      "Correct: Caudal means toward the tail.",
+      "Incorrect: Superior means upward, but not tailward."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Terms of relationship)"
+  },
+  {
+    "question": "What initiates the hydrolysis of triglycerides in adipose tissue during fasting?",
+    "options": [
+      "A) Lipoprotein lipase",
+      "B) Glucagon",
+      "C) Insulin",
+      "D) ApoB-100",
+      "E) HDL particles"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Lipoprotein lipase acts on circulating triglycerides, not stored fat.",
+      "Correct: Glucagon stimulates hormone-sensitive lipase during fasting.",
+      "Incorrect: Insulin inhibits lipolysis.",
+      "Incorrect: ApoB-100 is involved in lipoprotein structure, not fat breakdown.",
+      "Incorrect: HDL is not directly involved in triglyceride hydrolysis."
+    ],
+    "slideLink": "Lipid formation and metabolism - MED1028.pptx (Slide: Generating energy from fat)"
+  },
+  {
+    "question": "Which apolipoprotein is associated with HDL and promotes reverse cholesterol transport?",
+    "options": [
+      "A) ApoB-48",
+      "B) ApoC-II",
+      "C) ApoB-100",
+      "D) ApoE",
+      "E) ApoA1"
+    ],
+    "correctIndex": 4,
+    "explanations": [
+      "Incorrect: ApoB-48 is found in chylomicrons.",
+      "Incorrect: ApoC-II activates lipoprotein lipase but is not part of HDL.",
+      "Incorrect: ApoB-100 is associated with VLDL and LDL.",
+      "Incorrect: ApoE is involved in remnant clearance.",
+      "Correct: ApoA1 is the main apolipoprotein of HDL and activates LCAT."
+    ],
+    "slideLink": "Lipid formation and metabolism - MED1028.pptx (Slide: Reverse cholesterol transport)"
+  },
+  {
+    "question": "What is the term for a passive process where solutes move down their concentration gradient without energy input?",
+    "options": [
+      "A) Active transport",
+      "B) Facilitated diffusion",
+      "C) Exocytosis",
+      "D) Endocytosis",
+      "E) Osmosis"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Active transport requires ATP.",
+      "Correct: Facilitated diffusion uses carrier proteins without ATP.",
+      "Incorrect: Exocytosis is vesicle-mediated transport out of the cell.",
+      "Incorrect: Endocytosis brings material into the cell via vesicles.",
+      "Incorrect: Osmosis refers to water movement, not solute transport."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 11 - Cell membrane and ion transport 2024 accessible.pptx (Slide: Facilitated diffusion)"
+  },
+  {
+    "question": "Which epidermal layer contains cells that actively divide and contain melanocytes?",
+    "options": [
+      "A) Stratum corneum",
+      "B) Stratum lucidum",
+      "C) Stratum granulosum",
+      "D) Stratum spinosum",
+      "E) Stratum basale"
+    ],
+    "correctIndex": 4,
+    "explanations": [
+      "Incorrect: Stratum corneum contains dead, keratinized cells.",
+      "Incorrect: Stratum lucidum is only present in thick skin.",
+      "Incorrect: Stratum granulosum produces water barrier lipids.",
+      "Incorrect: Stratum spinosum contains desmosomes but is not the main mitotic layer.",
+      "Correct: Stratum basale has mitotically active cells and melanocytes."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: Strata of epidermis)"
+  },
+  {
     "question": "Which filament type has the greatest tensile strength?",
     "options": [
       "A) Actin filaments",
