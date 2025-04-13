@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "What is the primary role of the centrosome in microtubule dynamics?",
+    "options": [
+      "A) Protein synthesis",
+      "B) Lipid metabolism",
+      "C) Nucleation of microtubules",
+      "D) GTP hydrolysis",
+      "E) Transport of vesicles"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Protein synthesis occurs in ribosomes.",
+      "Incorrect: Lipid metabolism happens in the smooth ER and mitochondria.",
+      "Correct: The centrosome serves as a microtubule organizing center where nucleation begins.",
+      "Incorrect: GTP hydrolysis occurs in tubulin, not the centrosome.",
+      "Incorrect: Transport uses microtubules, but not the centrosome itself."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Centrosomes are where all microtubule filaments begin)"
+  },
+  {
+    "question": "What motor protein is responsible for retrograde transport along microtubules?",
+    "options": [
+      "A) Dynein",
+      "B) Myosin II",
+      "C) Kinesin",
+      "D) Actin",
+      "E) Ankyrin"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: Dynein moves cargo towards the minus end of microtubules, i.e., retrograde transport.",
+      "Incorrect: Myosin II acts on actin filaments.",
+      "Incorrect: Kinesin moves in the anterograde direction.",
+      "Incorrect: Actin is not a motor protein.",
+      "Incorrect: Ankyrin anchors cytoskeletal proteins, not involved in transport."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Microtubules are the railway tracks on which cell transport occurs)"
+  },
+  {
+    "question": "What defines the structural polarity of actin filaments?",
+    "options": [
+      "A) GTP-bound tubulin",
+      "B) Plus and minus ends",
+      "C) Desmosome attachment",
+      "D) Vesicle fusion sites",
+      "E) Centrosomal alignment"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: GTP-tubulin relates to microtubules.",
+      "Correct: Actin filaments have a plus (growing) and minus (shrinking) end, giving them polarity.",
+      "Incorrect: Desmosomes connect intermediate filaments.",
+      "Incorrect: Vesicle fusion relates to membrane proteins, not filament polarity.",
+      "Incorrect: Centrosomes organize microtubules, not actin."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Polarity again!!)"
+  },
+  {
+    "question": "Which of the following drugs inhibits microtubule assembly and is used to treat gout?",
+    "options": [
+      "A) Methotrexate",
+      "B) Colchicine",
+      "C) Vincristine",
+      "D) Paclitaxel",
+      "E) Ibuprofen"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Methotrexate inhibits folate metabolism.",
+      "Correct: Colchicine inhibits microtubule polymerization and is used in gout treatment.",
+      "Incorrect: Vincristine is used in cancer therapy, not gout.",
+      "Incorrect: Paclitaxel stabilizes microtubules but is not used for gout.",
+      "Incorrect: Ibuprofen is an NSAID, not a microtubule inhibitor."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Future Reference: Many cancer drugs target microtubules)"
+  },
+  {
+    "question": "Which component of the cytoskeleton is most involved in forming the contractile ring during cytokinesis?",
+    "options": [
+      "A) Tubulin",
+      "B) Lamin",
+      "C) Vimentin",
+      "D) Actin",
+      "E) Myosin heavy chain"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Tubulin forms the mitotic spindle, not the contractile ring.",
+      "Incorrect: Lamin is found in the nuclear lamina.",
+      "Incorrect: Vimentin is an intermediate filament, not involved in contraction.",
+      "Correct: Actin forms the contractile ring during cell division.",
+      "Incorrect: Myosin helps contraction but works with actin, not forms the ring alone."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Actin filaments contribute to many structures and functions)"
+  },
+  {
+    "question": "Which cytoskeletal component plays a key role in lamellipodia formation?",
+    "options": [
+      "A) Microtubules",
+      "B) Keratin",
+      "C) Laminin",
+      "D) Actin filaments",
+      "E) Desmin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Microtubules assist in organelle positioning but not lamellipodia.",
+      "Incorrect: Keratin is an intermediate filament, not for protrusions.",
+      "Incorrect: Laminin is ECM-related, not a cytoskeletal filament.",
+      "Correct: Actin polymerization at the leading edge forms lamellipodia.",
+      "Incorrect: Desmin is found in muscle intermediate filaments."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Cell crawling depends on actin)"
+  },
+  {
+    "question": "What is the structural arrangement of microtubules in a motile cilium?",
+    "options": [
+      "A) 9 triplets",
+      "B) 9 singlets + 2 central",
+      "C) 13 protofilaments",
+      "D) 9 doublets + 2 central",
+      "E) 8 doublets in a helical array"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: 9 triplets are found in centrioles.",
+      "Incorrect: 9 singlets is not a known configuration.",
+      "Incorrect: 13 protofilaments form a single microtubule, not the whole axoneme.",
+      "Correct: The '9+2' arrangement is typical of motile cilia.",
+      "Incorrect: 8 doublets describe intermediate filament bundles."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Cilia contains 9 doublet microtubules...)"
+  },
+  {
+    "question": "Which sugar pairing makes up the disaccharide lactose?",
+    "options": [
+      "A) Glucose + Glucose",
+      "B) Glucose + Fructose",
+      "C) Glucose + Galactose",
+      "D) Galactose + Mannose",
+      "E) Fructose + Sucrose"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That’s maltose.",
+      "Incorrect: That forms sucrose.",
+      "Correct: Lactose is a disaccharide made of glucose and galactose.",
+      "Incorrect: Not a typical disaccharide pairing.",
+      "Incorrect: Sucrose is not a building block, but a disaccharide itself."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 1.pdf (Slide: Disaccharides are simple polysaccharides)"
+  },
+  {
+    "question": "Which molecule acts as the energy source for actin filament polymerization?",
+    "options": [
+      "A) GTP",
+      "B) ADP",
+      "C) AMP",
+      "D) ATP",
+      "E) GDP"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: GTP is involved in tubulin dynamics.",
+      "Incorrect: ADP results after ATP hydrolysis.",
+      "Incorrect: AMP is a breakdown product and not involved in polymerization.",
+      "Correct: Actin polymerizes by ATP hydrolysis.",
+      "Incorrect: GDP relates to tubulin depolymerization."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Stability of actin filaments is regulated by ATP/ADP)"
+  },
+  {
+    "question": "Which ECM molecule is directly responsible for linking epithelial cells to the basal lamina?",
+    "options": [
+      "A) Collagen type I",
+      "B) Vimentin",
+      "C) Fibronectin",
+      "D) Laminin",
+      "E) Keratin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Type I collagen is in connective tissue, not basal lamina.",
+      "Incorrect: Vimentin is a cytoskeletal protein.",
+      "Incorrect: Fibronectin is more relevant to fibroblast-ECM interactions.",
+      "Correct: Laminin links integrins on epithelial cells to the basal lamina.",
+      "Incorrect: Keratin is an intermediate filament inside cells."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: Epithelial cell polarity is critical to their function)"
+  },
+  {
     "question": "Which cytoskeletal filament is primarily responsible for resisting mechanical stress in epithelial tissues?",
     "options": [
       "A) Microtubules",
