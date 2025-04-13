@@ -80,6 +80,196 @@
   "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Epithelium – Where is it found?)"
 },
 {
+  "question": "Which autonomic division is considered catabolic and prepares the body for 'fight or flight'?",
+  "options": [
+    "A) Parasympathetic",
+    "B) Enteric",
+    "C) Somatic",
+    "D) Sympathetic",
+    "E) Central"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Parasympathetic division is anabolic and promotes 'rest and digest'.",
+    "Incorrect: The enteric system regulates GI functions but isn't catabolic.",
+    "Incorrect: Somatic division controls voluntary muscle movement.",
+    "Correct: The sympathetic system activates catabolic pathways in 'fight or flight' response.",
+    "Incorrect: Central nervous system integrates signals but doesn't execute autonomic functions."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: Fight or Flight response)"
+},
+{
+  "question": "What structural feature allows smooth muscle to contract without the presence of sarcomeres?",
+  "options": [
+    "A) Sarcoplasmic reticulum",
+    "B) Dense bodies",
+    "C) Intercalated discs",
+    "D) T-tubules",
+    "E) Z-lines"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: SR stores calcium but doesn’t replace sarcomeres.",
+    "Correct: Dense bodies act as anchoring points for actin filaments in smooth muscle.",
+    "Incorrect: Intercalated discs are found in cardiac muscle.",
+    "Incorrect: T-tubules are absent in smooth muscle.",
+    "Incorrect: Z-lines are specific to striated muscle."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Ultrastructural Features of Smooth Muscle)"
+},
+{
+  "question": "Which homeostatic feedback mechanism acts to amplify the initial stimulus?",
+  "options": [
+    "A) Negative feedback",
+    "B) Reflex arc",
+    "C) Positive feedback",
+    "D) Intrinsic control",
+    "E) Feedforward control"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Negative feedback reduces the deviation from the set point.",
+    "Incorrect: Reflex arcs are pathways, not feedback types.",
+    "Correct: Positive feedback enhances the initial change in a self-amplifying cycle.",
+    "Incorrect: Intrinsic control is localized but not self-amplifying.",
+    "Incorrect: Feedforward anticipates change but doesn’t amplify."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 59 - Homeostasis and Control Systems upload.pdf (Slide: Positive Feedback Loop)"
+},
+{
+  "question": "Which organ receives parasympathetic innervation primarily via the vagus nerve (CN X)?",
+  "options": [
+    "A) Eye",
+    "B) Kidney",
+    "C) Small intestine",
+    "D) Bladder",
+    "E) Salivary glands"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: The eye is innervated by cranial nerve III (oculomotor).",
+    "Incorrect: Pelvic nerves primarily serve the kidney and bladder.",
+    "Correct: The vagus nerve supplies parasympathetic fibers to the GI tract, including small intestine.",
+    "Incorrect: The bladder is served by sacral parasympathetic nerves.",
+    "Incorrect: CN VII and IX provide parasympathetic innervation to salivary glands."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: The Parasympathetic division)"
+},
+{
+  "question": "Which layer of connective tissue surrounds individual skeletal muscle fibers?",
+  "options": [
+    "A) Epimysium",
+    "B) Sarcolemma",
+    "C) Endomysium",
+    "D) Perimysium",
+    "E) Myofibril"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Epimysium surrounds the entire muscle.",
+    "Incorrect: Sarcolemma is the muscle cell membrane, not connective tissue.",
+    "Correct: Endomysium surrounds individual muscle fibers.",
+    "Incorrect: Perimysium surrounds muscle fascicles, not individual fibers.",
+    "Incorrect: Myofibrils are contractile components inside fibers."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Connective Tissue of Skeletal Muscle)"
+},
+{
+  "question": "Which type of connective tissue has randomly arranged collagen fibers and provides multidirectional strength?",
+  "options": [
+    "A) Dense regular",
+    "B) Loose areolar",
+    "C) Dense irregular",
+    "D) Elastic cartilage",
+    "E) Adipose tissue"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Dense regular has collagen aligned in one direction.",
+    "Incorrect: Loose areolar tissue has fewer fibers and isn’t strong.",
+    "Correct: Dense irregular tissue has randomly oriented collagen for strength in all directions.",
+    "Incorrect: Elastic cartilage provides flexibility, not tensile strength.",
+    "Incorrect: Adipose stores fat, not for mechanical support."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Dense Irregular)"
+},
+{
+  "question": "Which region of a sarcomere shortens during skeletal muscle contraction?",
+  "options": [
+    "A) A band",
+    "B) M line",
+    "C) Z line",
+    "D) H band",
+    "E) Sarcolemma"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: The A band remains the same length during contraction.",
+    "Incorrect: M line is the midline anchor of myosin and does not shorten.",
+    "Incorrect: Z lines are fixed anchors for actin.",
+    "Correct: The H band shortens as actin slides over myosin.",
+    "Incorrect: Sarcolemma is the cell membrane and does not represent sarcomere structure."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Sliding Filament Theory of Contraction)"
+},
+{
+  "question": "Which junctional complex in epithelium provides strong mechanical attachment via intermediate filaments?",
+  "options": [
+    "A) Gap junction",
+    "B) Tight junction",
+    "C) Adherens junction",
+    "D) Desmosome",
+    "E) Hemidesmosome"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Gap junctions permit cell communication, not mechanical attachment.",
+    "Incorrect: Tight junctions seal cell boundaries.",
+    "Incorrect: Adherens junctions use actin filaments, not intermediate ones.",
+    "Correct: Desmosomes anchor intermediate filaments for structural integrity.",
+    "Incorrect: Hemidesmosomes attach cells to basement membrane, not to each other."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Desmosome)"
+},
+{
+  "question": "In pharmacokinetics, what does AUC (area under the curve) represent?",
+  "options": [
+    "A) Bioavailability",
+    "B) Clearance rate",
+    "C) Drug potency",
+    "D) Volume of distribution",
+    "E) Peak plasma concentration"
+  ],
+  "correctIndex": 0,
+  "explanations": [
+    "Correct: AUC reflects the total drug exposure over time and is used to calculate bioavailability.",
+    "Incorrect: Clearance is a rate, not an area.",
+    "Incorrect: Potency is related to effect, not drug exposure.",
+    "Incorrect: Volume of distribution is a ratio of dose to plasma concentration.",
+    "Incorrect: Peak concentration is just one point, not the whole curve."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: Bioavailability)"
+},
+{
+  "question": "Which class of collagen is found in basal lamina and forms a non-fibrillar network?",
+  "options": [
+    "A) Type I",
+    "B) Type II",
+    "C) Type III",
+    "D) Type IV",
+    "E) Type V"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Type I forms large fibrils in skin, bone, and tendons.",
+    "Incorrect: Type II is found in cartilage.",
+    "Incorrect: Type III is reticular and found in lymphoid organs.",
+    "Correct: Type IV forms sheet-like networks in basement membranes.",
+    "Incorrect: Type V is involved in regulating collagen fibril diameter."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Collagen Type IV)"
+},
+{
   "question": "What structure joins cardiac muscle cells and allows synchronized contraction?",
   "options": [
     "A) Tight junctions",
