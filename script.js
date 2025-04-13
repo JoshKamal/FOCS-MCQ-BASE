@@ -61,6 +61,196 @@
     "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Centrosomes are where all microtubule filaments begin)"
   },
   {
+    "question": "Which anatomical term refers to movement of a limb away from the midline?",
+    "options": [
+      "A) Adduction",
+      "B) Flexion",
+      "C) Extension",
+      "D) Abduction",
+      "E) Rotation"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Adduction is movement toward the midline.",
+      "Incorrect: Flexion decreases the angle at a joint.",
+      "Incorrect: Extension increases the angle at a joint.",
+      "Correct: Abduction is movement away from the median plane.",
+      "Incorrect: Rotation involves turning around an axis, not away from midline."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Movements)"
+  },
+  {
+    "question": "Which anatomical line runs through the midpoint of the clavicle?",
+    "options": [
+      "A) Midsternal line",
+      "B) Parasternal line",
+      "C) Midclavicular line",
+      "D) Paravertebral line",
+      "E) Anterior axillary line"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: The midsternal line runs along the midline of the sternum.",
+      "Incorrect: The parasternal line is next to the sternum.",
+      "Correct: The midclavicular line transects the midpoint of the clavicle.",
+      "Incorrect: The paravertebral line is near the spine.",
+      "Incorrect: The anterior axillary line is further lateral to the midclavicular line."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Vertical Anatomical Lines)"
+  },
+  {
+    "question": "Which skin structure is responsible for producing oily secretions that lubricate hair and skin?",
+    "options": [
+      "A) Eccrine gland",
+      "B) Apocrine gland",
+      "C) Sebaceous gland",
+      "D) Langerhans cell",
+      "E) Merkel cell"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Eccrine glands produce sweat, not oil.",
+      "Incorrect: Apocrine glands produce odor-related sweat.",
+      "Correct: Sebaceous glands secrete sebum, an oily substance.",
+      "Incorrect: Langerhans cells are immune cells.",
+      "Incorrect: Merkel cells are mechanoreceptors for touch."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - P3. Skin appendages_MED21.pdf (Slide: Sebaceous glands)"
+  },
+  {
+    "question": "What type of bacteria are most abundant in the large intestine due to its low oxygen environment?",
+    "options": [
+      "A) Facultative anaerobes",
+      "B) Aerobes",
+      "C) Obligate anaerobes",
+      "D) Microaerophiles",
+      "E) Thermophiles"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Facultative anaerobes prefer oxygen but can survive without it.",
+      "Incorrect: Aerobes require oxygen and are not dominant in the colon.",
+      "Correct: Obligate anaerobes dominate the large intestine due to low oxygen.",
+      "Incorrect: Microaerophiles require low oxygen but are not most abundant here.",
+      "Incorrect: Thermophiles thrive in high temperatures, not the colon."
+    ],
+    "slideLink": "MED1028-Microbiome.pdf (Slide: Example: microbiome along the GI tract)"
+  },
+  {
+    "question": "Which process describes the movement of water across a semipermeable membrane?",
+    "options": [
+      "A) Filtration",
+      "B) Active transport",
+      "C) Osmosis",
+      "D) Phagocytosis",
+      "E) Exocytosis"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Filtration is driven by pressure, not solute gradients.",
+      "Incorrect: Active transport requires energy and moves solutes.",
+      "Correct: Osmosis is the passive movement of water across a membrane.",
+      "Incorrect: Phagocytosis involves the ingestion of particles.",
+      "Incorrect: Exocytosis is the release of substances from a cell."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 11 - Cell membrane and ion transport 2024 accessible.pptx (Slide: Osmosis definition)"
+  },
+  {
+    "question": "Which nerve-muscle pair is responsible for the breathing process via synaptic signaling?",
+    "options": [
+      "A) Median nerve and diaphragm",
+      "B) Ulnar nerve and intercostal muscles",
+      "C) Phrenic nerve and diaphragm",
+      "D) Sciatic nerve and abdominal wall",
+      "E) Vagus nerve and lung alveoli"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Median nerve innervates the forearm, not diaphragm.",
+      "Incorrect: Ulnar nerve does not control respiration.",
+      "Correct: Phrenic nerve innervates the diaphragm for breathing.",
+      "Incorrect: Sciatic nerve affects the lower limb.",
+      "Incorrect: Vagus nerve innervates viscera but not the diaphragm."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Synaptic Signalling)"
+  },
+  {
+    "question": "Which gland secretes a watery, thermoregulatory sweat directly onto the skin surface?",
+    "options": [
+      "A) Apocrine gland",
+      "B) Sebaceous gland",
+      "C) Eccrine gland",
+      "D) Lacrimal gland",
+      "E) Endocrine gland"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Apocrine glands secrete into hair follicles.",
+      "Incorrect: Sebaceous glands secrete oil, not sweat.",
+      "Correct: Eccrine glands produce sweat for thermoregulation.",
+      "Incorrect: Lacrimal glands produce tears, not sweat.",
+      "Incorrect: Endocrine glands secrete hormones into blood, not sweat onto skin."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - P3. Skin appendages_MED21.pdf (Slide: Sweat glands)"
+  },
+  {
+    "question": "Which protein acts as a 'molecular switch' in GPCR signaling by cycling between GDP and GTP states?",
+    "options": [
+      "A) Adenylyl cyclase",
+      "B) Ras",
+      "C) G-protein alpha subunit",
+      "D) Tyrosine kinase",
+      "E) IP3"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Adenylyl cyclase is an effector enzyme.",
+      "Incorrect: Ras is involved in RTK pathways.",
+      "Correct: The alpha subunit of G-proteins switches between GDP and GTP.",
+      "Incorrect: Tyrosine kinase is involved in RTK signaling.",
+      "Incorrect: IP3 is a second messenger, not a switch."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: G-protein activation)"
+  },
+  {
+    "question": "What equation is used to calculate the equilibrium potential for an ion?",
+    "options": [
+      "A) Michaelis-Menten equation",
+      "B) Goldman-Hodgkin-Katz equation",
+      "C) Nernst equation",
+      "D) Bernoulli’s equation",
+      "E) Hill equation"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Michaelis-Menten is for enzyme kinetics.",
+      "Incorrect: Goldman equation calculates RMP, not equilibrium potential.",
+      "Correct: Nernst equation calculates the equilibrium potential of a specific ion.",
+      "Incorrect: Bernoulli’s equation is for fluid dynamics.",
+      "Incorrect: Hill equation deals with ligand binding."
+    ],
+    "slideLink": "MED1028 FoCS Lecture - C25 FoCS resting membrane potential 2024 accessible.pdf (Slide: The Nernst Equation)"
+  },
+  {
+    "question": "What is the target of nitric oxide (NO) that leads to vasodilation?",
+    "options": [
+      "A) Adenylyl cyclase",
+      "B) Protein kinase A",
+      "C) Phospholipase C",
+      "D) Guanylyl cyclase",
+      "E) Tyrosine kinase"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Adenylyl cyclase is activated by cAMP, not NO.",
+      "Incorrect: Protein kinase A is downstream of cAMP, not cGMP.",
+      "Incorrect: Phospholipase C is part of the IP3/DAG pathway.",
+      "Correct: NO activates guanylyl cyclase to produce cGMP, leading to vasodilation.",
+      "Incorrect: Tyrosine kinase is involved in growth factor signaling, not NO."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Nitric oxide and guanylyl cyclase)"
+  },
+  {
     "question": "Which molecule acts as a second messenger in GPCR signaling pathways?",
     "options": [
       "A) ATP",
