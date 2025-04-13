@@ -80,6 +80,196 @@
   "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Basement Membrane)"
 },
 {
+  "question": "What is the principal mechanism by which beta-lactam antibiotics exert their antibacterial effect?",
+  "options": [
+    "A) Inhibition of DNA synthesis",
+    "B) Disruption of protein synthesis",
+    "C) Inhibition of cell wall cross-linking",
+    "D) Inactivation of bacterial ribosomes",
+    "E) Destruction of bacterial capsules"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: DNA synthesis inhibitors include fluoroquinolones.",
+    "Incorrect: This is the mechanism of action for macrolides or aminoglycosides.",
+    "Correct: Beta-lactams inhibit the transpeptidase enzyme (penicillin-binding protein) that cross-links peptidoglycan chains.",
+    "Incorrect: Ribosomes are the target for other classes of antibiotics, not beta-lactams.",
+    "Incorrect: Capsules are not the direct target of beta-lactams."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 12)"
+},
+{
+  "question": "Which organism is associated with biofilm-related infections on medical devices and shows high resistance to antibiotics?",
+  "options": [
+    "A) Streptococcus pyogenes",
+    "B) Staphylococcus aureus",
+    "C) Clostridium tetani",
+    "D) Escherichia coli",
+    "E) Neisseria gonorrhoeae"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: While pyogenic, it is less associated with biofilm.",
+    "Correct: Staphylococcus aureus is a common biofilm-forming organism on devices like catheters.",
+    "Incorrect: This organism causes tetanus via neurotoxin, not biofilm.",
+    "Incorrect: Though pathogenic, E. coli is not primarily a biofilm-associated device pathogen.",
+    "Incorrect: Typically associated with STIs rather than biofilm infections."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 15)"
+},
+{
+  "question": "Which of the following is a primary reason for using narrow spectrum antibiotics when possible?",
+  "options": [
+    "A) They are more effective for viral infections",
+    "B) They cost less than broad spectrum antibiotics",
+    "C) They minimize ecological damage to the microbiome",
+    "D) They are less likely to cause allergic reactions",
+    "E) They require less frequent dosing"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Antibiotics are ineffective against viruses.",
+    "Incorrect: Cost is not the primary rationale for spectrum selection.",
+    "Correct: Narrow spectrum antibiotics reduce microbiome disruption and risk of resistance.",
+    "Incorrect: Allergic potential is not spectrum-specific.",
+    "Incorrect: Dosing frequency depends on pharmacokinetics, not spectrum."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 20)"
+},
+{
+  "question": "Which of the following viruses is associated with vaccine-preventable oncogenesis?",
+  "options": [
+    "A) Norovirus",
+    "B) Hepatitis B virus",
+    "C) Adenovirus",
+    "D) Respiratory syncytial virus",
+    "E) Measles virus"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Norovirus causes gastroenteritis, not cancer.",
+    "Correct: Hepatitis B virus is linked to hepatocellular carcinoma.",
+    "Incorrect: Adenovirus is not oncogenic in humans.",
+    "Incorrect: RSV causes bronchiolitis, not cancer.",
+    "Incorrect: Measles is not linked to cancer."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Oncogenic viruses)"
+},
+{
+  "question": "In the 'Swiss Cheese Model' of patient safety, what do the holes in each cheese slice represent?",
+  "options": [
+    "A) Areas of infection transmission",
+    "B) Points of procedural redundancy",
+    "C) Weaknesses or failures in system defenses",
+    "D) Places where memory lapses occur",
+    "E) Types of human factor categories"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: The model is for error analysis, not infection spread.",
+    "Incorrect: Redundancy would actually help prevent error.",
+    "Correct: Holes represent system weaknesses that can align to allow errors to cause harm.",
+    "Incorrect: Memory lapses are a type of human error but not the model's core feature.",
+    "Incorrect: Human factors are involved but are not symbolized by the holes."
+  ],
+  "slideLink": "Safer Care 2024-09-20.pdf (Slide: Swiss Cheese Model)"
+},
+{
+  "question": "Which of the following precautions is recommended for a patient with confirmed measles?",
+  "options": [
+    "A) Contact precautions only",
+    "B) Standard precautions only",
+    "C) Droplet precautions only",
+    "D) Airborne precautions",
+    "E) No precautions are necessary"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Measles requires more than contact precautions.",
+    "Incorrect: Standard precautions are not sufficient for airborne pathogens.",
+    "Incorrect: Droplet precautions are not enough to prevent airborne transmission.",
+    "Correct: Measles is an airborne pathogen; airborne precautions including FFP3 masks are necessary.",
+    "Incorrect: Measles is highly contagious and requires strict precautions."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Airborne precautions)"
+},
+{
+  "question": "Which pathogen is a common cause of toxin-mediated disease and is included in the UK vaccine schedule?",
+  "options": [
+    "A) Haemophilus influenzae",
+    "B) Neisseria meningitidis",
+    "C) Corynebacterium diphtheriae",
+    "D) Streptococcus pneumoniae",
+    "E) Staphylococcus aureus"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: H. influenzae causes respiratory infections and meningitis, not toxin-mediated disease.",
+    "Incorrect: N. meningitidis causes meningitis via endotoxin, not exotoxin.",
+    "Correct: C. diphtheriae causes disease via exotoxin and is targeted by toxoid vaccine.",
+    "Incorrect: S. pneumoniae’s effects are due to infection, not toxins.",
+    "Incorrect: Although toxin-producing, S. aureus is not part of the UK vaccine schedule."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 5)"
+},
+{
+  "question": "What is the role of adjuvants in vaccine formulations?",
+  "options": [
+    "A) Inactivate viral particles",
+    "B) Increase vaccine shelf life",
+    "C) Enhance the immune response",
+    "D) Provide cross-reactivity to multiple viruses",
+    "E) Reduce side effects of vaccines"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Inactivation is achieved through chemical agents, not adjuvants.",
+    "Incorrect: Storage stability is not the primary function of adjuvants.",
+    "Correct: Adjuvants enhance immune responses by increasing antigen presentation.",
+    "Incorrect: Adjuvants don’t increase antigen cross-reactivity.",
+    "Incorrect: Adjuvants may increase local reactogenicity, not reduce it."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: Adjuvants)"
+},
+{
+  "question": "Which of the following cell types form myelin in the peripheral nervous system?",
+  "options": [
+    "A) Oligodendrocytes",
+    "B) Microglia",
+    "C) Schwann cells",
+    "D) Astrocytes",
+    "E) Satellite cells"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Oligodendrocytes form myelin in the CNS.",
+    "Incorrect: Microglia are immune cells of the CNS.",
+    "Correct: Schwann cells form the myelin sheath in the PNS.",
+    "Incorrect: Astrocytes support the blood-brain barrier in the CNS.",
+    "Incorrect: Satellite cells surround neuronal cell bodies in ganglia."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Glial cells of the PNS)"
+},
+{
+  "question": "What does the term 'Start Smart then Focus' refer to in antimicrobial prescribing?",
+  "options": [
+    "A) Begin with narrow spectrum and escalate if needed",
+    "B) Prescribe antibiotics immediately and continue for 14 days",
+    "C) Initiate empirical treatment and review based on culture results",
+    "D) Focus on surgical prophylaxis only",
+    "E) Prescribe antivirals alongside antibiotics"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: The approach starts with broad coverage in serious infections.",
+    "Incorrect: Duration should be guided by diagnosis, not fixed.",
+    "Correct: 'Start Smart then Focus' involves early broad treatment and review based on data.",
+    "Incorrect: The concept applies broadly, not just surgical prophylaxis.",
+    "Incorrect: Antivirals are not typically given with antibiotics unless there is a clear viral component."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 23)"
+},
+{
   "question": "Which muscle type shows central nuclei, branching cells, and intercalated discs?",
   "options": [
     "A) Skeletal",
