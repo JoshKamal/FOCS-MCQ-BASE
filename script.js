@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which structure initiates nucleation of microtubules in cells?",
+    "options": [
+      "A) Actin cortex",
+      "B) Golgi apparatus",
+      "C) Centrosome",
+      "D) Desmosome",
+      "E) Hemidesmosome"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: The actin cortex is involved in cell shape and movement, not MT nucleation.",
+      "Incorrect: The Golgi is for protein modification, not MT organization.",
+      "Correct: The centrosome contains gamma-tubulin rings that nucleate microtubules.",
+      "Incorrect: Desmosomes are for intermediate filament anchoring.",
+      "Incorrect: Hemidesmosomes link intermediate filaments to the basal lamina."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Centrosomes are where all microtubule filaments begin)"
+  },
+  {
+    "question": "Which filament type has the greatest tensile strength?",
+    "options": [
+      "A) Actin filaments",
+      "B) Microtubules",
+      "C) Intermediate filaments",
+      "D) Spectrin filaments",
+      "E) Myosin thick filaments"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Actin is flexible but not strong under stress.",
+      "Incorrect: Microtubules are rigid but fragile under tension.",
+      "Correct: Intermediate filaments (e.g. keratin) provide superior mechanical resistance.",
+      "Incorrect: Spectrin is a cytoskeletal protein but not a major filament.",
+      "Incorrect: Myosin is a motor protein, not primarily structural."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Intermediate filaments are the toughest fibres in the body)"
+  },
+  {
+    "question": "Which cytoskeletal defect leads to blistering of the skin in EB simplex?",
+    "options": [
+      "A) Defective tubulin",
+      "B) Defective lamin",
+      "C) Defective keratin",
+      "D) Defective actin",
+      "E) Defective desmin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Tubulin defects affect microtubules, not skin integrity.",
+      "Incorrect: Lamin defects affect the nucleus, not the skin surface.",
+      "Correct: Keratin mutations weaken intermediate filaments in skin, leading to blistering.",
+      "Incorrect: Actin defects affect movement, not mechanical integrity.",
+      "Incorrect: Desmin is involved in muscle cells, not skin."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Epidermolysis Bullosa Simplex)"
+  },
+  {
+    "question": "Which organelle contains hydrolytic enzymes and is responsible for degrading waste?",
+    "options": [
+      "A) Mitochondrion",
+      "B) Peroxisome",
+      "C) Lysosome",
+      "D) Golgi body",
+      "E) Nucleolus"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Mitochondria generate energy but don’t degrade waste.",
+      "Incorrect: Peroxisomes detoxify but don’t have broad hydrolytic activity.",
+      "Correct: Lysosomes contain enzymes to degrade macromolecules and organelles.",
+      "Incorrect: The Golgi modifies proteins but doesn’t degrade them.",
+      "Incorrect: The nucleolus assembles ribosomes, not degradation."
+    ],
+    "slideLink": "Lecture 08 The Cell-The Basics Student Version.pdf (Slide: Mammalian cells contain a plasma membrane and inner compartments)"
+  },
+  {
+    "question": "Which motor protein transports cargo toward the plus end of microtubules?",
+    "options": [
+      "A) Dynein",
+      "B) Myosin I",
+      "C) Kinesin",
+      "D) Spectrin",
+      "E) Lamin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Dynein moves cargo toward the minus end.",
+      "Incorrect: Myosin I interacts with actin, not microtubules.",
+      "Correct: Kinesin moves cargo toward the plus end of microtubules.",
+      "Incorrect: Spectrin is a structural protein, not a motor.",
+      "Incorrect: Lamin forms the nuclear lamina, not involved in transport."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Microtubules are the railway tracks on which cell transport occurs)"
+  },
+  {
+    "question": "Which molecule links epithelial integrins to the basal lamina?",
+    "options": [
+      "A) Fibronectin",
+      "B) Collagen I",
+      "C) Elastin",
+      "D) Laminin",
+      "E) Desmin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Fibronectin is more involved in connective tissue binding.",
+      "Incorrect: Collagen I is found in connective tissue, not basal lamina.",
+      "Incorrect: Elastin gives stretchiness but not specific linkage.",
+      "Correct: Laminin binds to integrins and anchors cells to the basal lamina.",
+      "Incorrect: Desmin is a muscle-specific intermediate filament."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: Epithelial cell polarity is critical to their function)"
+  },
+  {
+    "question": "Which structure connects cells together and distributes mechanical stress?",
+    "options": [
+      "A) Tight junction",
+      "B) Hemidesmosome",
+      "C) Desmosome",
+      "D) Focal adhesion",
+      "E) Gap junction"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Tight junctions create a seal but don’t distribute stress.",
+      "Incorrect: Hemidesmosomes connect cells to the basal lamina.",
+      "Correct: Desmosomes connect cells to each other and spread mechanical stress.",
+      "Incorrect: Focal adhesions connect cells to ECM, not other cells.",
+      "Incorrect: Gap junctions allow communication, not mechanical linkage."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Intermediate Filaments strengthen epithelial cell contacts via desosomes)"
+  },
+  {
+    "question": "Which of the following is a function of the extracellular matrix?",
+    "options": [
+      "A) RNA transcription",
+      "B) ATP synthesis",
+      "C) Mechanical support and anchoring",
+      "D) Action potential conduction",
+      "E) Ribosome assembly"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: RNA transcription occurs in the nucleus.",
+      "Incorrect: ATP synthesis occurs in mitochondria.",
+      "Correct: ECM provides structural support and anchors cells.",
+      "Incorrect: Action potentials occur in excitable cell membranes.",
+      "Incorrect: Ribosome assembly occurs in the nucleolus."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: What is the Extracellular Matrix (ECM)?)"
+  },
+  {
+    "question": "Which of the following correctly matches a cytoskeletal filament with its monomer?",
+    "options": [
+      "A) Actin - Tubulin",
+      "B) Microtubules - Keratin",
+      "C) Intermediate filaments - Lamin",
+      "D) Actin filaments - Myosin",
+      "E) Intermediate filaments - Actin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Actin is its own monomer, not tubulin.",
+      "Incorrect: Microtubules are made of tubulin, not keratin.",
+      "Correct: Lamin is a monomer of nuclear intermediate filaments.",
+      "Incorrect: Myosin is a motor, not a filament monomer.",
+      "Incorrect: Actin is not part of intermediate filaments."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Eukaryotic cells have three types of cytoskeletal filament)"
+  },
+  {
+    "question": "Which macromolecule is composed of nucleotide monomers?",
+    "options": [
+      "A) Protein",
+      "B) DNA",
+      "C) Polysaccharide",
+      "D) Lipid",
+      "E) Glycoprotein"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Proteins are made of amino acids.",
+      "Correct: DNA is a polymer of nucleotides.",
+      "Incorrect: Polysaccharides are made of sugars.",
+      "Incorrect: Lipids are made of fatty acids and glycerol.",
+      "Incorrect: Glycoproteins are proteins with carbohydrate chains."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 1.pdf (Slide: Nucleic acids: polymers of nucleotide bases)"
+  },
+  {
     "question": "Which enzyme catalyzes the hydroxylation of proline residues in collagen?",
     "options": [
       "A) Lysyl oxidase",
