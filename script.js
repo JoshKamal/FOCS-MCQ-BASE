@@ -80,6 +80,177 @@
     "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Amino Acid Catabolism)"
   },
   {
+    "question": "Which of the following statements best describes the function of histone acetylation?",
+    "options": [
+      "A) Inhibits DNA replication",
+      "B) Increases transcription by loosening chromatin structure",
+      "C) Promotes RNA degradation",
+      "D) Inhibits transcription factors binding",
+      "E) Causes DNA mutations"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Acetylation does not inhibit replication.",
+      "Correct: Acetylation of histones loosens chromatin, promoting access to DNA for transcription.",
+      "Incorrect: RNA degradation is controlled post-transcriptionally, not via histone modification.",
+      "Incorrect: Acetylation enhances transcription factor accessibility.",
+      "Incorrect: Mutations arise from DNA sequence changes, not histone modifications."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Regulation of transcription)"
+  },
+  {
+    "question": "What is the primary role of transcription factors in gene expression?",
+    "options": [
+      "A) Digest RNA molecules",
+      "B) Bind to histone proteins",
+      "C) Bind DNA sequences and regulate transcription",
+      "D) Catalyse DNA replication",
+      "E) Modify ribosomal RNA"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: RNA digestion is unrelated to transcription factors.",
+      "Incorrect: Histone binding is not a primary function of transcription factors.",
+      "Correct: Transcription factors bind specific DNA sequences to promote or inhibit transcription.",
+      "Incorrect: DNA replication is catalyzed by DNA polymerase.",
+      "Incorrect: Ribosomal RNA is not modified by transcription factors."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Transcription factors)"
+  },
+  {
+    "question": "Which step in PCR occurs at 95°C?",
+    "options": [
+      "A) Annealing of primers",
+      "B) Extension by DNA polymerase",
+      "C) Denaturation of DNA strands",
+      "D) Cooling the reaction",
+      "E) Degradation of RNA"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Annealing typically occurs around 55°C.",
+      "Incorrect: Extension occurs at 72°C.",
+      "Correct: Denaturation at 95°C separates the DNA strands.",
+      "Incorrect: Cooling is not the same as denaturation.",
+      "Incorrect: PCR does not degrade RNA."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Polymerase Chain Reaction - One cycle)"
+  },
+  {
+    "question": "Which of the following DNA mutations does NOT change the amino acid sequence of a protein?",
+    "options": [
+      "A) Missense mutation",
+      "B) Nonsense mutation",
+      "C) Frameshift mutation",
+      "D) Silent mutation",
+      "E) Insertion of one base"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Missense mutations result in amino acid substitution.",
+      "Incorrect: Nonsense mutations introduce a stop codon.",
+      "Incorrect: Frameshift mutations alter downstream amino acids.",
+      "Correct: Silent mutations do not affect the amino acid sequence due to redundancy in the genetic code.",
+      "Incorrect: Insertion can cause frameshift and affect protein structure."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Types of Point Mutation)"
+  },
+  {
+    "question": "In the context of transcription, what is the function of the TATA box?",
+    "options": [
+      "A) Terminates transcription",
+      "B) Marks intron boundaries",
+      "C) Binds to RNA polymerase to start transcription",
+      "D) Adds methyl groups to DNA",
+      "E) Signals RNA splicing"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Termination involves other downstream sequences.",
+      "Incorrect: Splice sites, not the TATA box, mark intron boundaries.",
+      "Correct: The TATA box is a promoter element that binds transcription machinery.",
+      "Incorrect: Methylation is unrelated to the TATA box.",
+      "Incorrect: Splicing is post-transcriptional and not initiated by the TATA box."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 19 - DNA - The Basics 2022.pdf (Slide: All genes contain key elements for transcription)"
+  },
+  {
+    "question": "What type of DNA mutation is most commonly associated with inherited disease?",
+    "options": [
+      "A) Point mutation",
+      "B) Frameshift mutation",
+      "C) Insertion of three nucleotides",
+      "D) Silent mutation",
+      "E) Repeat expansion"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: Point mutations are a common cause of inherited genetic disease.",
+      "Incorrect: Frameshift mutations are severe but less frequent.",
+      "Incorrect: Inserting three nucleotides may add an amino acid but not always cause disease.",
+      "Incorrect: Silent mutations typically do not affect protein function.",
+      "Incorrect: Repeat expansions cause some diseases but are less common overall."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Mutations and Genetic Disease)"
+  },
+  {
+    "question": "Which of the following is a characteristic feature of the 'lagging strand' during DNA replication?",
+    "options": [
+      "A) Synthesized continuously in the 5′ to 3′ direction",
+      "B) Synthesized in the 3′ to 5′ direction",
+      "C) Synthesized in Okazaki fragments",
+      "D) Synthesized by RNA polymerase",
+      "E) Contains no introns"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Continuous synthesis occurs in the leading strand.",
+      "Incorrect: DNA synthesis only proceeds in the 5′ to 3′ direction.",
+      "Correct: The lagging strand is synthesized discontinuously in Okazaki fragments.",
+      "Incorrect: DNA synthesis is performed by DNA polymerase, not RNA polymerase.",
+      "Incorrect: Introns are features of RNA transcripts, not DNA strands per se."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 19 - DNA - The Basics 2022.pdf (Slide: DNA synthesis – the lagging strand)"
+  },
+  {
+    "question": "What is the key advantage of Next Generation Sequencing (NGS) over traditional Sanger sequencing?",
+    "options": [
+      "A) Uses radioactive nucleotides",
+      "B) Only sequences short DNA fragments",
+      "C) Processes millions of DNA sequences in parallel",
+      "D) Does not require PCR amplification",
+      "E) Detects only protein-coding genes"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: NGS typically uses fluorescent dyes, not radioactive labels.",
+      "Incorrect: NGS can handle both short and long fragments, unlike Sanger.",
+      "Correct: NGS enables massive parallel sequencing, making it faster and cheaper.",
+      "Incorrect: PCR is often a prerequisite for NGS.",
+      "Incorrect: NGS can sequence non-coding DNA as well."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Next generation genetic analysis)"
+  },
+  {
+    "question": "Which of the following is TRUE regarding the action potential?",
+    "options": [
+      "A) Sub-threshold stimuli produce a weak action potential",
+      "B) Action potentials vary in size depending on stimulus strength",
+      "C) The absolute refractory period allows a second action potential",
+      "D) Action potentials are all-or-none phenomena",
+      "E) The action potential travels only in the opposite direction of the stimulus"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Sub-threshold stimuli do not produce an action potential.",
+      "Incorrect: Action potential size is fixed once threshold is reached.",
+      "Incorrect: No action potential can be generated during the absolute refractory period.",
+      "Correct: Action potentials follow the all-or-none principle.",
+      "Incorrect: APs propagate in both directions unless restricted by refractory zones."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 20 - Action Potentials 2024 accessibility for Canvas.pdf (Slide: Action potential properties)"
+  },
+  {
     "question": "Which amino acid is exclusively ketogenic?",
     "options": [
       "A) Tyrosine",
