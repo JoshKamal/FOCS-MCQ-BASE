@@ -99,6 +99,272 @@
   "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Bacterial endotoxins)"
 },
 {
+  "question": "Which infection control measure is specifically designed to prevent droplet transmission?",
+  "options": [
+    "A) FFP3 respirator",
+    "B) Negative pressure room",
+    "C) Fluid-resistant surgical mask",
+    "D) Alcohol hand rub",
+    "E) Hepa-filtered air system"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: FFP3 masks are used for airborne, not droplet precautions.",
+    "Incorrect: Negative pressure rooms are used for airborne pathogens.",
+    "Correct: Surgical masks are used to prevent large droplet transmission.",
+    "Incorrect: Hand hygiene helps with contact precautions.",
+    "Incorrect: HEPA filters are for airborne infection control."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Droplet precautions)"
+},
+{
+  "question": "What is the recommended action when treating an abscess?",
+  "options": [
+    "A) Prescribe broad-spectrum antibiotics only",
+    "B) Apply topical antiviral agents",
+    "C) Initiate high-dose corticosteroids",
+    "D) Drain the abscess to remove pus",
+    "E) Perform blood culture only"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Antibiotics alone are not sufficient for abscesses.",
+    "Incorrect: Abscesses are bacterial, not viral.",
+    "Incorrect: Steroids suppress immunity and are inappropriate here.",
+    "Correct: The primary treatment is drainage of pus.",
+    "Incorrect: Blood cultures are not typically required for superficial abscesses."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Abscesses and collections)"
+},
+{
+  "question": "Which condition is an example of physiological hypertrophy?",
+  "options": [
+    "A) Cardiac muscle enlargement in hypertension",
+    "B) Skeletal muscle growth with exercise",
+    "C) Prostatic enlargement in elderly men",
+    "D) Endometrial proliferation in cancer",
+    "E) Brain atrophy in Alzheimer’s disease"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: This is pathological hypertrophy.",
+    "Correct: Exercise-induced skeletal muscle growth is physiological.",
+    "Incorrect: This is pathological hyperplasia.",
+    "Incorrect: Cancer is uncontrolled pathological growth.",
+    "Incorrect: Atrophy is the opposite of hypertrophy."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Hypertrophy)"
+},
+{
+  "question": "Which is a structural classification of neurons that has a single process splitting into two branches?",
+  "options": [
+    "A) Bipolar",
+    "B) Anaxonic",
+    "C) Unipolar (pseudounipolar)",
+    "D) Multipolar",
+    "E) Tripolar"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Bipolar neurons have two processes.",
+    "Incorrect: Anaxonic neurons lack clear axon-dendrite distinction.",
+    "Correct: Unipolar neurons have one process that splits into two branches.",
+    "Incorrect: Multipolar neurons have many dendrites and one axon.",
+    "Incorrect: Tripolar is not a recognized classification."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Classification of nerve cells)"
+},
+{
+  "question": "What is the function of the Node of Ranvier in myelinated neurons?",
+  "options": [
+    "A) Site of neurotransmitter release",
+    "B) Initiation of protein synthesis",
+    "C) Saltatory conduction of action potentials",
+    "D) Myelin sheath synthesis",
+    "E) Axonal branching"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Neurotransmitters are released at synapses.",
+    "Incorrect: Protein synthesis occurs in the soma.",
+    "Correct: Nodes allow rapid impulse conduction between myelin segments.",
+    "Incorrect: Myelin is produced by glial cells, not at the nodes.",
+    "Incorrect: Axonal branching does not occur specifically at nodes."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Node of Ranvier)"
+},
+{
+  "question": "Which of the following increases the susceptibility of a host to infection?",
+  "options": [
+    "A) Healthy microbiome",
+    "B) Intact epithelial barriers",
+    "C) Use of indwelling catheters",
+    "D) Regular vaccination",
+    "E) Adequate nutrition"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: A healthy microbiome offers protection.",
+    "Incorrect: Intact barriers reduce susceptibility.",
+    "Correct: Foreign bodies like catheters increase infection risk.",
+    "Incorrect: Vaccination reduces susceptibility.",
+    "Incorrect: Good nutrition supports immunity."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Susceptible host)"
+},
+{
+  "question": "Which viral vaccine is classified as a live attenuated vaccine?",
+  "options": [
+    "A) Hepatitis B",
+    "B) Rabies",
+    "C) MMR (Measles, Mumps, Rubella)",
+    "D) HPV",
+    "E) Inactivated Influenza"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Hepatitis B is a subunit vaccine.",
+    "Incorrect: Rabies is an inactivated vaccine.",
+    "Correct: MMR is a live attenuated vaccine.",
+    "Incorrect: HPV is a recombinant subunit vaccine.",
+    "Incorrect: Inactivated flu vaccine is not live."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: Current human viral vaccines)"
+},
+{
+  "question": "Which CNS glial cell has phagocytic function and originates from monocytes?",
+  "options": [
+    "A) Astrocyte",
+    "B) Oligodendrocyte",
+    "C) Schwann cell",
+    "D) Ependymal cell",
+    "E) Microglia"
+  ],
+  "correctIndex": 4,
+  "explanations": [
+    "Incorrect: Astrocytes support neurons and help with the BBB.",
+    "Incorrect: Oligodendrocytes form myelin but are not phagocytes.",
+    "Incorrect: Schwann cells are in the PNS.",
+    "Incorrect: Ependymal cells line the ventricles.",
+    "Correct: Microglia act as the CNS macrophages."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Glial cells of the CNS 2)"
+},
+{
+  "question": "Which of the following best defines 'atrophy'?",
+  "options": [
+    "A) Increase in cell number",
+    "B) Increase in cell size",
+    "C) Replacement of one cell type with another",
+    "D) Decrease in cell size or number",
+    "E) Loss of cell differentiation"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: That’s hyperplasia.",
+    "Incorrect: That’s hypertrophy.",
+    "Incorrect: That’s metaplasia.",
+    "Correct: Atrophy involves reduced cell size and/or number.",
+    "Incorrect: That’s anaplasia."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Atrophy)"
+},
+{
+  "question": "Which statement best describes ‘commensalism’ in microbiology?",
+  "options": [
+    "A) The microbe benefits and harms the host",
+    "B) Both host and microbe benefit",
+    "C) The microbe benefits while the host is unaffected",
+    "D) The host benefits while the microbe is unaffected",
+    "E) Neither host nor microbe is affected"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: That’s parasitism.",
+    "Incorrect: That’s mutualism.",
+    "Correct: Commensalism means the microbe benefits with no harm or benefit to the host.",
+    "Incorrect: This would be rare and not the definition.",
+    "Incorrect: One organism must gain something for the interaction to be defined."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Host-microbe interactions)"
+},
+{
+  "question": "Which bacterial structure is targeted by penicillin-type antibiotics?",
+  "options": [
+    "A) Cell membrane",
+    "B) Ribosome",
+    "C) Peptidoglycan cell wall",
+    "D) Nucleoid",
+    "E) Flagella"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Penicillins do not target membranes.",
+    "Incorrect: Ribosomes are targeted by other antibiotics.",
+    "Correct: Beta-lactams inhibit cell wall synthesis.",
+    "Incorrect: The nucleoid contains DNA but is not targeted by penicillin.",
+    "Incorrect: Flagella are not antibiotic targets."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Beta-lactam drugs)"
+},
+{
+  "question": "What is the goal of the 'Focus' phase in 'Start Smart Then Focus' prescribing?",
+  "options": [
+    "A) Delay antibiotics until culture results",
+    "B) Use the broadest spectrum available",
+    "C) Reassess therapy based on microbiology results",
+    "D) Complete treatment without reassessment",
+    "E) Immediately discontinue all antimicrobials"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Early empirical treatment is necessary.",
+    "Incorrect: Narrowing the spectrum is preferred.",
+    "Correct: The Focus phase involves reviewing antibiotic choice post-results.",
+    "Incorrect: Ongoing assessment is crucial.",
+    "Incorrect: Therapy is adjusted, not always stopped."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Start Smart Then Focus)"
+},
+{
+  "question": "Which structure connects a neuron to a skeletal muscle fiber?",
+  "options": [
+    "A) Dendrite",
+    "B) Axon hillock",
+    "C) Synaptic cleft",
+    "D) Motor end plate",
+    "E) Neuropil"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Dendrites receive input from other neurons.",
+    "Incorrect: The axon hillock generates action potentials.",
+    "Incorrect: The cleft is a gap, not a structure that connects.",
+    "Correct: The motor end plate forms the neuromuscular junction.",
+    "Incorrect: Neuropil is the dense network of neurons and glia in the CNS."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Motor end plates)"
+},
+{
+  "question": "Which vaccine type is safest in immunocompromised individuals?",
+  "options": [
+    "A) Live attenuated",
+    "B) Inactivated whole virus",
+    "C) Live oral polio vaccine",
+    "D) MMR vaccine",
+    "E) Nasal spray influenza vaccine"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Live vaccines pose a risk to immunocompromised patients.",
+    "Correct: Inactivated vaccines cannot replicate and are safer.",
+    "Incorrect: Live oral vaccines are not safe in this group.",
+    "Incorrect: MMR is live and should be avoided if severely immunocompromised.",
+    "Incorrect: The nasal flu vaccine is live attenuated."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: Inactivated vaccines)"
+},
+{
   "question": "Which of the following cells lines the ventricles of the brain and central canal of the spinal cord?",
   "options": [
     "A) Astrocytes",
