@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which principle is most directly upheld by maintaining patient confidentiality?",
+    "options": [
+      "A) Beneficence",
+      "B) Justice",
+      "C) Autonomy",
+      "D) Non-maleficence",
+      "E) Utility"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Beneficence focuses on doing good, not information privacy.",
+      "Incorrect: Justice is about fairness, not confidentiality.",
+      "Correct: Respecting confidentiality supports a patient's autonomy and control over their personal data.",
+      "Incorrect: Non-maleficence refers to avoiding harm, not directly related to confidentiality.",
+      "Incorrect: Utility is a principle of utilitarianism, not one of the four core biomedical ethics."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Confidentiality)"
+  },
+  {
+    "question": "What was the outcome of the case Gillick v West Norfolk regarding medical consent?",
+    "options": [
+      "A) Children under 16 cannot consent to treatment",
+      "B) Parental consent is always required for minors",
+      "C) Competent children under 16 may consent to their own care",
+      "D) Consent must be documented in writing for minors",
+      "E) Consent by children must be co-signed by a guardian"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Gillick competence allows consent under 16.",
+      "Incorrect: The case established that parental consent is not always necessary.",
+      "Correct: A competent minor under 16 can consent if they understand the treatment.",
+      "Incorrect: No requirement that it must be written.",
+      "Incorrect: Co-signing by a guardian is not mandated."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Gillick v West Norfolk & Wisbech AHA)"
+  },
+  {
+    "question": "Which of the following is a feature of chronic inflammation?",
+    "options": [
+      "A) Dominance of neutrophils",
+      "B) Rapid onset and resolution",
+      "C) Infiltration by lymphocytes and plasma cells",
+      "D) Presence of purulent exudate",
+      "E) Vasodilation and increased vascular permeability only"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Neutrophils are predominant in acute inflammation.",
+      "Incorrect: Chronic inflammation develops over a longer time and may persist.",
+      "Correct: Chronic inflammation features lymphocytes, plasma cells, and macrophages.",
+      "Incorrect: Purulent exudate is a hallmark of acute infection.",
+      "Incorrect: These vascular changes are more relevant to acute inflammation."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Chronic inflammation)"
+  },
+  {
+    "question": "Which study design is best suited to evaluate risk factors for rare diseases?",
+    "options": [
+      "A) Cross-sectional study",
+      "B) Case-control study",
+      "C) Randomized controlled trial",
+      "D) Ecological study",
+      "E) Prospective cohort study"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Cross-sectional studies capture prevalence, not causality.",
+      "Correct: Case-control studies are efficient for studying rare outcomes.",
+      "Incorrect: RCTs are interventional and not suited for rare conditions due to feasibility.",
+      "Incorrect: Ecological studies work on population-level data, not individual outcomes.",
+      "Incorrect: Cohort studies are resource-intensive and inefficient for rare diseases."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Key points - Case-Control Study)"
+  },
+  {
+    "question": "Which ethical theory emphasizes acting according to duty regardless of consequences?",
+    "options": [
+      "A) Utilitarianism",
+      "B) Consequentialism",
+      "C) Deontology",
+      "D) Virtue ethics",
+      "E) Sentimentalism"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Utilitarianism is focused on outcomes.",
+      "Incorrect: Consequentialism broadly includes utilitarianism.",
+      "Correct: Deontology stresses moral duties and rules regardless of outcomes.",
+      "Incorrect: Virtue ethics is based on character and habits.",
+      "Incorrect: Sentimentalism bases ethics on emotional responses."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Deontology / Duty-based ethics)"
+  },
+  {
+    "question": "What is the main purpose of the 'Doctrine of Double Effect'?",
+    "options": [
+      "A) Allow intentional harm for greater good",
+      "B) Justify unethical actions in emergencies",
+      "C) Accept harm if unintended and outweighed by benefit",
+      "D) Ensure legal immunity in patient harm cases",
+      "E) Permit negligence if the goal is beneficent"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Harm must not be the intended outcome.",
+      "Incorrect: The doctrine doesn’t justify unethical actions.",
+      "Correct: Harm may be permissible if unintended, necessary, and proportionate to benefit.",
+      "Incorrect: It is an ethical, not legal, doctrine.",
+      "Incorrect: Negligence is never ethically excused under this doctrine."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Doctrine of Double Effect)"
+  },
+  {
+    "question": "Which ethical level according to Aiken involves applying general moral principles?",
+    "options": [
+      "A) Expressive-evocative",
+      "B) Rule-based",
+      "C) Principle-based",
+      "D) Post-ethical convictions",
+      "E) Sentimental reasoning"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Expressive judgments are unreasoned and case-specific.",
+      "Incorrect: Rule-based ethics applies universal laws or codes.",
+      "Correct: Principle-based ethics uses abstract values like autonomy and beneficence.",
+      "Incorrect: Post-ethical convictions are foundational beliefs, not practical guidance.",
+      "Incorrect: Sentimental reasoning is not one of Aiken’s defined levels."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Levels of moral discourse)"
+  },
+  {
+    "question": "Which of the following is the most reliable method to control for confounding in a case-control study?",
+    "options": [
+      "A) Randomization",
+      "B) Blinding",
+      "C) Matching",
+      "D) Attrition analysis",
+      "E) Outcome adjustment"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Randomization is used in RCTs, not observational studies.",
+      "Incorrect: Blinding minimizes bias, not confounding.",
+      "Correct: Matching ensures that confounders are evenly distributed between groups.",
+      "Incorrect: Attrition analysis deals with loss to follow-up.",
+      "Incorrect: Outcome adjustment is post hoc and less robust."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Confounding - comparable groups?)"
+  },
+  {
+    "question": "A Ziehl-Neelsen stain is most useful for identifying which condition?",
+    "options": [
+      "A) Sarcoidosis",
+      "B) Psoriasis",
+      "C) Tuberculosis",
+      "D) Drug rash",
+      "E) Eczema"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Sarcoidosis features non-caseating granulomas and is ZN-negative.",
+      "Incorrect: Psoriasis is not infectious and doesn’t stain ZN-positive.",
+      "Correct: Ziehl-Neelsen stain is used to detect acid-fast bacilli like Mycobacterium tuberculosis.",
+      "Incorrect: Drug rashes are immunologically mediated and not detected by ZN stain.",
+      "Incorrect: Eczema is allergic in origin and not caused by mycobacteria."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Caseous necrosis / Ziel-Neelson stain)"
+  },
+  {
+    "question": "Which ethical issue is most likely encountered in end-of-life care?",
+    "options": [
+      "A) Reproductive rights",
+      "B) Genetic enhancement",
+      "C) Organ rationing",
+      "D) Consent and capacity",
+      "E) Germline modification"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Reproductive rights are more relevant to obstetrics.",
+      "Incorrect: Genetic enhancement is not a primary end-of-life issue.",
+      "Correct: Decisions about organ use and allocation often arise at end-of-life.",
+      "Incorrect: Consent and capacity are broader issues, not unique to end-of-life.",
+      "Incorrect: Germline editing is more relevant to research ethics."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Where do clinical ethical dilemmas arise?)"
+  },
+  {
     "question": "Which principle is not one of the 'Four Principles' of biomedical ethics?",
     "options": [
       "A) Respect for autonomy",
