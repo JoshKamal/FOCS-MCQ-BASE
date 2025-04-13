@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which reactive oxygen species is produced by the transfer of a single electron to molecular oxygen?",
+    "options": [
+      "A) Hydrogen peroxide",
+      "B) Hydroxyl radical",
+      "C) Superoxide anion",
+      "D) Nitric oxide",
+      "E) Peroxynitrite"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Hydrogen peroxide is formed by further reduction of superoxide.",
+      "Incorrect: Hydroxyl radical is a secondary product, not the first formed.",
+      "Correct: Superoxide anion is formed when one electron is transferred to O2.",
+      "Incorrect: Nitric oxide is a signaling molecule, not directly from O2 reduction.",
+      "Incorrect: Peroxynitrite forms from reaction of superoxide with nitric oxide."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: Reactive Oxygen Species/Free Radicals)"
+  },
+  {
+    "question": "Which antioxidant is lipid-soluble and protects cell membranes from oxidative damage?",
+    "options": [
+      "A) Vitamin C",
+      "B) Uric acid",
+      "C) Vitamin E",
+      "D) Glutathione",
+      "E) Coenzyme Q"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Vitamin C is water-soluble and acts in cytosol.",
+      "Incorrect: Uric acid is an antioxidant but not lipid-soluble.",
+      "Correct: Vitamin E (alpha-tocopherol) is lipid-soluble and protects membranes.",
+      "Incorrect: Glutathione is a cytosolic antioxidant.",
+      "Incorrect: CoQ is part of the ETC, not an antioxidant."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: Defence against oxidative stress)"
+  },
+  {
+    "question": "In Lesch-Nyhan syndrome, what is deficient or non-functional?",
+    "options": [
+      "A) Uric acid transporters",
+      "B) Adenosine deaminase",
+      "C) HGPRT enzyme",
+      "D) Xanthine oxidase",
+      "E) Phenylalanine hydroxylase"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Uric acid transporters are unaffected.",
+      "Incorrect: ADA deficiency is seen in SCID.",
+      "Correct: HGPRT (hypoxanthine-guanine phosphoribosyltransferase) is absent in LNS.",
+      "Incorrect: Xanthine oxidase overactivity leads to gout, not LNS.",
+      "Incorrect: Phenylalanine hydroxylase is involved in PKU."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Clinical Relevance: Lesch-Nyhan Syndrome)"
+  },
+  {
+    "question": "Which purine breakdown product accumulates in gout?",
+    "options": [
+      "A) Urea",
+      "B) Hypoxanthine",
+      "C) Xanthine",
+      "D) Uric acid",
+      "E) Allantoin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Urea is nitrogen waste from amino acids, not purines.",
+      "Incorrect: Hypoxanthine is a precursor in the pathway.",
+      "Incorrect: Xanthine is intermediate, not the final product.",
+      "Correct: Uric acid is the final product of purine metabolism and precipitates in gout.",
+      "Incorrect: Allantoin is found in non-primate mammals."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Clinical Relevance: Gout)"
+  },
+  {
+    "question": "Which stage of keratinocyte development involves mitosis?",
+    "options": [
+      "A) Stratum corneum",
+      "B) Stratum granulosum",
+      "C) Stratum lucidum",
+      "D) Stratum basale",
+      "E) Stratum spinosum"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Stratum corneum contains dead cells.",
+      "Incorrect: Granulosum has keratohyalin but no mitosis.",
+      "Incorrect: Lucidum has dead cells, no division.",
+      "Correct: Stratum basale contains dividing cells.",
+      "Incorrect: Spinosum shows differentiation but not active mitosis."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - P5. Keratinocyte dev_MED21.pdf (Slide: Stratum basale)"
+  },
+  {
+    "question": "Which of the following best defines 'Locard’s Principle' in forensic pathology?",
+    "options": [
+      "A) All injuries leave a DNA trace",
+      "B) Fingerprints are unique to each individual",
+      "C) Every contact leaves a trace",
+      "D) Trauma must cause visible bleeding",
+      "E) Lacerations are the most traceable injuries"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: DNA may not always be involved in trace evidence.",
+      "Incorrect: True but not the definition of Locard's Principle.",
+      "Correct: Locard’s Principle states that contact between two surfaces results in an exchange of material.",
+      "Incorrect: Some trauma does not cause bleeding.",
+      "Incorrect: Trace evidence can come from many sources, not just lacerations."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 16 - Basic injuries and road traffic collisions.pdf (Slide: Locard’s Principle)"
+  },
+  {
+    "question": "Which of the following describes an incision?",
+    "options": [
+      "A) A tear caused by blunt trauma",
+      "B) A shallow scrape of the skin",
+      "C) A clean cut from a sharp object",
+      "D) A blood vessel rupture under skin",
+      "E) A penetrating wound from a knife"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: This describes a laceration.",
+      "Incorrect: This describes an abrasion.",
+      "Correct: An incision is a clean, sharp-edged wound.",
+      "Incorrect: This describes a bruise or contusion.",
+      "Incorrect: This would be a stab wound, not an incision."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 16 - Basic injuries and road traffic collisions.pdf (Slide: Types of Injury)"
+  },
+  {
+    "question": "Which transcription factor is linked to breast cancer due to loss of function mutations?",
+    "options": [
+      "A) CREB1",
+      "B) ESR1",
+      "C) AR",
+      "D) ATF1",
+      "E) CEBPA"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: CREB1 is associated with histiocytoma.",
+      "Correct: ESR1 mutations are linked to breast cancer.",
+      "Incorrect: AR is involved in prostate cancer.",
+      "Incorrect: ATF1 relates to fusion proteins.",
+      "Incorrect: CEBPA is linked to acute myeloid leukemia."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Diseases caused by mutations in transcription factors)"
+  },
+  {
+    "question": "Which step in the PCR cycle involves binding of primers to the DNA template?",
+    "options": [
+      "A) Denaturation",
+      "B) Annealing",
+      "C) Extension",
+      "D) Ligation",
+      "E) Elongation"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Denaturation separates DNA strands.",
+      "Correct: Annealing is when primers bind to complementary DNA.",
+      "Incorrect: Extension follows annealing.",
+      "Incorrect: Ligation is not part of PCR.",
+      "Incorrect: Elongation is synonymous with extension but is not the primer binding step."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: PCR cycle)"
+  },
+  {
+    "question": "In the context of action potentials, what does the 'absolute refractory period' represent?",
+    "options": [
+      "A) Time when any stimulus can trigger another action potential",
+      "B) Time when only a large stimulus can trigger a new action potential",
+      "C) Period when Na+ channels are open",
+      "D) Period when no stimulus can trigger a new action potential",
+      "E) Period of repolarization"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: This describes the relative refractory period.",
+      "Incorrect: This is not absolute — only relative allows for stronger stimulus.",
+      "Incorrect: Na+ channels are inactivated during this period.",
+      "Correct: The absolute refractory period is a phase where no stimulus, regardless of strength, can generate another AP.",
+      "Incorrect: Repolarization overlaps with but is not the sole feature."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 20 - Action Potentials 2024 accessibility for Canvas.pdf (Slide: Action potential properties)"
+  },
+  {
     "question": "What is the primary effect of voltage-gated sodium channel inactivation during an action potential?",
     "options": [
       "A) Initiates depolarization",
