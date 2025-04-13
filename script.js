@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which skin layer contains fibroblasts and a dense irregular connective tissue matrix rich in collagen?",
+    "options": [
+      "A) Epidermis",
+      "B) Stratum basale",
+      "C) Stratum spinosum",
+      "D) Dermis",
+      "E) Hypodermis"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: The epidermis is avascular and lacks fibroblasts.",
+      "Incorrect: The stratum basale is part of the epidermis and contains dividing keratinocytes.",
+      "Incorrect: The stratum spinosum is also in the epidermis and does not contain fibroblasts.",
+      "Correct: The dermis contains fibroblasts and is composed of dense irregular connective tissue.",
+      "Incorrect: The hypodermis is primarily adipose tissue, not collagen-rich."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: The Dermis)"
+  },
+  {
+    "question": "What is the role of the Na+/K+ ATPase in maintaining resting membrane potential?",
+    "options": [
+      "A) Pumps 2 Na+ in and 3 K+ out",
+      "B) Maintains equal ion distribution across the membrane",
+      "C) Generates an inward Na+ current only",
+      "D) Transports 3 Na+ out and 2 K+ in, making the cell interior more negative",
+      "E) Acts as a secondary active transporter"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: It pumps Na+ out and K+ in, not the other way around.",
+      "Incorrect: It maintains unequal ion distributions, essential for RMP.",
+      "Incorrect: It is not solely a Na+ transporter.",
+      "Correct: The Na+/K+ ATPase creates a net loss of positive charge, making the inside more negative.",
+      "Incorrect: It is a primary active transporter, using ATP directly."
+    ],
+    "slideLink": "MED1028 FoCS Lecture - C25 FoCS resting membrane potential 2024 accessible.pdf (Slide: Electrogenic ion pumps)"
+  },
+  {
+    "question": "Which of the following hormones signals via an intracellular receptor?",
+    "options": [
+      "A) Adrenaline",
+      "B) Insulin",
+      "C) Dopamine",
+      "D) Oestrogen",
+      "E) Angiotensin II"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Adrenaline signals via membrane-bound GPCRs.",
+      "Incorrect: Insulin uses receptor tyrosine kinases on the cell surface.",
+      "Incorrect: Dopamine acts via GPCRs.",
+      "Correct: Oestrogen is a steroid hormone that diffuses into the cell and binds cytosolic receptors.",
+      "Incorrect: Angiotensin II signals via GPCRs."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Steroid hormone signalling)"
+  },
+  {
+    "question": "Which feature distinguishes facilitated diffusion from active transport?",
+    "options": [
+      "A) Requires energy input",
+      "B) Moves solutes against gradient",
+      "C) Requires carrier proteins",
+      "D) Involves vesicle formation",
+      "E) Saturation kinetics"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Facilitated diffusion does not use energy.",
+      "Incorrect: It moves solutes down their gradient, not against.",
+      "Correct: Both use carrier proteins, but facilitated diffusion does not require energy.",
+      "Incorrect: Vesicle formation occurs in endo/exocytosis, not diffusion.",
+      "Incorrect: Both processes may show saturation, but it's not the main distinction."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 11 - Cell membrane and ion transport 2024 accessible.pptx (Slide: Carrier-mediated transport)"
+  },
+  {
+    "question": "Which skin receptor is most responsible for detecting light touch in the fingertips?",
+    "options": [
+      "A) Pacinian corpuscle",
+      "B) Meissner’s corpuscle",
+      "C) Ruffini endings",
+      "D) Merkel discs",
+      "E) Free nerve endings"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Pacinian corpuscles detect pressure and vibration.",
+      "Correct: Meissner’s corpuscles detect light touch, especially in fingertips.",
+      "Incorrect: Ruffini endings detect skin stretch.",
+      "Incorrect: Merkel discs detect steady pressure, not light touch.",
+      "Incorrect: Free nerve endings are for pain and temperature."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: Encapsulated receptors)"
+  },
+  {
+    "question": "Which movement is described as turning the sole of the foot medially?",
+    "options": [
+      "A) Eversion",
+      "B) Plantarflexion",
+      "C) Inversion",
+      "D) Supination",
+      "E) Circumduction"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Eversion is turning the sole laterally.",
+      "Incorrect: Plantarflexion is pointing the toes downward.",
+      "Correct: Inversion turns the sole medially.",
+      "Incorrect: Supination refers to forearm movement.",
+      "Incorrect: Circumduction involves circular motion, not foot rotation."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Movements)"
+  },
+  {
+    "question": "What is the anatomical term for lying face down?",
+    "options": [
+      "A) Supine",
+      "B) Prone",
+      "C) Dorsal",
+      "D) Ventral",
+      "E) Cephalic"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Supine is lying on the back.",
+      "Correct: Prone is lying face down.",
+      "Incorrect: Dorsal refers to the back surface.",
+      "Incorrect: Ventral refers to the front surface.",
+      "Incorrect: Cephalic refers to the head region."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Prone and supine position)"
+  },
+  {
+    "question": "Which skin appendage is associated with thermoregulatory sweating?",
+    "options": [
+      "A) Apocrine gland",
+      "B) Sebaceous gland",
+      "C) Eccrine gland",
+      "D) Hair follicle",
+      "E) Arrector pili"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Apocrine glands are activated by stress, not heat.",
+      "Incorrect: Sebaceous glands secrete oil, not sweat.",
+      "Correct: Eccrine glands are involved in thermoregulatory sweating.",
+      "Incorrect: Hair follicles do not secrete sweat.",
+      "Incorrect: Arrector pili muscles cause goosebumps, not sweat secretion."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - P3. Skin appendages_MED21.pdf (Slide: Eccrine glands)"
+  },
+  {
+    "question": "What is the first step in the exogenous lipid pathway?",
+    "options": [
+      "A) Formation of LDL",
+      "B) Bile acid secretion",
+      "C) Lipoprotein lipase activation",
+      "D) Dietary fat ingestion",
+      "E) HDL-mediated clearance"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: LDL is part of the endogenous pathway.",
+      "Incorrect: Bile acids aid digestion but are not the first step.",
+      "Incorrect: LPL activation comes after chylomicron formation.",
+      "Correct: The pathway begins with ingestion of dietary fat.",
+      "Incorrect: HDL is involved in reverse cholesterol transport."
+    ],
+    "slideLink": "Lipid formation and metabolism - MED1028.pptx (Slide: Exogenous lipid pathway)"
+  },
+  {
+    "question": "Which ion contributes most to the resting membrane potential due to its high membrane permeability?",
+    "options": [
+      "A) Na+",
+      "B) Cl−",
+      "C) Ca2+",
+      "D) K+",
+      "E) Mg2+"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Na+ has low permeability at rest.",
+      "Incorrect: Cl− has variable permeability depending on the cell type.",
+      "Incorrect: Ca2+ is tightly regulated and very low intracellularly.",
+      "Correct: K+ is the most permeable ion and drives RMP.",
+      "Incorrect: Mg2+ does not significantly contribute to RMP."
+    ],
+    "slideLink": "MED1028 FoCS Lecture - C25 FoCS resting membrane potential 2024 accessible.pdf (Slide: Selective ion permeability)"
+  },
+  {
     "question": "Which structure initiates nucleation of microtubules in cells?",
     "options": [
       "A) Actin cortex",
