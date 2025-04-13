@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which condition is caused by deficiency of medium-chain acyl-CoA dehydrogenase?",
+    "options": [
+      "A) Glycogen storage disease",
+      "B) MCADD",
+      "C) Phenylketonuria",
+      "D) Homocystinuria",
+      "E) Mitochondrial encephalopathy"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: This is due to glycogen enzyme defects.",
+      "Correct: MCADD is due to ACADM gene mutation affecting fatty acid oxidation.",
+      "Incorrect: PKU is caused by PAH deficiency.",
+      "Incorrect: Homocystinuria involves CBS enzyme deficiency.",
+      "Incorrect: Mitochondrial encephalopathy involves oxidative phosphorylation defects."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: MCADD)"
+  },
+  {
+    "question": "Which of the following metabolic states is most dangerous for a patient with MCADD?",
+    "options": [
+      "A) After eating a high-fat meal",
+      "B) During sleep",
+      "C) During fasting or illness",
+      "D) After exercise",
+      "E) After drinking alcohol"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Fat intake alone isn’t dangerous if energy is adequate.",
+      "Incorrect: Sleep is safe if energy levels are maintained.",
+      "Correct: Fasting or illness increases energy demand, leading to hypoglycemia in MCADD.",
+      "Incorrect: Exercise may contribute, but fasting is more critical.",
+      "Incorrect: Alcohol may play a role, but not as acute as fasting."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: Symptoms of MCADD)"
+  },
+  {
+    "question": "Which of the following is used in emergency management of MCADD?",
+    "options": [
+      "A) Corticosteroids",
+      "B) Ketogenic diet",
+      "C) Emergency glucose regimen",
+      "D) Protein supplementation",
+      "E) Statins"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Not a primary treatment for MCADD.",
+      "Incorrect: Ketogenic diets are dangerous in MCADD.",
+      "Correct: Glucose is given to prevent catabolism and hypoglycemia.",
+      "Incorrect: Protein doesn’t address energy crisis in MCADD.",
+      "Incorrect: Statins are used in lipid disorders, not MCADD."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: Emergency regimen)"
+  },
+  {
+    "question": "What is the molecular effect of phenylalanine accumulation in untreated PKU?",
+    "options": [
+      "A) Liver failure",
+      "B) Brain toxicity",
+      "C) Muscle breakdown",
+      "D) Kidney stones",
+      "E) Hyperglycemia"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: PKU does not cause liver damage directly.",
+      "Correct: Excess phenylalanine is neurotoxic and affects brain development.",
+      "Incorrect: Muscle is not directly targeted.",
+      "Incorrect: Not a known complication of PKU.",
+      "Incorrect: Glucose metabolism is not the primary concern."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: Toxicity of Phe)"
+  },
+  {
+    "question": "Which muscle type is capable of spontaneous pacemaker activity?",
+    "options": [
+      "A) Skeletal muscle",
+      "B) Cardiac muscle",
+      "C) All striated muscle",
+      "D) Extraocular muscle",
+      "E) None"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Skeletal muscle requires neural input.",
+      "Correct: Cardiac muscle can depolarize spontaneously via pacemaker cells.",
+      "Incorrect: Only cardiac muscle has pacemaker cells.",
+      "Incorrect: Extraocular muscle is skeletal.",
+      "Incorrect: Cardiac is the correct exception."
+    ],
+    "slideLink": "C25 FoCS L39 Muscle Contraction 2024 slides for Canvas.pdf (Slide: Smooth and cardiac pacemaker activity)"
+  },
+  {
+    "question": "In apoptosis, what enzyme class is central to DNA fragmentation?",
+    "options": [
+      "A) Kinases",
+      "B) Caspases",
+      "C) Cyclooxygenases",
+      "D) Phosphodiesterases",
+      "E) Proteasomes"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Kinases phosphorylate proteins.",
+      "Correct: Caspases cleave cellular components including DNA.",
+      "Incorrect: COX enzymes produce prostaglandins.",
+      "Incorrect: These degrade cyclic nucleotides.",
+      "Incorrect: Proteasomes degrade proteins, not DNA."
+    ],
+    "slideLink": "Cell Death 24sh.pdf (Slide: Caspase activation in apoptosis)"
+  },
+  {
+    "question": "Which structural protein is most closely associated with muscle dystrophies?",
+    "options": [
+      "A) Tropomyosin",
+      "B) Calmodulin",
+      "C) Dystrophin",
+      "D) Actin",
+      "E) Myosin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Tropomyosin is regulatory, not structural in this context.",
+      "Incorrect: Calmodulin is involved in signaling.",
+      "Correct: Dystrophin links actin to the muscle membrane and is deficient in muscular dystrophies.",
+      "Incorrect: Actin is contractile, not directly involved in dystrophy pathology.",
+      "Incorrect: Myosin is also contractile."
+    ],
+    "slideLink": "C25 FoCS L39 Muscle Contraction 2024 slides for Canvas.pdf (Slide: Structural proteins)"
+  },
+  {
+    "question": "What receptor superfamily do steroid hormones act through?",
+    "options": [
+      "A) Type 1",
+      "B) Type 2",
+      "C) Type 3",
+      "D) Type 4",
+      "E) G-protein coupled"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Type 1 are ligand-gated ion channels.",
+      "Incorrect: Type 2 are GPCRs.",
+      "Incorrect: Type 3 are enzyme-linked.",
+      "Correct: Steroid hormones act via intracellular DNA-binding receptors (Type 4).",
+      "Incorrect: Steroid hormones are lipophilic and do not use GPCRs."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: Superfamily 4)"
+  },
+  {
+    "question": "Which condition is associated with increased fibrinoid necrosis?",
+    "options": [
+      "A) Tuberculosis",
+      "B) Myocardial infarction",
+      "C) Vasculitis",
+      "D) Brain infarct",
+      "E) Fat necrosis"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: TB is associated with caseous necrosis.",
+      "Incorrect: MI involves coagulative necrosis.",
+      "Correct: Fibrinoid necrosis is typical of immune-mediated vasculitis.",
+      "Incorrect: Brain infarct = liquefactive necrosis.",
+      "Incorrect: Fat necrosis affects adipose tissue."
+    ],
+    "slideLink": "Cell Death 24sh.pdf (Slide: Fibrinoid necrosis)"
+  },
+  {
+    "question": "What is the predominant fuel source used during fasting when glucose runs low?",
+    "options": [
+      "A) Glycogen",
+      "B) Fatty acids",
+      "C) Lactate",
+      "D) Ketone bodies",
+      "E) Amino acids"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Glycogen is rapidly depleted after a short fast.",
+      "Correct: Fatty acids are mobilized and oxidized for energy.",
+      "Incorrect: Lactate is a byproduct, not primary fuel.",
+      "Incorrect: Ketone bodies are derived from fatty acids but not first-line.",
+      "Incorrect: Protein breakdown is delayed to spare muscle."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: Fasting and fatty acid oxidation)"
+  },
+  {
     "question": "Which of the following is NOT a typical function of the complement system?",
     "options": [
       "A) Opsonization",
