@@ -99,6 +99,291 @@
   "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Bacterial endotoxins)"
 },
 {
+  "question": "Which immune cells are directly activated by antigen-presenting cells during vaccination?",
+  "options": [
+    "A) Neutrophils and eosinophils",
+    "B) Basophils and mast cells",
+    "C) B cells and T cells",
+    "D) Natural killer cells and dendritic cells",
+    "E) Platelets and erythrocytes"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: These are part of innate immunity, not adaptive activation.",
+    "Incorrect: These mediate allergic responses, not antigen recognition.",
+    "Correct: APCs present antigens to B and T cells, triggering adaptive immunity.",
+    "Incorrect: NK cells are innate effectors and not activated by APCs in this way.",
+    "Incorrect: Platelets and RBCs are not immune cells."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: How vaccines work)"
+},
+{
+  "question": "What is the definition of 'dysplasia' in pathology?",
+  "options": [
+    "A) A benign tumour of muscle",
+    "B) Malignant invasion into blood vessels",
+    "C) Disordered epithelial cell growth without invasion",
+    "D) Growth of new blood vessels",
+    "E) Replacement of one mature cell type with another"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: That would be a leiomyoma or rhabdomyoma.",
+    "Incorrect: This describes malignant invasion, not dysplasia.",
+    "Correct: Dysplasia is abnormal cell growth with potential for malignancy, but without invasion.",
+    "Incorrect: This describes angiogenesis.",
+    "Incorrect: That describes metaplasia."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Dysplasia)"
+},
+{
+  "question": "What is the target of HPV vaccination?",
+  "options": [
+    "A) Preventing genital herpes",
+    "B) Preventing cervical and other cancers",
+    "C) Treating HPV-related warts",
+    "D) Stimulating the innate immune response only",
+    "E) Blocking viral RNA replication"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Herpes viruses are unrelated to HPV.",
+    "Correct: HPV vaccination prevents cervical and other HPV-related cancers.",
+    "Incorrect: It prevents infection but does not treat existing warts.",
+    "Incorrect: It also activates adaptive immunity.",
+    "Incorrect: It does not act on viral RNA."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: HPV)"
+},
+{
+  "question": "Which bacterial structure helps resist phagocytosis?",
+  "options": [
+    "A) Ribosome",
+    "B) Cell wall",
+    "C) Capsule",
+    "D) Plasmid",
+    "E) Flagella"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Ribosomes are for protein synthesis.",
+    "Incorrect: The cell wall gives structure, not phagocytosis resistance.",
+    "Correct: Capsules help bacteria evade phagocytosis.",
+    "Incorrect: Plasmids often carry resistance genes, but not for evading phagocytosis.",
+    "Incorrect: Flagella aid motility, not immune evasion."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Bacterial structure)"
+},
+{
+  "question": "Which immune response is most rapid upon re-exposure to a pathogen post-vaccination?",
+  "options": [
+    "A) IgM production",
+    "B) Innate immune cell activation",
+    "C) Memory T and B cell activation",
+    "D) Basophil degranulation",
+    "E) Complement activation"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: IgM is first in primary, not secondary response.",
+    "Incorrect: Innate immunity does not change with vaccination.",
+    "Correct: Vaccines generate memory cells that quickly respond to re-infection.",
+    "Incorrect: Basophils are involved in allergy, not memory.",
+    "Incorrect: Complement is part of innate immunity."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: Memory responses)"
+},
+{
+  "question": "Which of the following bacteria is a Gram-positive rod that forms spores?",
+  "options": [
+    "A) Staphylococcus aureus",
+    "B) Neisseria gonorrhoeae",
+    "C) Clostridium tetani",
+    "D) Escherichia coli",
+    "E) Haemophilus influenzae"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: S. aureus is a Gram-positive coccus.",
+    "Incorrect: N. gonorrhoeae is Gram-negative coccus.",
+    "Correct: C. tetani is a spore-forming Gram-positive rod.",
+    "Incorrect: E. coli is Gram-negative rod.",
+    "Incorrect: H. influenzae is also Gram-negative."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Vaccine preventable bacterial infections)"
+},
+{
+  "question": "Which of the following vaccines is an example of a recombinant subunit vaccine?",
+  "options": [
+    "A) MMR",
+    "B) Hepatitis B",
+    "C) BCG",
+    "D) Polio (OPV)",
+    "E) Influenza (live nasal spray)"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: MMR is a live attenuated vaccine.",
+    "Correct: Hepatitis B vaccine is recombinant and subunit-based.",
+    "Incorrect: BCG is a live attenuated vaccine.",
+    "Incorrect: OPV is a live attenuated oral vaccine.",
+    "Incorrect: The nasal spray flu vaccine is live attenuated."
+  ],
+  "slideLink": "MED1028 Vaccine Immunology 2023 Ultan Power.pdf (Slide: Subunit vaccines)"
+},
+{
+  "question": "What term describes the spread of cancer via the bloodstream?",
+  "options": [
+    "A) Lymphatic dissemination",
+    "B) Seeding",
+    "C) Haematogenous spread",
+    "D) Direct invasion",
+    "E) Transcytosis"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Lymphatic spread is via lymph vessels.",
+    "Incorrect: Seeding refers to spread in cavities.",
+    "Correct: Haematogenous spread is through the blood.",
+    "Incorrect: Direct invasion is local tissue infiltration.",
+    "Incorrect: Transcytosis refers to cell transport, not cancer spread."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Haematogenous spread)"
+},
+{
+  "question": "What is the primary danger of medical devices colonised with biofilm-forming bacteria?",
+  "options": [
+    "A) Immediate hypersensitivity",
+    "B) Biofilm-induced tissue necrosis",
+    "C) Ineffectiveness of antibiotics",
+    "D) Mechanical failure of the device",
+    "E) Rapid viral coinfection"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Hypersensitivity is rare and unrelated to biofilm.",
+    "Incorrect: Necrosis may occur but is not the defining danger.",
+    "Correct: Biofilms resist antibiotics, making infections difficult to treat.",
+    "Incorrect: Biofilm does not cause device malfunction directly.",
+    "Incorrect: Viral coinfection is unrelated to biofilm presence."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Biofilm on medical devices)"
+},
+{
+  "question": "Which pathogen is transmitted through airborne droplets and causes chickenpox?",
+  "options": [
+    "A) Influenza virus",
+    "B) Varicella zoster virus",
+    "C) Measles virus",
+    "D) Respiratory syncytial virus",
+    "E) Neisseria meningitidis"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Influenza causes flu and uses droplet transmission.",
+    "Correct: VZV causes chickenpox and is airborne.",
+    "Incorrect: Measles is also airborne but does not cause chickenpox.",
+    "Incorrect: RSV uses droplet transmission.",
+    "Incorrect: N. meningitidis is spread by droplets."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Airborne/Aerosol precautions)"
+},
+{
+  "question": "Which bacteria can form an exotoxin leading to diphtheria?",
+  "options": [
+    "A) Bordetella pertussis",
+    "B) Neisseria meningitidis",
+    "C) Corynebacterium diphtheriae",
+    "D) Staphylococcus epidermidis",
+    "E) Escherichia coli"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: B. pertussis causes whooping cough.",
+    "Incorrect: N. meningitidis causes meningitis via endotoxin.",
+    "Correct: C. diphtheriae produces diphtheria toxin.",
+    "Incorrect: S. epidermidis is usually non-toxigenic.",
+    "Incorrect: E. coli has other virulence factors but not diphtheria toxin."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Toxoid vaccines)"
+},
+{
+  "question": "What is the primary reason rotavirus vaccination reduces antibiotic use?",
+  "options": [
+    "A) It prevents viral replication",
+    "B) It stimulates T-cell activation only",
+    "C) It reduces misdiagnosis as bacterial gastroenteritis",
+    "D) It lowers viral mutation rates",
+    "E) It prevents all causes of diarrhea"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Replication is reduced, but the benefit is diagnostic clarity.",
+    "Incorrect: Both B and T cells are activated.",
+    "Correct: Preventing viral disease reduces unnecessary antibiotic use.",
+    "Incorrect: Mutation rate is not the main concern here.",
+    "Incorrect: It does not prevent all diarrheal diseases."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Viral infections mistaken for bacterial)"
+},
+{
+  "question": "Which of the following is a key clinical feature of squamous metaplasia in smokers?",
+  "options": [
+    "A) Conversion to columnar epithelium",
+    "B) Infiltration of adipose tissue",
+    "C) Replacement of ciliated epithelium with squamous cells",
+    "D) Chronic eosinophilic inflammation",
+    "E) Hyperplasia of basal cells"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Columnar conversion occurs in Barrett’s oesophagus.",
+    "Incorrect: Adipose changes are unrelated.",
+    "Correct: Smoking induces squamous metaplasia in airways.",
+    "Incorrect: Eosinophilic inflammation is allergic.",
+    "Incorrect: Hyperplasia may occur but is not the defining feature."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Squamous metaplasia)"
+},
+{
+  "question": "Which of the following is part of the body's first line of defense against infection?",
+  "options": [
+    "A) Cytotoxic T cells",
+    "B) Antibodies",
+    "C) Skin barrier",
+    "D) Memory B cells",
+    "E) Plasma cells"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: T cells are part of the adaptive response.",
+    "Incorrect: Antibodies are produced after exposure.",
+    "Correct: The skin is a physical barrier in innate immunity.",
+    "Incorrect: Memory B cells belong to the adaptive immune system.",
+    "Incorrect: Plasma cells produce antibodies later in infection."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Innate immunity)"
+},
+{
+  "question": "Why are antibiotics not useful in treating viral infections?",
+  "options": [
+    "A) Viruses do not have protein synthesis machinery",
+    "B) Antibiotics only kill fungi",
+    "C) Viruses are too large",
+    "D) Antibiotics promote viral replication",
+    "E) Viral genomes are resistant to antibiotics"
+  ],
+  "correctIndex": 0,
+  "explanations": [
+    "Correct: Viruses rely on host cells and lack bacterial targets.",
+    "Incorrect: Antibiotics are for bacteria, not fungi.",
+    "Incorrect: Viruses are much smaller than bacteria.",
+    "Incorrect: Antibiotics do not promote viral growth.",
+    "Incorrect: Viral resistance is irrelevant; they’re not targeted by antibiotics."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Why antibiotics don’t help with viral infections)"
+},
+{
   "question": "Which infection control measure is specifically designed to prevent droplet transmission?",
   "options": [
     "A) FFP3 respirator",
