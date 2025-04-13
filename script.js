@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which part of the adaptive immune response is responsible for antibody production?",
+    "options": [
+      "A) CD8+ T cells",
+      "B) Dendritic cells",
+      "C) Plasma B cells",
+      "D) Natural killer cells",
+      "E) Mast cells"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: CD8+ T cells are cytotoxic and kill infected cells.",
+      "Incorrect: Dendritic cells are antigen-presenting cells.",
+      "Correct: Plasma cells are differentiated B cells that secrete antibodies.",
+      "Incorrect: NK cells kill infected or cancerous cells but don’t produce antibodies.",
+      "Incorrect: Mast cells are involved in allergy and inflammation."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Plasma cell)"
+  },
+  {
+    "question": "Which of the following best describes the function of a dendritic cell?",
+    "options": [
+      "A) Cytotoxic activity",
+      "B) Antibody production",
+      "C) Antigen presentation",
+      "D) Histamine release",
+      "E) Pathogen lysis"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Dendritic cells don’t directly kill cells.",
+      "Incorrect: B cells produce antibodies, not dendritic cells.",
+      "Correct: Dendritic cells are professional antigen-presenting cells that activate T cells.",
+      "Incorrect: Histamine is released by mast cells and basophils.",
+      "Incorrect: Pathogen lysis is performed by cytotoxic cells, not dendritic cells."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Dendritic cells)"
+  },
+  {
+    "question": "What statistical term refers to the likelihood of incorrectly rejecting a true null hypothesis?",
+    "options": [
+      "A) Power",
+      "B) Confidence level",
+      "C) Type I error",
+      "D) Type II error",
+      "E) P-value"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Power refers to correctly rejecting a false null hypothesis.",
+      "Incorrect: Confidence level relates to interval estimates.",
+      "Correct: Type I error is rejecting the null hypothesis when it's actually true.",
+      "Incorrect: Type II error is failing to reject a false null hypothesis.",
+      "Incorrect: P-value is the probability used to decide significance, not the error itself."
+    ],
+    "slideLink": "3 Hypothesis tests 2022 PDF.pdf (Slide: 3.3 Types of statistical error)"
+  },
+  {
+    "question": "Which test is appropriate for comparing the medians of two independent non-normally distributed samples?",
+    "options": [
+      "A) Paired t-test",
+      "B) Chi-squared test",
+      "C) Mann-Whitney U test",
+      "D) ANOVA",
+      "E) Pearson correlation"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Paired t-test is for paired data with normal distribution.",
+      "Incorrect: Chi-squared is used for categorical data.",
+      "Correct: Mann-Whitney U test compares medians in independent non-parametric groups.",
+      "Incorrect: ANOVA is for comparing means in 3+ groups assuming normality.",
+      "Incorrect: Pearson correlation assesses linear relationships, not medians."
+    ],
+    "slideLink": "4 Other hypothesis tests 2022 PDF.pdf (Slide: 4.1.1 The Mann-Whitney U test)"
+  },
+  {
+    "question": "In survival analysis, what does a hazard ratio (HR) of 0.8 imply?",
+    "options": [
+      "A) No difference between groups",
+      "B) 80% increased risk in the treatment group",
+      "C) 20% reduced risk in the treatment group",
+      "D) Treatment has no effect",
+      "E) Data is skewed"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: HR of 1 indicates no difference.",
+      "Incorrect: HR < 1 implies *reduction*, not increase.",
+      "Correct: HR of 0.8 suggests the treatment group has 20% less hazard.",
+      "Incorrect: HR ≠ 1 means there is an effect.",
+      "Incorrect: HR doesn’t imply skewed data."
+    ],
+    "slideLink": "4 Other hypothesis tests 2022 PDF.pdf (Slide: 4.2.2 Treatment effects for time to event data)"
+  },
+  {
+    "question": "What kind of molecule is most likely to require a carrier protein to cross cell membranes?",
+    "options": [
+      "A) Small, lipid-soluble molecules",
+      "B) Uncharged gases",
+      "C) Large hydrophilic molecules",
+      "D) Non-polar steroids",
+      "E) Ethanol"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Lipid-soluble molecules diffuse easily.",
+      "Incorrect: Gases like O2 and CO2 pass freely.",
+      "Correct: Large, water-loving molecules cannot cross without help.",
+      "Incorrect: Steroids are non-polar and pass through membranes directly.",
+      "Incorrect: Ethanol is small and partially lipid-soluble."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Drug Classification on the basis of action on a molecular target)"
+  },
+  {
+    "question": "Which of the following drugs is an example of a pro-drug requiring activation by liver enzymes?",
+    "options": [
+      "A) Amlodipine",
+      "B) Clopidogrel",
+      "C) Ibuprofen",
+      "D) Heparin",
+      "E) Metformin"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Amlodipine is active as given.",
+      "Correct: Clopidogrel is activated in the liver into its active metabolite.",
+      "Incorrect: Ibuprofen does not require activation.",
+      "Incorrect: Heparin is active as administered.",
+      "Incorrect: Metformin does not require activation."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Pro-drugs)"
+  },
+  {
+    "question": "What does EC50 represent in a concentration-response curve?",
+    "options": [
+      "A) Maximum effect achievable",
+      "B) Drug concentration that binds 50% of receptors",
+      "C) Drug concentration that elicits 50% of max response",
+      "D) Minimum effective dose",
+      "E) Therapeutic index"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That is Emax, not EC50.",
+      "Incorrect: That describes KA, not EC50.",
+      "Correct: EC50 is the concentration that gives half of the maximal response.",
+      "Incorrect: Minimum effective dose is not the same as EC50.",
+      "Incorrect: Therapeutic index is a safety margin, unrelated to EC50."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: EC50 and potency)"
+  },
+  {
+    "question": "Which glial cell acts as the myelinating cell of the CNS?",
+    "options": [
+      "A) Schwann cell",
+      "B) Astrocyte",
+      "C) Ependymal cell",
+      "D) Oligodendrocyte",
+      "E) Microglia"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Schwann cells myelinate axons in the PNS.",
+      "Incorrect: Astrocytes support neurons but don’t myelinate.",
+      "Incorrect: Ependymal cells line ventricles and produce CSF.",
+      "Correct: Oligodendrocytes form myelin in the central nervous system.",
+      "Incorrect: Microglia are immune cells of the CNS."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Glial cells - myelination)"
+  },
+  {
+    "question": "Which social determinant is considered an upstream factor affecting health?",
+    "options": [
+      "A) Smoking",
+      "B) Poor diet",
+      "C) Physical inactivity",
+      "D) Income inequality",
+      "E) Obesity"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: These are downstream behaviors.",
+      "Incorrect: Poor diet is a personal lifestyle factor.",
+      "Incorrect: Inactivity is an individual behavior.",
+      "Correct: Income inequality is a structural issue influencing many health outcomes.",
+      "Incorrect: Obesity is a health outcome influenced by upstream factors."
+    ],
+    "slideLink": "03 Biomedical and Biopsychosocial models of health.pdf (Slide: What are the social determinants of health?)"
+  },
+  {
     "question": "Which factor does *not* directly influence fractional receptor occupancy by an agonist?",
     "options": [
       "A) Agonist concentration",
