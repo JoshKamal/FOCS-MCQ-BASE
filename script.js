@@ -61,6 +61,196 @@
   "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase I)"
 },
 {
+  "question": "Which part of the autonomic nervous system is responsible for increased salivary secretion and decreased heart rate?",
+  "options": [
+    "A) Sympathetic nervous system",
+    "B) Enteric nervous system",
+    "C) Somatic nervous system",
+    "D) Parasympathetic nervous system",
+    "E) Central nervous system"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Sympathetic activation decreases secretions and increases heart rate.",
+    "Incorrect: The enteric system controls the GI tract locally but not heart or salivary secretion.",
+    "Incorrect: The somatic system controls voluntary movement, not visceral activity.",
+    "Correct: The parasympathetic system stimulates glandular secretion and reduces heart rate.",
+    "Incorrect: The CNS integrates control but does not directly regulate these functions."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: Effects of parasympathetic stimulation)"
+},
+{
+  "question": "Which pharmacokinetic parameter describes the volume in which a drug appears to be distributed?",
+  "options": [
+    "A) Clearance",
+    "B) Elimination half-life",
+    "C) Apparent volume of distribution",
+    "D) Bioavailability",
+    "E) Area under the curve"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Clearance refers to elimination capacity.",
+    "Incorrect: Half-life is a time measure of elimination.",
+    "Correct: Apparent volume of distribution estimates how extensively a drug disperses in the body.",
+    "Incorrect: Bioavailability refers to the fraction reaching circulation.",
+    "Incorrect: AUC represents overall exposure, not volume."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Apparent volume of distribution)"
+},
+{
+  "question": "What is the correct definition of clearance in pharmacokinetics?",
+  "options": [
+    "A) Drug concentration divided by dose",
+    "B) Fraction of drug excreted unchanged",
+    "C) Volume of plasma cleared of drug per unit time",
+    "D) Volume of distribution times half-life",
+    "E) Rate of bioavailability"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: This gives you the inverse of volume of distribution.",
+    "Incorrect: This is a qualitative aspect of renal excretion, not clearance.",
+    "Correct: Clearance quantifies the efficiency of drug elimination per time unit.",
+    "Incorrect: This combination relates to dosing calculations but not clearance directly.",
+    "Incorrect: Bioavailability is unrelated to clearance directly."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: Pharmacokinetics definitions)"
+},
+{
+  "question": "Which cell type is responsible for producing connective tissue fibers and ground substance?",
+  "options": [
+    "A) Mast cells",
+    "B) Macrophages",
+    "C) Fibroblasts",
+    "D) Plasma cells",
+    "E) Adipocytes"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Mast cells release histamine and are involved in inflammation.",
+    "Incorrect: Macrophages phagocytose debris, not produce matrix.",
+    "Correct: Fibroblasts synthesize collagen, elastin, and ground substance.",
+    "Incorrect: Plasma cells produce antibodies.",
+    "Incorrect: Adipocytes store fat, not produce matrix."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Fibroblast)"
+},
+{
+  "question": "Which neurotransmitter is used at both pre- and postganglionic synapses in the parasympathetic nervous system?",
+  "options": [
+    "A) Noradrenaline",
+    "B) Dopamine",
+    "C) Adrenaline",
+    "D) Acetylcholine",
+    "E) Serotonin"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Noradrenaline is used in the sympathetic system.",
+    "Incorrect: Dopamine is involved in CNS pathways but not ANS synapses.",
+    "Incorrect: Adrenaline is a hormone, not a neurotransmitter at these junctions.",
+    "Correct: Acetylcholine is used at both synapses in parasympathetic pathways.",
+    "Incorrect: Serotonin is not part of typical ANS neurotransmission."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: Parasympathetic transmitters & receptors)"
+},
+{
+  "question": "In epithelium, which adhesion structure is primarily responsible for maintaining apical-basal polarity?",
+  "options": [
+    "A) Desmosome",
+    "B) Gap junction",
+    "C) Tight junction",
+    "D) Hemidesmosome",
+    "E) Adherens junction"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Desmosomes provide structural adhesion, not polarity.",
+    "Incorrect: Gap junctions allow ion passage, not polarity control.",
+    "Correct: Tight junctions seal cells and maintain compartmentalization.",
+    "Incorrect: Hemidesmosomes anchor cells to basement membrane.",
+    "Incorrect: Adherens junctions help cell-cell adhesion, but not polarity."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Adhesion Specialisations of Epithelia)"
+},
+{
+  "question": "What is the correct order of events in the sliding filament theory of skeletal muscle contraction?",
+  "options": [
+    "A) Calcium release → Cross-bridge formation → Power stroke",
+    "B) Power stroke → Calcium release → Cross-bridge formation",
+    "C) ATP hydrolysis → Calcium release → Cross-bridge formation",
+    "D) Cross-bridge formation → ATP binding → Calcium release",
+    "E) Calcium binding → ATP release → Muscle relaxation"
+  ],
+  "correctIndex": 0,
+  "explanations": [
+    "Correct: Calcium triggers troponin movement, enabling actin-myosin interaction.",
+    "Incorrect: Calcium release must occur before the power stroke.",
+    "Incorrect: Calcium release precedes ATP hydrolysis in excitation-contraction coupling.",
+    "Incorrect: Calcium must be present before cross-bridges form.",
+    "Incorrect: ATP binding causes detachment, not initiation of contraction."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Sliding Filament Theory of Contraction)"
+},
+{
+  "question": "What best defines the elimination half-life (t½) of a drug?",
+  "options": [
+    "A) Time for 100% drug elimination",
+    "B) Time for 90% plasma concentration reduction",
+    "C) Time for plasma concentration to reduce by half",
+    "D) Time for drug to reach steady state",
+    "E) Time for full bioavailability to occur"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: 100% elimination is never the reference for t½.",
+    "Incorrect: 90% is used in other contexts, not t½.",
+    "Correct: Half-life is the time taken for drug plasma levels to fall by 50%.",
+    "Incorrect: Steady state is related but occurs after multiple half-lives.",
+    "Incorrect: Bioavailability refers to absorption, not elimination."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: Half-life)"
+},
+{
+  "question": "Which feature differentiates pseudostratified columnar epithelium from simple columnar epithelium?",
+  "options": [
+    "A) Presence of apical cilia",
+    "B) Single cell layer appearance",
+    "C) Location in the GI tract",
+    "D) Multiple true layers",
+    "E) Lack of basement membrane"
+  ],
+  "correctIndex": 0,
+  "explanations": [
+    "Correct: Pseudostratified columnar cells often have cilia, especially in the respiratory tract.",
+    "Incorrect: Both types are single-layered but pseudostratified appears layered.",
+    "Incorrect: Pseudostratified is found in airways, not GI.",
+    "Incorrect: It’s a single layer with nuclei at different levels, not multilayered.",
+    "Incorrect: Both have a basement membrane."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Pseudostratified Columnar Ciliated)"
+},
+{
+  "question": "What term describes the reversible transfer of drug between blood and tissues?",
+  "options": [
+    "A) Elimination",
+    "B) Clearance",
+    "C) Bioavailability",
+    "D) Distribution",
+    "E) Excretion"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Elimination refers to drug removal via metabolism/excretion.",
+    "Incorrect: Clearance measures drug removal, not transfer.",
+    "Incorrect: Bioavailability refers to drug entry into circulation.",
+    "Correct: Distribution refers to drug movement into tissues from blood.",
+    "Incorrect: Excretion is the final removal process, not reversible."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Distribution)"
+},
+{
   "question": "What is the correct definition of bioavailability (F) in pharmacokinetics?",
   "options": [
     "A) Time for half of the drug to be eliminated",
