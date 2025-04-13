@@ -61,6 +61,196 @@
     "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: MCADD)"
   },
   {
+    "question": "Which second messenger is increased by activation of M3 muscarinic receptors in smooth muscle?",
+    "options": [
+      "A) cAMP",
+      "B) cGMP",
+      "C) IP3",
+      "D) Ca2+ influx",
+      "E) NADH"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: cAMP is linked to β-adrenergic receptors.",
+      "Incorrect: cGMP is associated with nitric oxide and natriuretic peptides.",
+      "Correct: M3 receptors activate PLC, increasing IP3 and DAG.",
+      "Incorrect: IP3 triggers Ca2+ release from SR, not direct influx.",
+      "Incorrect: NADH is not a second messenger."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: M3 receptors and IP3 pathway)"
+  },
+  {
+    "question": "Which metabolic disorder is screened using blood spot in the newborn screening programme?",
+    "options": [
+      "A) Huntington’s disease",
+      "B) MCADD",
+      "C) Alzheimer’s disease",
+      "D) Wilson’s disease",
+      "E) Parkinson’s disease"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Huntington's is not screened at birth.",
+      "Correct: MCADD is part of routine newborn screening.",
+      "Incorrect: Alzheimer’s is not a congenital disorder.",
+      "Incorrect: Wilson’s is not part of newborn screening.",
+      "Incorrect: Parkinson’s is adult-onset and not screened at birth."
+    ],
+    "slideLink": "Clinical Biochemistry - The Patient Perspective - MED1028 2024.pptx (Slide: Newborn blood spot screening)"
+  },
+  {
+    "question": "Which drug acts as a competitive reversible antagonist at the nicotinic receptor at the NMJ?",
+    "options": [
+      "A) Salbutamol",
+      "B) Vecuronium",
+      "C) Atropine",
+      "D) Propranolol",
+      "E) Succinylcholine"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Salbutamol is a β2 agonist.",
+      "Correct: Vecuronium blocks nicotinic ACh receptors at the NMJ.",
+      "Incorrect: Atropine blocks muscarinic, not nicotinic receptors.",
+      "Incorrect: Propranolol is a β blocker.",
+      "Incorrect: Succinylcholine is a depolarizing neuromuscular blocker, not competitive."
+    ],
+    "slideLink": "2024 Treatment Lecture 3 Receptor Classification.pdf (Slide: Nicotinic receptor antagonists)"
+  },
+  {
+    "question": "What is a key function of the sodium-potassium pump in cell physiology?",
+    "options": [
+      "A) Allows free passive diffusion of sodium",
+      "B) Requires no ATP",
+      "C) Maintains cell volume and membrane potential",
+      "D) Pumps calcium into the cell",
+      "E) Activates gene transcription"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: It is an active transporter, not passive.",
+      "Incorrect: It is ATP-dependent.",
+      "Correct: Na+/K+ ATPase helps regulate ion gradients, volume, and potential.",
+      "Incorrect: Calcium is handled by different pumps.",
+      "Incorrect: Not directly involved in gene transcription."
+    ],
+    "slideLink": "Cell Death 24sh.pdf (Slide: Membrane pump failure)"
+  },
+  {
+    "question": "Which condition features arachnodactyly, lens dislocation, and increased thrombosis risk?",
+    "options": [
+      "A) Marfan syndrome",
+      "B) PKU",
+      "C) MCADD",
+      "D) Homocystinuria",
+      "E) Ehlers-Danlos syndrome"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Marfan shares some features but not the thrombosis risk.",
+      "Incorrect: PKU primarily affects neurodevelopment.",
+      "Incorrect: MCADD is an energy disorder, not connective tissue.",
+      "Correct: Homocystinuria presents with these features.",
+      "Incorrect: Ehlers-Danlos affects collagen, not methionine metabolism."
+    ],
+    "slideLink": "Case1 Overview 2024.pdf (Slide: Homocystinuria consequences)"
+  },
+  {
+    "question": "Which G-protein subunit directly activates phospholipase C-β?",
+    "options": [
+      "A) Gαs",
+      "B) Gαi",
+      "C) Gαq",
+      "D) Gβγ",
+      "E) Gαt"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Gαs stimulates adenylate cyclase.",
+      "Incorrect: Gαi inhibits adenylate cyclase.",
+      "Correct: Gαq activates phospholipase C-β.",
+      "Incorrect: Gβγ has other signaling roles but not PLC-β activation.",
+      "Incorrect: Gαt is involved in visual signaling."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: PLC-β activation)"
+  },
+  {
+    "question": "In necrosis, what cellular structure is typically lost first?",
+    "options": [
+      "A) Nucleolus",
+      "B) Plasma membrane integrity",
+      "C) Mitochondria",
+      "D) Rough endoplasmic reticulum",
+      "E) Golgi apparatus"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Nucleolus changes occur later.",
+      "Correct: Plasma membrane rupture is an early feature of necrosis.",
+      "Incorrect: Mitochondria are involved in both necrosis and apoptosis.",
+      "Incorrect: RER changes are not the first sign.",
+      "Incorrect: Golgi breakdown occurs later."
+    ],
+    "slideLink": "Cell Death 24sh.pdf (Slide: Necrosis)"
+  },
+  {
+    "question": "Which of the following describes a primary lymphoid organ?",
+    "options": [
+      "A) Lymph node",
+      "B) Spleen",
+      "C) Thymus",
+      "D) Tonsil",
+      "E) Appendix"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Lymph nodes are secondary lymphoid organs.",
+      "Incorrect: Spleen is also secondary.",
+      "Correct: Thymus is where T cells mature.",
+      "Incorrect: Tonsils are part of secondary lymphoid tissue.",
+      "Incorrect: Appendix is GALT, a secondary structure."
+    ],
+    "slideLink": "Divisions of the Nervous System.pdf (Slide: Lymphoid tissue types)"
+  },
+  {
+    "question": "Which receptor type is involved in nitric oxide-mediated vasodilation via cGMP?",
+    "options": [
+      "A) Ionotropic receptor",
+      "B) G-protein coupled receptor",
+      "C) Guanylate cyclase-linked receptor",
+      "D) Tyrosine kinase receptor",
+      "E) Muscarinic receptor"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Ion channels are not involved in NO signaling.",
+      "Incorrect: GPCRs are upstream of NO production but not direct effectors.",
+      "Correct: NO activates soluble guanylate cyclase to increase cGMP.",
+      "Incorrect: Tyrosine kinases mediate growth, not vasodilation.",
+      "Incorrect: Muscarinic receptors trigger NO release but don’t use cGMP directly."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: cyclic GMP pathway)"
+  },
+  {
+    "question": "Which receptor family is activated by atrial natriuretic peptide (ANP)?",
+    "options": [
+      "A) GPCR",
+      "B) Tyrosine kinase receptor",
+      "C) Guanylate cyclase receptor",
+      "D) Ligand-gated ion channel",
+      "E) Nuclear hormone receptor"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: ANP does not act through GPCRs.",
+      "Incorrect: Tyrosine kinase receptors mediate growth factors.",
+      "Correct: ANP activates membrane-bound guanylate cyclase.",
+      "Incorrect: Ligand-gated channels are not involved here.",
+      "Incorrect: ANP does not diffuse into the cell or affect gene transcription."
+    ],
+    "slideLink": "2024 Treatment Lecture 4 Receptor-effector coupling.pdf (Slide: ANP receptor pathway)"
+  },
+  {
     "question": "Which of the following metabolic states is most dangerous for a patient with MCADD?",
     "options": [
       "A) After eating a high-fat meal",
