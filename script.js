@@ -61,6 +61,253 @@
     "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Plasma cell)"
   },
   {
+    "question": "What is the primary function of natural killer (NK) cells?",
+    "options": [
+      "A) Antigen presentation",
+      "B) Antibody production",
+      "C) Killing virally infected and tumor cells",
+      "D) Phagocytosis of bacteria",
+      "E) Activation of complement"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: This is the role of dendritic cells and macrophages.",
+      "Incorrect: B cells produce antibodies.",
+      "Correct: NK cells destroy virus-infected and transformed cells without prior sensitization.",
+      "Incorrect: Neutrophils and macrophages are primary phagocytes.",
+      "Incorrect: NK cells do not directly activate complement."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Natural Killer cells)"
+  },
+  {
+    "question": "Which of the following variables is considered nominal?",
+    "options": [
+      "A) Height in cm",
+      "B) Weight in kg",
+      "C) Gender",
+      "D) Pain score (1–10)",
+      "E) Blood pressure"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Height is a continuous interval variable.",
+      "Incorrect: Weight is also continuous.",
+      "Correct: Gender is a categorical nominal variable with no intrinsic order.",
+      "Incorrect: Pain scores are ordinal.",
+      "Incorrect: Blood pressure is continuous and interval scale."
+    ],
+    "slideLink": "1 Introduction to statistics 2022 PDF.pdf (Slide: Types of variable)"
+  },
+  {
+    "question": "Which immune cell is most potent at initiating the T-cell response?",
+    "options": [
+      "A) Macrophage",
+      "B) Neutrophil",
+      "C) Dendritic cell",
+      "D) Eosinophil",
+      "E) Basophil"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Macrophages present antigen but are less potent.",
+      "Incorrect: Neutrophils primarily perform phagocytosis.",
+      "Correct: Dendritic cells are the most effective antigen-presenting cells for T cell activation.",
+      "Incorrect: Eosinophils are involved in parasite defense.",
+      "Incorrect: Basophils mediate allergic responses."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Dendritic cells)"
+  },
+  {
+    "question": "What does a p-value of 0.03 mean in a hypothesis test?",
+    "options": [
+      "A) The null hypothesis is definitely false",
+      "B) There is a 3% chance the alternative hypothesis is true",
+      "C) There is a 3% chance of observing the data if the null hypothesis is true",
+      "D) The study was flawed",
+      "E) 3% of results are incorrect"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: P-values indicate probability, not certainty.",
+      "Incorrect: P-value does not directly relate to alternative hypothesis probability.",
+      "Correct: It means there is a 3% chance of getting the observed result if the null is true.",
+      "Incorrect: A low p-value doesn't imply flaws.",
+      "Incorrect: This is a misinterpretation of p-values."
+    ],
+    "slideLink": "3 Hypothesis tests 2022 PDF.pdf (Slide: What is the p-value)"
+  },
+  {
+    "question": "Which phase of infection is associated with adaptive immunity?",
+    "options": [
+      "A) Phase 1: Immediate response",
+      "B) Phase 2: Early innate response",
+      "C) Phase 3: Late, antigen-specific response",
+      "D) Phase 0: Exposure",
+      "E) Phase 4: Recovery"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Phase 1 and 2 involve innate mechanisms.",
+      "Incorrect: Innate immunity dominates these early stages.",
+      "Correct: Adaptive immunity is active in phase 3 with clonal expansion of lymphocytes.",
+      "Incorrect: This is not a defined immunological phase.",
+      "Incorrect: Recovery follows adaptive response, not part of it."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Kinetics of immune response)"
+  },
+  {
+    "question": "Which antibody class is most abundant in the blood?",
+    "options": [
+      "A) IgA",
+      "B) IgD",
+      "C) IgE",
+      "D) IgG",
+      "E) IgM"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: IgA is mainly secreted in mucosal surfaces.",
+      "Incorrect: IgD is found on B cells but low in circulation.",
+      "Incorrect: IgE is least abundant, involved in allergies.",
+      "Correct: IgG is the most abundant immunoglobulin in plasma.",
+      "Incorrect: IgM is abundant early but not most common."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Antibody types)"
+  },
+  {
+    "question": "Which social factor is a key upstream determinant of health?",
+    "options": [
+      "A) Cholesterol levels",
+      "B) Smoking status",
+      "C) Employment and income",
+      "D) BMI",
+      "E) Exercise frequency"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Cholesterol is a downstream effect.",
+      "Incorrect: Smoking is a behavior influenced by upstream factors.",
+      "Correct: Employment and income are structural, upstream determinants.",
+      "Incorrect: BMI is a health outcome.",
+      "Incorrect: Behavior is shaped by social context."
+    ],
+    "slideLink": "03 Biomedical and Biopsychosocial models of health.pdf (Slide: Upstream vs downstream)"
+  },
+  {
+    "question": "Which of the following is true of a 95% confidence interval?",
+    "options": [
+      "A) It always contains the sample mean",
+      "B) It includes 95% of the data",
+      "C) It contains the true population parameter 95% of the time",
+      "D) It shows the range between min and max values",
+      "E) It is always symmetric"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: It is centered around the sample mean, but that’s not the definition.",
+      "Incorrect: It refers to population parameters, not raw data.",
+      "Correct: In 95% of repeated samples, the interval includes the true parameter.",
+      "Incorrect: That describes a range, not a CI.",
+      "Incorrect: Confidence intervals can be asymmetric depending on distribution."
+    ],
+    "slideLink": "2 Confidence intervals 2022 PDF.pdf (Slide: 2.4 95% confidence intervals)"
+  },
+  {
+    "question": "What type of regression is used for binary outcomes?",
+    "options": [
+      "A) Linear regression",
+      "B) Cox regression",
+      "C) Logistic regression",
+      "D) Poisson regression",
+      "E) Multiple regression"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Linear regression is for continuous outcomes.",
+      "Incorrect: Cox regression is for time-to-event data.",
+      "Correct: Logistic regression is used for binary outcomes like yes/no.",
+      "Incorrect: Poisson regression is for count data.",
+      "Incorrect: Multiple regression is for continuous outcomes with multiple predictors."
+    ],
+    "slideLink": "4 Other hypothesis tests 2022 PDF.pdf (Slide: 4.3.3 Other regression models)"
+  },
+  {
+    "question": "What does the term 'intrinsic efficacy' refer to?",
+    "options": [
+      "A) Drug concentration needed for effect",
+      "B) Drug's ability to bind to a receptor",
+      "C) Drug's ability to activate the receptor",
+      "D) Drug’s metabolism rate",
+      "E) Drug’s elimination half-life"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That describes potency or EC50.",
+      "Incorrect: This describes affinity, not efficacy.",
+      "Correct: Intrinsic efficacy is the ability to produce a response after binding.",
+      "Incorrect: Metabolism is unrelated.",
+      "Incorrect: Elimination relates to pharmacokinetics."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Intrinsic efficacy)"
+  },
+  {
+    "question": "What does the biomedical model of health emphasize?",
+    "options": [
+      "A) Social determinants",
+      "B) Cultural influences",
+      "C) Biological causes of disease",
+      "D) Behavioral factors",
+      "E) Environmental health risks"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: These are emphasized in the biopsychosocial model.",
+      "Incorrect: Cultural factors are not part of the biomedical model.",
+      "Correct: It focuses on disease due to biological dysfunction.",
+      "Incorrect: Behavior is considered more in holistic models.",
+      "Incorrect: Environmental risks are beyond the biomedical scope."
+    ],
+    "slideLink": "03 Biomedical and Biopsychosocial models of health.pdf (Slide: Biomedical model)"
+  },
+  {
+    "question": "Which test would you use to compare proportions between two groups?",
+    "options": [
+      "A) Independent samples t-test",
+      "B) ANOVA",
+      "C) Chi-squared test",
+      "D) Mann-Whitney U test",
+      "E) Logistic regression"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: T-tests compare means.",
+      "Incorrect: ANOVA is for comparing means in multiple groups.",
+      "Correct: Chi-squared tests compare proportions or categorical data.",
+      "Incorrect: Mann-Whitney compares medians.",
+      "Incorrect: Logistic regression models binary outcomes, not direct comparison of proportions."
+    ],
+    "slideLink": "3 Hypothesis tests 2022 PDF.pdf (Slide: Chi-squared test for 2x2 table)"
+  },
+  {
+    "question": "What type of immunity involves memory cells?",
+    "options": [
+      "A) Innate immunity",
+      "B) Passive immunity",
+      "C) Adaptive immunity",
+      "D) Complement system",
+      "E) Physical barriers"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Innate immunity is immediate and non-specific.",
+      "Incorrect: Passive immunity does not involve memory cells.",
+      "Correct: Adaptive immunity creates memory cells for long-term protection.",
+      "Incorrect: Complement is part of innate immunity.",
+      "Incorrect: Barriers prevent entry, not memory."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Adaptive immune system)"
+  },
+  {
     "question": "Which of the following best describes the function of a dendritic cell?",
     "options": [
       "A) Cytotoxic activity",
