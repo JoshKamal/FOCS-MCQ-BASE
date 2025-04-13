@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which cytoskeletal filament is primarily responsible for resisting mechanical stress in epithelial tissues?",
+    "options": [
+      "A) Microtubules",
+      "B) Actin filaments",
+      "C) Intermediate filaments",
+      "D) Collagen fibers",
+      "E) Laminin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Microtubules are involved in intracellular transport and organization.",
+      "Incorrect: Actin filaments contribute to movement, not tensile strength.",
+      "Correct: Intermediate filaments provide mechanical strength, especially via desmosomes.",
+      "Incorrect: Collagen is part of ECM, not intracellular cytoskeleton.",
+      "Incorrect: Laminin links cells to the ECM, not for internal tensile support."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Intermediate Filaments strengthen epithelial cell contacts via desosomes)"
+  },
+  {
+    "question": "Which protein is defective in Hutchinson-Gilford progeria syndrome?",
+    "options": [
+      "A) Keratin",
+      "B) Collagen",
+      "C) Lamin A",
+      "D) Tubulin",
+      "E) Actin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Keratin is involved in skin integrity but not linked to progeria.",
+      "Incorrect: Collagen defects relate to ECM diseases like scurvy and EB.",
+      "Correct: Lamin A mutations destabilize the nuclear envelope causing premature aging.",
+      "Incorrect: Tubulin relates to microtubules, not nuclear structure.",
+      "Incorrect: Actin is involved in movement, not nuclear stability."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: What happens if the nuclear lamina is defective?)"
+  },
+  {
+    "question": "Microtubule dynamic instability is regulated by which of the following?",
+    "options": [
+      "A) ATP binding",
+      "B) Calcium ions",
+      "C) GTP hydrolysis",
+      "D) Phosphorylation",
+      "E) Acetylation"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: ATP is relevant for actin polymerization, not tubulin.",
+      "Incorrect: Calcium ions influence other cytoskeletal systems, not microtubules.",
+      "Correct: Tubulin binds GTP, and hydrolysis to GDP leads to depolymerization.",
+      "Incorrect: Phosphorylation controls nuclear lamina assembly.",
+      "Incorrect: Acetylation affects histones, not microtubule dynamics."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: How is Microtubule dynamic instability regulated?)"
+  },
+  {
+    "question": "What is the main function of dynein in cilia?",
+    "options": [
+      "A) Stabilizes the cell cortex",
+      "B) Anchors centrosomes",
+      "C) Powers the bending motion of cilia",
+      "D) Polymerizes tubulin",
+      "E) Links actin to integrins"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Actin, not dynein, stabilizes the cortex.",
+      "Incorrect: Centrosomes anchor microtubules, not dynein’s role.",
+      "Correct: Dynein is a motor protein responsible for ciliary bending.",
+      "Incorrect: Tubulin polymerization is passive, not dynein's role.",
+      "Incorrect: Integrins link to actin via adaptor proteins, not dynein."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Cilia contains 9 doublet microtubules...)"
+  },
+  {
+    "question": "Which cytoskeletal component is primarily involved in forming microvilli?",
+    "options": [
+      "A) Lamin",
+      "B) Keratin",
+      "C) Tubulin",
+      "D) Actin",
+      "E) Vimentin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Lamin supports the nucleus, not surface projections.",
+      "Incorrect: Keratin is for tensile strength in epithelial cells.",
+      "Incorrect: Tubulin forms cilia, not microvilli.",
+      "Correct: Actin filaments form the structural core of microvilli.",
+      "Incorrect: Vimentin is part of intermediate filaments, not microvilli."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Actin filaments contribute to many structures and functions)"
+  },
+  {
+    "question": "Which protein links the ECM to actin filaments inside the cell?",
+    "options": [
+      "A) Keratin",
+      "B) Tubulin",
+      "C) Laminin",
+      "D) Integrin",
+      "E) Spectrin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Keratin is involved in intermediate filaments.",
+      "Incorrect: Tubulin is part of microtubules.",
+      "Incorrect: Laminin links basal lamina to integrins, but not directly to actin.",
+      "Correct: Integrins connect ECM via adaptor proteins to actin filaments.",
+      "Incorrect: Spectrin links actin within the cytoskeleton, not ECM."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: How do cells attach to the extracellular matrix?)"
+  },
+  {
+    "question": "Which ECM molecule provides resistance to compression?",
+    "options": [
+      "A) Collagen",
+      "B) Fibronectin",
+      "C) Keratin",
+      "D) GAGs",
+      "E) Lamin A"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Collagen provides tensile strength, not compression resistance.",
+      "Incorrect: Fibronectin is an adaptor for adhesion, not a shock absorber.",
+      "Incorrect: Keratin is part of intermediate filaments.",
+      "Correct: GAGs (glycosaminoglycans) form hydrophilic gels that resist compression.",
+      "Incorrect: Lamin A supports the nucleus, not ECM compression."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: ECM molecules also perform a compression resistance function)"
+  },
+  {
+    "question": "Which vitamin is essential for hydroxylation of collagen during biosynthesis?",
+    "options": [
+      "A) Vitamin A",
+      "B) Vitamin B12",
+      "C) Vitamin C",
+      "D) Vitamin D",
+      "E) Vitamin K"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Vitamin A is involved in epithelial health, not collagen.",
+      "Incorrect: B12 is for red blood cells and nerves.",
+      "Correct: Vitamin C is essential for hydroxylase enzyme activity in collagen cross-linking.",
+      "Incorrect: Vitamin D regulates calcium and bone, not collagen synthesis.",
+      "Incorrect: Vitamin K is for clotting factors, not ECM."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagens are covalently cross-linked)"
+  },
+  {
+    "question": "Which macromolecule forms glycoproteins on cell surfaces and mediates identity?",
+    "options": [
+      "A) Lipids",
+      "B) Amino acids",
+      "C) Nucleic acids",
+      "D) Sugars",
+      "E) Fatty acids"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Lipids are membrane components, not identifiers.",
+      "Incorrect: Amino acids make proteins but not identity tags.",
+      "Incorrect: Nucleic acids carry genetic information.",
+      "Correct: Sugar groups form glycoproteins involved in communication and identity.",
+      "Incorrect: Fatty acids contribute to membrane structure, not identity."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 1.pdf (Slide: Cell Surface Glycoproteins)"
+  },
+  {
+    "question": "Which of the following diseases is caused by a defect in procollagen peptidase activity?",
+    "options": [
+      "A) Osteoarthritis",
+      "B) Osteogenesis Imperfecta",
+      "C) Scurvy",
+      "D) Marfan syndrome",
+      "E) Progeria"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Osteoarthritis is due to joint cartilage breakdown.",
+      "Correct: Osteogenesis Imperfecta results from improper collagen fiber assembly.",
+      "Incorrect: Scurvy is from vitamin C deficiency, not enzyme defect.",
+      "Incorrect: Marfan is due to fibrillin mutations.",
+      "Incorrect: Progeria affects nuclear lamina, not collagen processing."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: What happens if procollagen peptidases don’t work properly?)"
+  },
+  {
     "question": "Which part of the clinical reasoning process involves checking whether a working diagnosis fits all findings?",
     "options": [
       "A) Hypothesis generation",
