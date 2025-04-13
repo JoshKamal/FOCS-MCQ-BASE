@@ -80,6 +80,139 @@
     "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Intermediate filaments are the toughest fibres in the body)"
   },
   {
+    "question": "Which component of the plasma membrane is primarily responsible for its selective permeability?",
+    "options": [
+      "A) Cholesterol",
+      "B) Phospholipid bilayer",
+      "C) Glycoproteins",
+      "D) Integral proteins",
+      "E) Peripheral proteins"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Cholesterol modulates fluidity but not permeability.",
+      "Correct: The phospholipid bilayer forms the core barrier to solutes.",
+      "Incorrect: Glycoproteins are involved in signaling, not permeability.",
+      "Incorrect: Integral proteins aid in transport but are not the core barrier.",
+      "Incorrect: Peripheral proteins are on the membrane surface and not involved in permeability."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 11 - Cell membrane and ion transport 2024 accessible.pptx (Slide: Solute diffusion across membranes)"
+  },
+  {
+    "question": "What is the main function of clathrin in receptor-mediated endocytosis?",
+    "options": [
+      "A) Acts as a ligand",
+      "B) Forms a vesicle's lipid bilayer",
+      "C) Coats pits that help vesicle formation",
+      "D) Fuses vesicles with lysosomes",
+      "E) Degrades receptors post-entry"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Clathrin is not a ligand.",
+      "Incorrect: Lipid bilayers are not formed by clathrin.",
+      "Correct: Clathrin coats help shape vesicles during endocytosis.",
+      "Incorrect: Fusion is mediated by SNARE proteins, not clathrin.",
+      "Incorrect: Receptor degradation is done by lysosomal enzymes."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 11 - Cell membrane and ion transport 2024 accessible.pptx (Slide: Receptor-mediated endocytosis)"
+  },
+  {
+    "question": "Which type of cell signaling involves signaling molecules that affect the same cell that releases them?",
+    "options": [
+      "A) Paracrine",
+      "B) Endocrine",
+      "C) Synaptic",
+      "D) Autocrine",
+      "E) Juxtacrine"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Paracrine affects nearby cells.",
+      "Incorrect: Endocrine signaling is long-distance via the bloodstream.",
+      "Incorrect: Synaptic signaling occurs between neurons and target cells.",
+      "Correct: Autocrine signaling affects the cell that released the signal.",
+      "Incorrect: Juxtacrine signaling requires direct contact between cells."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Autocrine signalling)"
+  },
+  {
+    "question": "Which structure is responsible for making the skin water-resistant?",
+    "options": [
+      "A) Sebaceous glands",
+      "B) Stratum basale",
+      "C) Stratum granulosum",
+      "D) Langerhans cells",
+      "E) Arrector pili muscles"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Sebaceous glands secrete sebum but don't create a seal.",
+      "Incorrect: The stratum basale is responsible for cell division.",
+      "Correct: The stratum granulosum produces lipid-rich secretions forming a water barrier.",
+      "Incorrect: Langerhans cells are involved in immunity.",
+      "Incorrect: Arrector pili muscles are involved in thermoregulation, not barrier function."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: Strata of epidermis)"
+  },
+  {
+    "question": "In which anatomical plane is a CT scan typically viewed?",
+    "options": [
+      "A) Sagittal",
+      "B) Coronal",
+      "C) Axial",
+      "D) Oblique",
+      "E) Paramedian"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Sagittal divides the body into left and right.",
+      "Incorrect: Coronal divides the body into anterior and posterior.",
+      "Correct: CT scans are typically viewed in the axial (transverse) plane.",
+      "Incorrect: Oblique is any angle not parallel to standard planes.",
+      "Incorrect: Paramedian is a variant of sagittal, not used in CT imaging."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Transverse/Axial/Horizontal plane)"
+  },
+  {
+    "question": "Which type of lipid particle contains ApoB-48 and is involved in the exogenous lipid pathway?",
+    "options": [
+      "A) VLDL",
+      "B) HDL",
+      "C) Chylomicron",
+      "D) LDL",
+      "E) IDL"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: VLDL contains ApoB-100 and is part of the endogenous pathway.",
+      "Incorrect: HDL contains ApoA1 and functions in reverse cholesterol transport.",
+      "Correct: Chylomicrons contain ApoB-48 and are key in the exogenous pathway.",
+      "Incorrect: LDL contains ApoB-100 and is a product of VLDL breakdown.",
+      "Incorrect: IDL is an intermediate in endogenous lipid transport."
+    ],
+    "slideLink": "Lipid formation and metabolism - MED1028.pptx (Slide: Exogenous lipid pathway)"
+  },
+  {
+    "question": "What effect does nitric oxide (NO) have on smooth muscle cells?",
+    "options": [
+      "A) Contraction via calcium influx",
+      "B) Inhibition of guanylyl cyclase",
+      "C) Stimulation of cAMP production",
+      "D) Activation of cGMP and muscle relaxation",
+      "E) Vasoconstriction via endothelin release"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: NO promotes relaxation, not contraction.",
+      "Incorrect: NO activates, not inhibits, guanylyl cyclase.",
+      "Incorrect: cAMP is more commonly linked to GPCR signaling.",
+      "Correct: NO activates guanylyl cyclase to produce cGMP, causing relaxation.",
+      "Incorrect: Endothelin promotes vasoconstriction, but not via NO."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Nitric oxide signaling)"
+  },
+  {
     "question": "Which cytoskeletal defect leads to blistering of the skin in EB simplex?",
     "options": [
       "A) Defective tubulin",
