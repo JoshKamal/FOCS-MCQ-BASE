@@ -61,6 +61,101 @@
     "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: The Dermis)"
   },
   {
+    "question": "Which enzyme catalyzes the reaction between carbamoyl phosphate and ornithine in the urea cycle?",
+    "options": [
+      "A) Arginase",
+      "B) Argininosuccinate synthetase",
+      "C) Ornithine transcarbamoylase",
+      "D) Carbamoyl phosphate synthetase",
+      "E) Glutamate dehydrogenase"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Arginase acts later in the urea cycle to convert arginine into urea and ornithine.",
+      "Incorrect: Argininosuccinate synthetase acts downstream after citrulline formation.",
+      "Correct: OTC catalyzes the reaction between carbamoyl phosphate and ornithine to form citrulline.",
+      "Incorrect: CPS acts earlier to produce carbamoyl phosphate from NH4+, CO2 and ATP.",
+      "Incorrect: This enzyme deaminates glutamate, not involved directly in the urea cycle."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Amino Acid Catabolism)"
+  },
+  {
+    "question": "Which amino acid is exclusively ketogenic?",
+    "options": [
+      "A) Tyrosine",
+      "B) Tryptophan",
+      "C) Isoleucine",
+      "D) Leucine",
+      "E) Phenylalanine"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Tyrosine is both glucogenic and ketogenic.",
+      "Incorrect: Tryptophan is both glucogenic and ketogenic.",
+      "Incorrect: Isoleucine is both glucogenic and ketogenic.",
+      "Correct: Leucine is exclusively ketogenic, converted into acetyl-CoA or acetoacetate.",
+      "Incorrect: Phenylalanine is both glucogenic and ketogenic."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Glucogenic vs Ketogenic Amino Acids)"
+  },
+  {
+    "question": "In the urea cycle, which molecule is directly responsible for carrying the first nitrogen into the cycle?",
+    "options": [
+      "A) Ornithine",
+      "B) Aspartate",
+      "C) Ammonium",
+      "D) Arginine",
+      "E) Citrulline"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Ornithine participates in the cycle but does not carry nitrogen.",
+      "Incorrect: Aspartate contributes the second nitrogen atom.",
+      "Correct: Ammonium is used to synthesize carbamoyl phosphate, introducing the first nitrogen.",
+      "Incorrect: Arginine is involved later in the cycle.",
+      "Incorrect: Citrulline is formed after ammonium enters the cycle."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Amino Acid Catabolism - Step 1)"
+  },
+  {
+    "question": "Phenylketonuria (PKU) results from a deficiency in which enzyme?",
+    "options": [
+      "A) Tyrosinase",
+      "B) Glutamate dehydrogenase",
+      "C) Phenylalanine hydroxylase",
+      "D) Arginase",
+      "E) Ornithine transcarbamoylase"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Tyrosinase is involved in melanin production.",
+      "Incorrect: Glutamate dehydrogenase acts in nitrogen metabolism, not in phenylalanine conversion.",
+      "Correct: Phenylalanine hydroxylase converts phenylalanine into tyrosine, deficiency causes PKU.",
+      "Incorrect: Arginase is part of the urea cycle.",
+      "Incorrect: OTC is involved in the urea cycle, not phenylalanine metabolism."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Clinical Relevance: Phenylketonuria)"
+  },
+  {
+    "question": "What is the function of DNA polymerase during DNA replication?",
+    "options": [
+      "A) Unwinds the DNA helix",
+      "B) Synthesizes RNA primers",
+      "C) Joins Okazaki fragments",
+      "D) Synthesizes DNA by adding nucleotides to the 3′ OH group",
+      "E) Removes introns from RNA"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Helicase unwinds the DNA helix.",
+      "Incorrect: Primase synthesizes RNA primers.",
+      "Incorrect: DNA ligase joins Okazaki fragments.",
+      "Correct: DNA polymerase adds nucleotides to the 3′ OH end during DNA synthesis.",
+      "Incorrect: RNA splicing is not a function of DNA polymerase."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 19 - DNA - The Basics 2022.pdf (Slide: DNA is synthesised in the 5’→3’ direction)"
+  },
+  {
     "question": "Which receptor type is directly activated by neurotransmitters to allow ion flow across the membrane?",
     "options": [
       "A) GPCR",
