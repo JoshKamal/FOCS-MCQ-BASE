@@ -61,6 +61,196 @@
     "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: The Dermis)"
   },
   {
+    "question": "Which receptor type is directly activated by neurotransmitters to allow ion flow across the membrane?",
+    "options": [
+      "A) GPCR",
+      "B) Receptor tyrosine kinase",
+      "C) Ion channel receptor",
+      "D) Steroid hormone receptor",
+      "E) Integrin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: GPCRs activate second messengers, not ion flow directly.",
+      "Incorrect: RTKs activate enzymes via phosphorylation.",
+      "Correct: Ion channel receptors open in response to ligand binding, allowing ion flow.",
+      "Incorrect: Steroid receptors are intracellular and regulate transcription.",
+      "Incorrect: Integrins are involved in cell adhesion, not rapid ion flow."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Ion channel receptors)"
+  },
+  {
+    "question": "What anatomical term describes movement that increases the angle between body parts?",
+    "options": [
+      "A) Flexion",
+      "B) Rotation",
+      "C) Circumduction",
+      "D) Extension",
+      "E) Abduction"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Flexion decreases the angle.",
+      "Incorrect: Rotation is turning around an axis.",
+      "Incorrect: Circumduction is a combination of movements.",
+      "Correct: Extension increases the angle at a joint.",
+      "Incorrect: Abduction moves a limb away from the midline."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Flexion and Extension)"
+  },
+  {
+    "question": "Which second messenger is produced in response to nitric oxide?",
+    "options": [
+      "A) DAG",
+      "B) cAMP",
+      "C) IP3",
+      "D) cGMP",
+      "E) Ca2+"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: DAG is part of the phospholipase C pathway.",
+      "Incorrect: cAMP is produced by adenylyl cyclase.",
+      "Incorrect: IP3 releases calcium from the ER, unrelated to NO.",
+      "Correct: Nitric oxide activates guanylyl cyclase to produce cGMP.",
+      "Incorrect: Ca2+ is a messenger released downstream of IP3."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: Nitric oxide signaling)"
+  },
+  {
+    "question": "Which skin receptor is specialized for detecting vibration and deep pressure?",
+    "options": [
+      "A) Meissner corpuscle",
+      "B) Ruffini ending",
+      "C) Merkel disc",
+      "D) Pacinian corpuscle",
+      "E) Krause end bulb"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Meissner detects light touch.",
+      "Incorrect: Ruffini responds to stretch.",
+      "Incorrect: Merkel detects light pressure.",
+      "Correct: Pacinian corpuscles respond to deep pressure and vibration.",
+      "Incorrect: Krause end bulbs detect low-frequency vibrations in genitalia."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 14 - P1. The skin overview_MED21.pdf (Slide: Skin receptors)"
+  },
+  {
+    "question": "What describes the ability of a cell to generate and propagate electrical signals?",
+    "options": [
+      "A) Conductivity",
+      "B) Permeability",
+      "C) Excitability",
+      "D) Contractility",
+      "E) Elasticity"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Conductivity refers to propagation, not generation.",
+      "Incorrect: Permeability relates to solute movement across membranes.",
+      "Correct: Excitable cells generate action potentials.",
+      "Incorrect: Contractility refers to muscle shortening.",
+      "Incorrect: Elasticity relates to stretching and recoil."
+    ],
+    "slideLink": "MED1028 FoCS Lecture - C25 FoCS resting membrane potential 2024 accessible.pdf (Slide: Excitable cells)"
+  },
+  {
+    "question": "Which anatomical plane divides the body into anterior and posterior parts?",
+    "options": [
+      "A) Sagittal",
+      "B) Coronal",
+      "C) Transverse",
+      "D) Oblique",
+      "E) Median"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Sagittal divides left and right.",
+      "Correct: Coronal (frontal) separates front and back.",
+      "Incorrect: Transverse divides upper and lower.",
+      "Incorrect: Oblique is at an angle.",
+      "Incorrect: Median is a mid-sagittal division."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - Basic Concepts in Anatomy - student version (1).pptx (Slide: Anatomical Planes)"
+  },
+  {
+    "question": "Which signaling pathway involves dimerization of receptors and phosphorylation of tyrosine residues?",
+    "options": [
+      "A) GPCR",
+      "B) Ion channel signaling",
+      "C) RTK pathway",
+      "D) cAMP pathway",
+      "E) GABA signaling"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: GPCRs do not use tyrosine kinase activity.",
+      "Incorrect: Ion channels respond to ligand binding but don’t involve phosphorylation.",
+      "Correct: Receptor tyrosine kinases (RTKs) dimerize and phosphorylate tyrosines.",
+      "Incorrect: cAMP is a second messenger produced by adenylyl cyclase.",
+      "Incorrect: GABA is a neurotransmitter, not a signaling pathway."
+    ],
+    "slideLink": "Lecture 41 Cell Communication and Signalling Student Version.pdf (Slide: RTK signaling)"
+  },
+  {
+    "question": "Which condition is caused by depletion of the normal gut microbiota, often after antibiotics?",
+    "options": [
+      "A) Peptic ulcer",
+      "B) Crohn’s disease",
+      "C) Ulcerative colitis",
+      "D) Clostridium difficile infection",
+      "E) Diverticulitis"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Peptic ulcers are linked to H. pylori.",
+      "Incorrect: Crohn’s is autoimmune, not caused by microbiota depletion.",
+      "Incorrect: Ulcerative colitis is inflammatory, not directly caused by microbiota loss.",
+      "Correct: C. difficile infection follows microbiota loss after antibiotics.",
+      "Incorrect: Diverticulitis is related to pouches in the colon, not microbiota."
+    ],
+    "slideLink": "MED1028-Microbiome.pdf (Slide: Clostridium difficile infection)"
+  },
+  {
+    "question": "Which of the following contributes to maintaining gut immune homeostasis?",
+    "options": [
+      "A) Secretory IgA",
+      "B) TLR-4",
+      "C) CD8+ cytotoxic T cells",
+      "D) Th1 cytokines",
+      "E) Neutrophils"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: Secretory IgA plays a key role in mucosal immunity and tolerance.",
+      "Incorrect: TLR-4 can trigger inflammation, not tolerance.",
+      "Incorrect: CD8+ cells are more involved in killing infected cells.",
+      "Incorrect: Th1 cytokines are pro-inflammatory.",
+      "Incorrect: Neutrophils are acute responders, not homeostasis regulators."
+    ],
+    "slideLink": "MED1028-Microbiome.pdf (Slide: Adaptive regulation of mucosal tolerance)"
+  },
+  {
+    "question": "What is the function of arrector pili muscles?",
+    "options": [
+      "A) Secrete sebum",
+      "B) Aid sweat secretion",
+      "C) Cause hair to stand up",
+      "D) Open skin pores",
+      "E) Generate new hair cells"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Sebaceous glands secrete sebum, not muscles.",
+      "Incorrect: Sweat glands control sweat, not these muscles.",
+      "Correct: Arrector pili contraction causes piloerection (goosebumps).",
+      "Incorrect: Pores are controlled by glandular activity, not muscle.",
+      "Incorrect: Hair cell generation occurs in the follicle matrix."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - P3. Skin appendages_MED21.pdf (Slide: Hair follicles and arrector pili)"
+  },
+  {
     "question": "What is the role of the Na+/K+ ATPase in maintaining resting membrane potential?",
     "options": [
       "A) Pumps 2 Na+ in and 3 K+ out",
