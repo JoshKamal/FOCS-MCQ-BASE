@@ -41,6 +41,101 @@
     ],
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
+   {
+  "question": "Which enzyme family is primarily responsible for Phase I metabolism in the liver?",
+  "options": [
+    "A) Acetyltransferases",
+    "B) Glucuronosyltransferases",
+    "C) Cytochrome P450 enzymes",
+    "D) Monoamine oxidases",
+    "E) Peptidases"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Acetyltransferases are involved in Phase II reactions.",
+    "Incorrect: Glucuronosyltransferases are Phase II enzymes.",
+    "Correct: Cytochrome P450 enzymes mediate oxidation, reduction, and hydrolysis in Phase I metabolism.",
+    "Incorrect: Monoamine oxidases break down neurotransmitters, not general drug metabolism.",
+    "Incorrect: Peptidases degrade peptides but are not key in Phase I metabolism."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase I)"
+},
+{
+  "question": "Which type of epithelial cell is most commonly associated with absorption and secretion in the gastrointestinal tract?",
+  "options": [
+    "A) Simple squamous",
+    "B) Simple cuboidal",
+    "C) Simple columnar",
+    "D) Stratified squamous",
+    "E) Transitional"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Simple squamous epithelium facilitates passive diffusion, not active absorption.",
+    "Incorrect: Simple cuboidal cells line small ducts but are not prominent in GI absorption.",
+    "Correct: Simple columnar epithelium lines much of the GI tract and is adapted for absorption and secretion.",
+    "Incorrect: Stratified squamous epithelium provides protection, not absorption.",
+    "Incorrect: Transitional epithelium is found in the urinary tract."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Simple Columnar)"
+},
+{
+  "question": "What is the main function of the baroreflex in homeostatic control?",
+  "options": [
+    "A) Increase blood glucose",
+    "B) Maintain oxygen saturation",
+    "C) Regulate body temperature",
+    "D) Stabilize blood pressure",
+    "E) Promote sweating"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Baroreflex does not regulate glucose levels.",
+    "Incorrect: Oxygen levels are regulated by chemoreceptors.",
+    "Incorrect: Thermoregulation is controlled by thermal receptors and the hypothalamus.",
+    "Correct: The baroreflex modulates heart rate and vascular tone to maintain blood pressure.",
+    "Incorrect: Sweating is a thermoregulatory response, not related to baroreflex."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: The Baroreflex)"
+},
+{
+  "question": "What structural feature is shared by both cardiac and skeletal muscle?",
+  "options": [
+    "A) Branched fibers",
+    "B) Central nuclei",
+    "C) Intercalated discs",
+    "D) Striations",
+    "E) Dense bodies"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Only cardiac muscle has branched fibers.",
+    "Incorrect: Skeletal muscle has peripheral nuclei.",
+    "Incorrect: Intercalated discs are unique to cardiac muscle.",
+    "Correct: Both cardiac and skeletal muscles show cross-striations due to organized myofilaments.",
+    "Incorrect: Dense bodies are found in smooth muscle, not striated types."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Ultrastructural Basis of Cross-Striations)"
+},
+{
+  "question": "Which connective tissue fiber type is most abundant and provides tensile strength?",
+  "options": [
+    "A) Elastic fibers",
+    "B) Reticular fibers",
+    "C) Type I collagen",
+    "D) Type III collagen",
+    "E) Fibrillin"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Elastic fibers provide stretch, not strength.",
+    "Incorrect: Reticular fibers form a delicate network but do not confer tensile strength.",
+    "Correct: Type I collagen is the most abundant and provides tensile strength.",
+    "Incorrect: Type III collagen forms reticular fibers, not major tensile structures.",
+    "Incorrect: Fibrillin forms part of elastic fibers, not collagen bundles."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Collagen Type I)"
+},
   {
     "question": "Which reactive oxygen species is produced by the transfer of a single electron to molecular oxygen?",
     "options": [
