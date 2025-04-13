@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which enzyme catalyzes the hydroxylation of proline residues in collagen?",
+    "options": [
+      "A) Lysyl oxidase",
+      "B) Prolyl hydroxylase",
+      "C) Collagenase",
+      "D) Fibronectin synthase",
+      "E) Elastase"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Lysyl oxidase forms cross-links between collagen molecules.",
+      "Correct: Prolyl hydroxylase hydroxylates proline residues in collagen synthesis.",
+      "Incorrect: Collagenase breaks down collagen, not modify it.",
+      "Incorrect: No such enzyme, fibronectin is a protein not synthesized this way.",
+      "Incorrect: Elastase breaks down elastin, not involved in collagen hydroxylation."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagens are covalently cross-linked)"
+  },
+  {
+    "question": "What component forms the 'ground substance' in ECM that retains water and resists compression?",
+    "options": [
+      "A) Collagen",
+      "B) Fibronectin",
+      "C) Glycosaminoglycans (GAGs)",
+      "D) Integrins",
+      "E) Laminin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Collagen provides tensile strength, not hydration.",
+      "Incorrect: Fibronectin connects ECM to cells but is not gel-like.",
+      "Correct: GAGs are hydrophilic and form gel-like ground substance.",
+      "Incorrect: Integrins are receptors, not ECM substance.",
+      "Incorrect: Laminin links epithelial cells to basal lamina."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 2.pdf (Slide: GAGs are very hydrophillic, attract water and form gels)"
+  },
+  {
+    "question": "What is the primary reason vitamin C deficiency causes scurvy?",
+    "options": [
+      "A) Impaired ATP production",
+      "B) Impaired hydroxylation of collagen",
+      "C) Impaired hemoglobin synthesis",
+      "D) Impaired GAG synthesis",
+      "E) Impaired calcium absorption"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: ATP production is unrelated to vitamin C.",
+      "Correct: Vitamin C is required for hydroxylation of proline and lysine in collagen.",
+      "Incorrect: Iron is more critical for hemoglobin synthesis.",
+      "Incorrect: GAG synthesis is not directly vitamin C-dependent.",
+      "Incorrect: Calcium absorption involves vitamin D."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Vitamin C is essential in collagen biosynthesis)"
+  },
+  {
+    "question": "Which of the following bonds is formed during peptide bond formation?",
+    "options": [
+      "A) Hydrogen bond",
+      "B) Glycosidic bond",
+      "C) Phosphodiester bond",
+      "D) Covalent bond",
+      "E) Ionic bond"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Hydrogen bonds stabilize secondary structure, not link peptides.",
+      "Incorrect: Glycosidic bonds are in sugars.",
+      "Incorrect: Phosphodiester bonds link nucleotides.",
+      "Correct: Peptide bonds are covalent bonds between amino acids.",
+      "Incorrect: Ionic bonds are non-covalent."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 2.pdf (Slide: Peptide bond formation: condensation reaction)"
+  },
+  {
+    "question": "What process causes microtubules to shrink when not stabilized?",
+    "options": [
+      "A) Actin remodeling",
+      "B) Centrosome disassembly",
+      "C) Dynamic instability",
+      "D) Integrin detachment",
+      "E) Lamellipodia retraction"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Actin remodeling does not involve microtubules.",
+      "Incorrect: Centrosome remains intact, microtubules grow from it.",
+      "Correct: Dynamic instability describes the random growth and shrinkage of microtubules.",
+      "Incorrect: Integrin detachment affects adhesion, not microtubules.",
+      "Incorrect: Lamellipodia involve actin, not tubulin."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: MT grow and shrink independently)"
+  },
+  {
+    "question": "Which protein is mutated in Progeria, leading to unstable nuclear envelopes?",
+    "options": [
+      "A) Collagen I",
+      "B) Lamin A",
+      "C) Tubulin",
+      "D) Keratin 5",
+      "E) Fibronectin"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Collagen mutations cause connective tissue disorders, not Progeria.",
+      "Correct: Lamin A mutation disrupts nuclear lamina and leads to Progeria.",
+      "Incorrect: Tubulin is not part of the nuclear envelope.",
+      "Incorrect: Keratin mutations cause skin fragility, not Progeria.",
+      "Incorrect: Fibronectin is involved in adhesion, not nuclear structure."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: What happens if the nuclear lamina is defective?)"
+  },
+  {
+    "question": "Which cell type produces most ECM collagen in connective tissue?",
+    "options": [
+      "A) Epithelial cells",
+      "B) Osteocytes",
+      "C) Fibroblasts",
+      "D) Macrophages",
+      "E) Endothelial cells"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Epithelial cells form barriers but don’t produce ECM.",
+      "Incorrect: Osteocytes maintain bone, but fibroblasts make collagen elsewhere.",
+      "Correct: Fibroblasts are primary producers of ECM collagen in most tissues.",
+      "Incorrect: Macrophages are immune cells.",
+      "Incorrect: Endothelial cells line blood vessels."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagen is produced from specialised cells in different tissues)"
+  },
+  {
+    "question": "What is the primary sugar in glycoproteins that determines ABO blood group antigens?",
+    "options": [
+      "A) Glucose",
+      "B) Mannose",
+      "C) Galactose",
+      "D) Fucose",
+      "E) N-acetylglucosamine"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Glucose is not specific to ABO typing.",
+      "Incorrect: Mannose is a component of some N-linked glycoproteins.",
+      "Incorrect: Galactose is involved but not the key ABO determinant.",
+      "Correct: Fucose addition determines the H antigen from which ABO antigens derive.",
+      "Incorrect: N-acetylglucosamine is in core structure, not the determining sugar."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 1.pdf (Slide: One sugar group determines the difference between the ABO blood groups)"
+  },
+  {
+    "question": "What is the charge distribution of a zwitterion at physiological pH?",
+    "options": [
+      "A) Overall negative",
+      "B) Overall positive",
+      "C) No charges",
+      "D) Separate positive and negative charges but net neutral",
+      "E) Always positively charged"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Zwitterions are not net negative.",
+      "Incorrect: Zwitterions are not net positive.",
+      "Incorrect: They contain charges even if net zero.",
+      "Correct: Zwitterions have both positive (amino) and negative (carboxyl) groups, balancing out.",
+      "Incorrect: Only basic side chains are positively charged."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 2.pdf (Slide: Amino Acids can exist as Zwitterions)"
+  },
+  {
+    "question": "Which filament system is primarily found just beneath the plasma membrane forming the cell cortex?",
+    "options": [
+      "A) Intermediate filaments",
+      "B) Microtubules",
+      "C) Actin filaments",
+      "D) Collagen fibers",
+      "E) Keratin bundles"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Intermediate filaments provide deeper mechanical support.",
+      "Incorrect: Microtubules organize from the centrosome, not cortical areas.",
+      "Correct: Actin forms a dense meshwork under the plasma membrane.",
+      "Incorrect: Collagen is ECM, not cytoskeleton.",
+      "Incorrect: Keratin is deeper in epithelial cells."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Most of the actin in a cell is concentrated under the plasma membrane)"
+  },
+  {
     "question": "What type of chemical bond is primarily responsible for the strength of collagen fibrils?",
     "options": [
       "A) Disulfide bonds",
