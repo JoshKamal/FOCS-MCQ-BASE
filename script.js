@@ -80,6 +80,310 @@
   "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 14)"
 },
 {
+  "question": "Which component of Gram-negative bacteria contributes significantly to septic shock?",
+  "options": [
+    "A) Peptidoglycan",
+    "B) Lipoteichoic acid",
+    "C) Lipopolysaccharide",
+    "D) Capsule",
+    "E) Teichoic acid"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Peptidoglycan is structural but not the main endotoxin.",
+    "Incorrect: Lipoteichoic acid is found in Gram-positive bacteria.",
+    "Correct: Lipopolysaccharide (LPS) is a potent endotoxin found in Gram-negative bacteria.",
+    "Incorrect: Capsules help with immune evasion, not endotoxin effects.",
+    "Incorrect: Teichoic acid is also Gram-positive associated."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Bacterial endotoxins)"
+},
+{
+  "question": "Which of the following cells lines the ventricles of the brain and central canal of the spinal cord?",
+  "options": [
+    "A) Astrocytes",
+    "B) Oligodendrocytes",
+    "C) Microglia",
+    "D) Ependymal cells",
+    "E) Schwann cells"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Astrocytes are involved in the blood-brain barrier.",
+    "Incorrect: Oligodendrocytes produce CNS myelin.",
+    "Incorrect: Microglia act as CNS macrophages.",
+    "Correct: Ependymal cells line the ventricles and spinal canal.",
+    "Incorrect: Schwann cells are found in the PNS."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Glial cells of the CNS 2)"
+},
+{
+  "question": "What distinguishes a high-grade tumour from a low-grade tumour?",
+  "options": [
+    "A) Larger size",
+    "B) Location in vital organs",
+    "C) Poor differentiation and higher mitotic activity",
+    "D) Benign histology",
+    "E) Absence of necrosis"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Size doesn't define grade.",
+    "Incorrect: Location affects prognosis, not grade.",
+    "Correct: High-grade tumours are poorly differentiated and mitotically active.",
+    "Incorrect: Benign tumours are not graded the same way.",
+    "Incorrect: Necrosis is common in high-grade tumours."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Grade)"
+},
+{
+  "question": "What is a common microscopic feature of squamous cell carcinoma?",
+  "options": [
+    "A) Glandular tubules",
+    "B) Keratin pearls",
+    "C) Rosettes",
+    "D) Reed-Sternberg cells",
+    "E) Psammoma bodies"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Glandular tubules are seen in adenocarcinoma.",
+    "Correct: Keratin pearls are a hallmark of squamous differentiation.",
+    "Incorrect: Rosettes are seen in neuroendocrine tumours.",
+    "Incorrect: Reed-Sternberg cells are seen in Hodgkin lymphoma.",
+    "Incorrect: Psammoma bodies are found in papillary cancers."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Squamous cell carcinoma)"
+},
+{
+  "question": "Which term describes the reversible replacement of one mature cell type with another?",
+  "options": [
+    "A) Hyperplasia",
+    "B) Dysplasia",
+    "C) Metaplasia",
+    "D) Anaplasia",
+    "E) Neoplasia"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Hyperplasia refers to increased cell number.",
+    "Incorrect: Dysplasia is disordered growth with potential for malignancy.",
+    "Correct: Metaplasia is a reversible substitution of cell types.",
+    "Incorrect: Anaplasia refers to complete loss of differentiation, typical of cancer.",
+    "Incorrect: Neoplasia refers to new, uncontrolled growth."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Metaplasia)"
+},
+{
+  "question": "Barrett’s oesophagus is an example of which pathological process?",
+  "options": [
+    "A) Hyperplasia",
+    "B) Atrophy",
+    "C) Metaplasia",
+    "D) Dysplasia",
+    "E) Anaplasia"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Hyperplasia is not the key change in Barrett’s.",
+    "Incorrect: Atrophy is loss of size or number.",
+    "Correct: It’s a change from squamous to columnar epithelium — metaplasia.",
+    "Incorrect: Dysplasia may follow but is not the defining feature.",
+    "Incorrect: Anaplasia indicates malignancy."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Barrett’s Oesophagus)"
+},
+{
+  "question": "Which type of error is associated with knowledge gaps in clinical practice?",
+  "options": [
+    "A) Slip",
+    "B) Lapse",
+    "C) Rule-based error",
+    "D) Knowledge-based error",
+    "E) Routine violation"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Slips are unintended actions.",
+    "Incorrect: Lapses are memory failures.",
+    "Incorrect: Rule-based errors involve misapplication of a rule.",
+    "Correct: Knowledge-based errors arise from lack of understanding.",
+    "Incorrect: Routine violations are intentional deviations from protocol."
+  ],
+  "slideLink": "Safer Care 2024-09-20.pdf (Slide: Error types)"
+},
+{
+  "question": "Which of the following best describes 'standard precautions' in infection control?",
+  "options": [
+    "A) Measures used only in operating theatres",
+    "B) Guidelines specific to respiratory viruses",
+    "C) A baseline level of precautions for all patients at all times",
+    "D) PPE use only when there is visible contamination",
+    "E) Steps taken only for confirmed infectious cases"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Standard precautions apply to all settings.",
+    "Incorrect: They are general, not virus-specific.",
+    "Correct: Standard precautions are always used, regardless of diagnosis.",
+    "Incorrect: PPE use is proactive, not reactive only.",
+    "Incorrect: All patients are assumed to be potential sources of infection."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Standard precautions)"
+},
+{
+  "question": "Which of the following is a key principle in reducing health care error rates?",
+  "options": [
+    "A) Removing underperforming staff",
+    "B) Increasing reliance on memory",
+    "C) Designing systems that expect human error",
+    "D) Discouraging staff from reporting mistakes",
+    "E) Limiting training sessions"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Error is rarely due to incompetence alone.",
+    "Incorrect: Reliance on memory increases error risk.",
+    "Correct: Systems should be designed to anticipate and mitigate human error.",
+    "Incorrect: A strong reporting culture is vital.",
+    "Incorrect: Education improves outcomes."
+  ],
+  "slideLink": "Safer Care 2024-09-20.pdf (Slide: System factors)"
+},
+{
+  "question": "Which term refers to cancer spreading through lymphatic vessels?",
+  "options": [
+    "A) Direct invasion",
+    "B) Haematogenous spread",
+    "C) Lymphatic spread",
+    "D) Seeding",
+    "E) Diffusion"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Direct invasion involves local tissue.",
+    "Incorrect: Haematogenous spread is via blood.",
+    "Correct: Lymphatic spread involves movement through lymph vessels to nodes.",
+    "Incorrect: Seeding refers to peritoneal or other cavity spread.",
+    "Incorrect: Diffusion is not used in this context."
+  ],
+  "slideLink": "Neoplastic & Non Neoplastic Growth Disorders 23s.pdf (Slide: Lymphatic Spread)"
+},
+{
+  "question": "Which organism is most associated with neonatal meningitis and included in the UK vaccine schedule?",
+  "options": [
+    "A) Escherichia coli",
+    "B) Streptococcus agalactiae",
+    "C) Neisseria meningitidis",
+    "D) Listeria monocytogenes",
+    "E) Mycobacterium tuberculosis"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: E. coli is a cause but not vaccine-preventable.",
+    "Incorrect: S. agalactiae is a common cause but no vaccine exists.",
+    "Correct: N. meningitidis is a major vaccine-preventable cause.",
+    "Incorrect: Listeria is controlled via food safety, not vaccination.",
+    "Incorrect: TB is not a common cause of neonatal meningitis in the UK."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Vaccine preventable bacterial infection)"
+},
+{
+  "question": "Which of the following describes the 'Swiss Cheese Model' in patient safety?",
+  "options": [
+    "A) A guideline for infection control",
+    "B) A framework for tumour grading",
+    "C) A visual metaphor showing alignment of system weaknesses",
+    "D) A classification of antibiotic classes",
+    "E) A hierarchy of immune response"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Infection control uses different models.",
+    "Incorrect: Tumour grading is histological.",
+    "Correct: The model shows how multiple system failures align to cause harm.",
+    "Incorrect: Antibiotic classes are pharmacological categories.",
+    "Incorrect: Immunology has separate models."
+  ],
+  "slideLink": "Safer Care 2024-09-20.pdf (Slide: Swiss Cheese Model)"
+},
+{
+  "question": "Which vaccine-preventable virus can lead to parotitis and orchitis?",
+  "options": [
+    "A) Rubella virus",
+    "B) Influenza virus",
+    "C) Mumps virus",
+    "D) Norovirus",
+    "E) Varicella zoster virus"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Rubella causes rash and congenital defects.",
+    "Incorrect: Influenza causes respiratory symptoms.",
+    "Correct: Mumps is associated with parotitis and orchitis.",
+    "Incorrect: Norovirus causes gastroenteritis.",
+    "Incorrect: VZV causes chickenpox or shingles."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Viral infections that may look like bacterial)"
+},
+{
+  "question": "Which antibiotic class includes penicillin and acts by disrupting bacterial cell wall synthesis?",
+  "options": [
+    "A) Tetracyclines",
+    "B) Macrolides",
+    "C) Beta-lactams",
+    "D) Fluoroquinolones",
+    "E) Aminoglycosides"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Tetracyclines inhibit protein synthesis.",
+    "Incorrect: Macrolides also inhibit protein synthesis.",
+    "Correct: Beta-lactams inhibit cross-linking in peptidoglycan cell walls.",
+    "Incorrect: Fluoroquinolones inhibit DNA gyrase.",
+    "Incorrect: Aminoglycosides affect 30S ribosomal subunit."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: Beta-lactam drugs)"
+},
+{
+  "question": "In what scenario is prophylactic antibiotic use typically justified?",
+  "options": [
+    "A) For all viral infections",
+    "B) During clean surgeries only",
+    "C) When the patient demands it",
+    "D) For high-risk surgeries with known infection risk",
+    "E) As a precaution for any fever"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Antibiotics are not effective against viruses.",
+    "Incorrect: Clean surgeries have low infection risk and often do not require prophylaxis.",
+    "Incorrect: Antibiotic use should be evidence-based, not patient-driven.",
+    "Correct: High-risk surgeries justify prophylaxis due to known infection risk.",
+    "Incorrect: Fever alone is not an indication for antibiotics."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: High-risk surgery)"
+},
+{
+  "question": "Which part of the neuron conducts impulses away from the cell body?",
+  "options": [
+    "A) Dendrite",
+    "B) Soma",
+    "C) Axon",
+    "D) Nucleus",
+    "E) Axon hillock"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Dendrites receive input.",
+    "Incorrect: Soma is the cell body.",
+    "Correct: Axons transmit impulses away from the soma.",
+    "Incorrect: The nucleus contains genetic material, not involved in impulse conduction.",
+    "Incorrect: The axon hillock initiates the action potential but does not conduct the full impulse."
+  ],
+  "slideLink": "Nerve.pdf (Slide: The neuron)"
+},
+{
   "question": "Which bacterial structure do beta-lactam antibiotics specifically inhibit?",
   "options": [
     "A) Ribosome",
