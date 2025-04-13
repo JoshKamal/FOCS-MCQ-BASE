@@ -61,6 +61,196 @@
     "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: The Four Principles)"
   },
   {
+    "question": "Which feature is most characteristic of granulomatous inflammation?",
+    "options": [
+      "A) Neutrophilic infiltrates",
+      "B) Lymphoid follicles",
+      "C) Granulomas composed of histiocytes",
+      "D) Eosinophilic predominance",
+      "E) Basophilic degeneration"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Neutrophils dominate in acute inflammation, not granulomatous.",
+      "Incorrect: Lymphoid follicles are associated with lymphoid organs.",
+      "Correct: Granulomas are clusters of macrophages (histiocytes), often with giant cells.",
+      "Incorrect: Eosinophils dominate in allergic and parasitic conditions.",
+      "Incorrect: Basophilic degeneration is not a hallmark of granulomatous inflammation."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Granulomatous chronic inflammation)"
+  },
+  {
+    "question": "In epidemiology, what does 'incidence' specifically measure?",
+    "options": [
+      "A) All current and past cases",
+      "B) The severity of a disease",
+      "C) New cases in a population over time",
+      "D) Risk factor prevalence",
+      "E) Disease resolution rates"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That defines prevalence.",
+      "Incorrect: Severity is a clinical attribute, not an epidemiological measure.",
+      "Correct: Incidence is the rate of new cases over a specified time period.",
+      "Incorrect: Risk factor prevalence refers to exposures, not disease.",
+      "Incorrect: Resolution rates are part of prognosis studies, not incidence."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Incidence and Prevalence)"
+  },
+  {
+    "question": "Which of the following is a feature of a case-control study?",
+    "options": [
+      "A) Measures incidence directly",
+      "B) Assigns intervention",
+      "C) Starts with outcome status",
+      "D) Provides absolute risk",
+      "E) Involves repeated measures"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Case-control studies cannot measure incidence directly.",
+      "Incorrect: Interventions are part of randomized controlled trials.",
+      "Correct: Case-control studies begin with cases and controls, defined by outcome.",
+      "Incorrect: They cannot provide absolute risk due to retrospective nature.",
+      "Incorrect: Repeated measures align more with cohort or cross-sectional studies."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Case-Control study design)"
+  },
+  {
+    "question": "Which statement about rights theory is correct?",
+    "options": [
+      "A) It justifies actions based on their outcomes.",
+      "B) It promotes duty over entitlement.",
+      "C) It is indifferent to individual liberties.",
+      "D) It is centered on unalienable moral entitlements.",
+      "E) It denies the importance of justice."
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: That’s utilitarianism.",
+      "Incorrect: That’s deontology.",
+      "Incorrect: Rights theory is deeply concerned with individual liberties.",
+      "Correct: Rights theory protects unalienable moral entitlements like life and liberty.",
+      "Incorrect: Rights theory affirms, not denies, the importance of justice."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Rights Theory)"
+  },
+  {
+    "question": "Which of the following is true regarding telomeres?",
+    "options": [
+      "A) Found at the centromere",
+      "B) Carry mitochondrial DNA",
+      "C) Are protein-coding regions",
+      "D) Protect chromosome ends from degradation",
+      "E) Are involved in forming ribosomes"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Centromeres are at the middle; telomeres are at the ends.",
+      "Incorrect: Mitochondrial DNA is separate from nuclear chromosomes.",
+      "Incorrect: Telomeres are non-coding repeat sequences.",
+      "Correct: Telomeres cap chromosomes to maintain stability and prevent degradation.",
+      "Incorrect: Ribosomes are formed from rRNA and proteins."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: Key Terms)"
+  },
+  {
+    "question": "Which chromosomal abnormality is most commonly associated with early miscarriage?",
+    "options": [
+      "A) Turner syndrome",
+      "B) Numerical chromosome anomalies",
+      "C) Y chromosome microdeletion",
+      "D) Mitochondrial DNA mutation",
+      "E) X-inactivation failure"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Turner syndrome may result in live births with features.",
+      "Correct: About 50% of first-trimester spontaneous abortions have chromosomal abnormalities.",
+      "Incorrect: Y deletions affect male fertility, not miscarriage directly.",
+      "Incorrect: Mitochondrial mutations cause other diseases, not early miscarriage.",
+      "Incorrect: X-inactivation relates to gene dosage in females, not miscarriage."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: Chromosome Abnormalities I)"
+  },
+  {
+    "question": "Which of the following defines heteroplasmy?",
+    "options": [
+      "A) Presence of only mutant mtDNA",
+      "B) A chromosomal trisomy",
+      "C) Mix of wild-type and mutant mitochondrial DNA",
+      "D) Loss of nuclear DNA",
+      "E) Variation in nuclear gene expression"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Purely mutant mtDNA would be homoplasmic.",
+      "Incorrect: Trisomy refers to nuclear chromosomes.",
+      "Correct: Heteroplasmy is the presence of both mutant and normal mtDNA in cells.",
+      "Incorrect: Not related to mitochondrial genetics.",
+      "Incorrect: Not a feature of mitochondrial inheritance."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: Mitochondrial DNA)"
+  },
+  {
+    "question": "Which of the following contributes to genetic diversity in meiosis?",
+    "options": [
+      "A) Sister chromatid duplication",
+      "B) Mitosis",
+      "C) Telomere extension",
+      "D) Chromosomal recombination",
+      "E) DNA proofreading"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Duplication ensures identical genetic content.",
+      "Incorrect: Mitosis creates identical cells.",
+      "Incorrect: Telomere extension maintains length, not diversity.",
+      "Correct: Recombination (crossing over) produces new allele combinations.",
+      "Incorrect: Proofreading maintains DNA fidelity."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: Increasing Diversity)"
+  },
+  {
+    "question": "In clinical reasoning, what does the 'ROWS' acronym represent?",
+    "options": [
+      "A) Review of Workflows in System",
+      "B) Reflective Observational Warning System",
+      "C) Rule Out Worst-case Scenarios",
+      "D) Rapid Onset With Symptoms",
+      "E) Risk of Wrong Syndrome"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Not related to clinical decision-making.",
+      "Incorrect: Not a recognized diagnostic tool.",
+      "Correct: 'Rule Out Worst-case Scenarios' is a key clinical reasoning safeguard.",
+      "Incorrect: Made-up acronym.",
+      "Incorrect: Not part of formal reasoning frameworks."
+    ],
+    "slideLink": "Introduction to Clinical Reasoning C25 2024 update for upload.pdf (Slide: ROWS)"
+  },
+  {
+    "question": "What is the most appropriate initial action for a first responder at an emergency scene?",
+    "options": [
+      "A) Begin CPR immediately",
+      "B) Move the casualty",
+      "C) Administer medication",
+      "D) Assess for danger and response",
+      "E) Request patient history"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Safety must be confirmed before beginning any procedure.",
+      "Incorrect: Casualty movement should be avoided unless necessary.",
+      "Incorrect: First responders typically do not give medications.",
+      "Correct: Assessing danger and checking response is the first DRABCD step.",
+      "Incorrect: History comes after primary assessment."
+    ],
+    "slideLink": "FirstResponder24.pptx (Slide: Primary Survey - DRABCD)"
+  },
+  {
     "question": "According to the Belmont Report, what is the principle that refers to maximizing benefits and minimizing harm?",
     "options": [
       "A) Respect for persons",
