@@ -61,6 +61,329 @@
   "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase I)"
 },
 {
+  "question": "What is the main reason abscesses are poorly treated by antibiotics alone?",
+  "options": [
+    "A) Antibiotics cause increased inflammation",
+    "B) Abscesses are primarily viral in origin",
+    "C) Abscesses have no immune response",
+    "D) Antibiotics cannot effectively penetrate the low pH, avascular environment",
+    "E) Bacteria in abscesses are antibiotic-resistant by nature"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Inflammation is part of the body's response, not caused by antibiotics.",
+    "Incorrect: Abscesses are typically bacterial.",
+    "Incorrect: There is an immune response, which leads to pus formation.",
+    "Correct: Abscesses have poor blood supply and acidic pH, limiting antibiotic action.",
+    "Incorrect: Resistance is not guaranteed; the issue is access and effectiveness."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 14)"
+},
+{
+  "question": "Which bacterial structure do beta-lactam antibiotics specifically inhibit?",
+  "options": [
+    "A) Ribosome",
+    "B) DNA polymerase",
+    "C) Transpeptidase enzyme",
+    "D) Flagella",
+    "E) RNA polymerase"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Ribosomes are targeted by tetracyclines and aminoglycosides.",
+    "Incorrect: DNA polymerase is targeted by other drugs like fluoroquinolones.",
+    "Correct: Beta-lactams inhibit transpeptidase, preventing cell wall cross-linking.",
+    "Incorrect: Flagella are not the target of antibiotics.",
+    "Incorrect: RNA polymerase is the target of rifampin."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 12)"
+},
+{
+  "question": "Which of the following vaccines targets a toxin rather than the bacterium itself?",
+  "options": [
+    "A) Meningococcal vaccine",
+    "B) Pneumococcal vaccine",
+    "C) Tetanus vaccine",
+    "D) Influenza vaccine",
+    "E) Hepatitis B vaccine"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Meningococcal vaccine targets Neisseria meningitidis directly.",
+    "Incorrect: Pneumococcal vaccine targets Streptococcus pneumoniae.",
+    "Correct: The tetanus vaccine uses a toxoid to stimulate immunity against tetanospasmin.",
+    "Incorrect: Influenza vaccine targets the virus itself.",
+    "Incorrect: Hepatitis B vaccine targets viral surface antigen."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 5)"
+},
+{
+  "question": "Which type of immunity is most important for respiratory virus protection via nasal flu vaccines?",
+  "options": [
+    "A) Serum IgG",
+    "B) Mucosal IgA",
+    "C) Cytotoxic T cells",
+    "D) Memory B cells",
+    "E) Natural killer cells"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: IgG plays a role but not at mucosal surfaces.",
+    "Correct: Mucosal IgA provides frontline defense in respiratory epithelium.",
+    "Incorrect: CTLs help but are not the main mucosal response.",
+    "Incorrect: Memory B cells act in systemic responses after re-exposure.",
+    "Incorrect: NK cells are part of innate immunity, not mucosal specificity."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 6)"
+},
+{
+  "question": "Which pathogen is commonly associated with secondary bacterial pneumonia following influenza?",
+  "options": [
+    "A) Clostridium difficile",
+    "B) Streptococcus pyogenes",
+    "C) Haemophilus ducreyi",
+    "D) Streptococcus pneumoniae",
+    "E) Mycoplasma genitalium"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: C. difficile causes GI infections, not pneumonia.",
+    "Incorrect: S. pyogenes causes pharyngitis and skin infections.",
+    "Incorrect: H. ducreyi causes chancroid.",
+    "Correct: S. pneumoniae is a key cause of post-influenza bacterial pneumonia.",
+    "Incorrect: M. genitalium causes urogenital infections."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 6)"
+},
+{
+  "question": "Which of the following is a major contributor to the development of antibiotic resistance?",
+  "options": [
+    "A) Inactivated vaccines",
+    "B) Low pH in the stomach",
+    "C) Sub-lethal antibiotic dosing",
+    "D) Viral coinfection",
+    "E) Genetic mutation in humans"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Vaccines reduce antibiotic use and resistance.",
+    "Incorrect: Gastric pH affects digestion, not antibiotic resistance.",
+    "Correct: Sub-lethal doses allow bacteria to survive and develop resistance.",
+    "Incorrect: Viral coinfections complicate disease but don’t cause resistance directly.",
+    "Incorrect: Resistance arises in bacteria, not humans."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 4)"
+},
+{
+  "question": "What is the main goal of perioperative prophylactic antibiotic use?",
+  "options": [
+    "A) Treat existing infections",
+    "B) Prevent surgical site infections",
+    "C) Boost immune response to surgery",
+    "D) Eliminate all microbes from the body",
+    "E) Treat asymptomatic bacteriuria"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: These antibiotics are not for treating active infections.",
+    "Correct: They are given to reduce the risk of surgical site infections.",
+    "Incorrect: They don’t stimulate the immune system.",
+    "Incorrect: It's impossible and unnecessary to eliminate all microbes.",
+    "Incorrect: This is not standard use for prophylactic antibiotics."
+  ],
+  "slideLink": "Y1 FoCS Preventing and Managing Infection notes pages.pdf (Slide: 16)"
+},
+{
+  "question": "What bacterial factor contributes to Gram-negative endotoxin effects in sepsis?",
+  "options": [
+    "A) Teichoic acid",
+    "B) Lipoteichoic acid",
+    "C) Lipopolysaccharide (LPS)",
+    "D) Exotoxin A",
+    "E) Beta-lactamase"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Teichoic acid is found in Gram-positive bacteria.",
+    "Incorrect: Lipoteichoic acid is also Gram-positive associated.",
+    "Correct: LPS in Gram-negative bacteria triggers cytokine release and shock.",
+    "Incorrect: Exotoxins are secreted proteins, not structural components.",
+    "Incorrect: Beta-lactamase breaks down antibiotics, not an endotoxin."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Bacterial endotoxins)"
+},
+{
+  "question": "Which bacterial feature helps E. coli colonise urinary tract epithelium?",
+  "options": [
+    "A) Endospores",
+    "B) Flagella",
+    "C) Fimbriae",
+    "D) Capsule",
+    "E) Pili"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: E. coli does not form endospores.",
+    "Incorrect: Flagella aid motility, not attachment.",
+    "Correct: Fimbriae enable adherence to urinary tract epithelial cells.",
+    "Incorrect: Capsules resist phagocytosis, not attachment.",
+    "Incorrect: Pili and fimbriae are sometimes used interchangeably, but fimbriae is the correct term here."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Virulence factors)"
+},
+{
+  "question": "Which of the following microorganisms is an obligate intracellular parasite?",
+  "options": [
+    "A) Clostridium perfringens",
+    "B) Escherichia coli",
+    "C) Herpes simplex virus",
+    "D) Candida albicans",
+    "E) Streptococcus pneumoniae"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: C. perfringens is a Gram-positive anaerobic rod.",
+    "Incorrect: E. coli is a facultative anaerobe.",
+    "Correct: HSV, a virus, depends entirely on host cells for replication.",
+    "Incorrect: C. albicans is a fungus, not an obligate intracellular pathogen.",
+    "Incorrect: S. pneumoniae is extracellular."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Viruses)"
+},
+{
+  "question": "In the context of infection control, which measure is NOT part of standard precautions?",
+  "options": [
+    "A) Hand hygiene",
+    "B) Use of PPE",
+    "C) Contact tracing",
+    "D) Sharps disposal",
+    "E) Decontamination of equipment"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Hand hygiene is fundamental.",
+    "Incorrect: PPE is essential for barrier protection.",
+    "Correct: Contact tracing is not a standard precaution; it is used in outbreaks.",
+    "Incorrect: Safe sharps disposal is included.",
+    "Incorrect: Equipment decontamination is standard."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Standard precautions)"
+},
+{
+  "question": "Which pathogen requires a negative pressure isolation room due to its airborne transmission?",
+  "options": [
+    "A) MRSA",
+    "B) Clostridium difficile",
+    "C) Respiratory syncytial virus",
+    "D) Mycobacterium tuberculosis",
+    "E) Norovirus"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: MRSA is transmitted by contact.",
+    "Incorrect: C. difficile is also contact-spread.",
+    "Incorrect: RSV spreads via droplets.",
+    "Correct: TB is an airborne pathogen requiring negative pressure isolation.",
+    "Incorrect: Norovirus is fecal-oral, not airborne."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Airborne precautions)"
+},
+{
+  "question": "What best defines 'colonisation' in infection biology?",
+  "options": [
+    "A) Infection with symptoms",
+    "B) Pathogen-induced tissue damage",
+    "C) Presence of microbes without disease",
+    "D) Systemic immune activation",
+    "E) Microbe invasion of sterile body sites"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Symptoms are not required for colonisation.",
+    "Incorrect: Tissue damage marks infection, not colonisation.",
+    "Correct: Colonisation is the presence of microbes without signs or symptoms.",
+    "Incorrect: Immune activation occurs in infection.",
+    "Incorrect: Invasion implies infection, not mere colonisation."
+  ],
+  "slideLink": "Y1 FoCS Organisms and Infection 2.pdf (Slide: Colonisation vs. Infection)"
+},
+{
+  "question": "Which glial cell forms myelin in the central nervous system?",
+  "options": [
+    "A) Schwann cells",
+    "B) Astrocytes",
+    "C) Oligodendrocytes",
+    "D) Ependymal cells",
+    "E) Microglia"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Schwann cells form myelin in the PNS.",
+    "Incorrect: Astrocytes support the CNS but do not myelinate.",
+    "Correct: Oligodendrocytes form myelin around multiple axons in the CNS.",
+    "Incorrect: Ependymal cells line CNS cavities.",
+    "Incorrect: Microglia are phagocytes, not myelin producers."
+  ],
+  "slideLink": "Nerve.pdf (Slide: Glial cells of the CNS 1)"
+},
+{
+  "question": "Which of the following errors is classified as a 'skill-based slip'?",
+  "options": [
+    "A) Administering the wrong drug due to a similar name",
+    "B) Choosing the wrong treatment due to lack of knowledge",
+    "C) Failing to wash hands due to ignorance of policy",
+    "D) Deliberately skipping a safety step",
+    "E) Prescribing medication out of scope"
+  ],
+  "correctIndex": 0,
+  "explanations": [
+    "Correct: A 'slip' is an unintended action in a familiar task, often due to distraction.",
+    "Incorrect: This is a knowledge-based error.",
+    "Incorrect: This reflects training failure, not a slip.",
+    "Incorrect: This is a violation, not an error.",
+    "Incorrect: This is a boundary violation, not a slip."
+  ],
+  "slideLink": "Safer Care 2024-09-20.pdf (Slide: Error types)"
+},
+{
+  "question": "Which factor can impair working memory and increase clinical error risk?",
+  "options": [
+    "A) Routine procedures",
+    "B) Familiar environments",
+    "C) High stress and fatigue",
+    "D) Well-designed systems",
+    "E) Peer supervision"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Routines help memory function.",
+    "Incorrect: Familiarity reduces error likelihood.",
+    "Correct: Stress and fatigue reduce working memory capacity, increasing error.",
+    "Incorrect: Good systems mitigate memory load.",
+    "Incorrect: Supervision reduces risk."
+  ],
+  "slideLink": "Safer Care 2024-09-20.pdf (Slide: Memory)"
+},
+{
+  "question": "Which of the following is NOT a route of infection transmission?",
+  "options": [
+    "A) Airborne",
+    "B) Contact",
+    "C) Droplet",
+    "D) Metabolic",
+    "E) Vector-borne"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Airborne is a well-known route.",
+    "Incorrect: Contact is a primary route.",
+    "Incorrect: Droplet is common for respiratory viruses.",
+    "Correct: 'Metabolic' is not a recognized transmission route.",
+    "Incorrect: Vectors like mosquitoes transmit diseases."
+  ],
+  "slideLink": "Y1 FoCS Infection Control 2024 2.pdf (Slide: Routes of transmission)"
+},
+{
   "question": "Which component of the basement membrane binds to integrins and helps define epithelial polarity?",
   "options": [
     "A) Type I collagen",
