@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which principle is not one of the 'Four Principles' of biomedical ethics?",
+    "options": [
+      "A) Respect for autonomy",
+      "B) Beneficence",
+      "C) Non-maleficence",
+      "D) Compassion",
+      "E) Justice"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Autonomy is a key principle involving self-rule.",
+      "Incorrect: Beneficence refers to the duty to do good.",
+      "Incorrect: Non-maleficence is the obligation to avoid harm.",
+      "Correct: Compassion is an important ethical attitude, but not one of the Four Principles.",
+      "Incorrect: Justice ensures fair distribution of resources and care."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: The Four Principles)"
+  },
+  {
+    "question": "According to the Belmont Report, what is the principle that refers to maximizing benefits and minimizing harm?",
+    "options": [
+      "A) Respect for persons",
+      "B) Justice",
+      "C) Non-maleficence",
+      "D) Beneficence",
+      "E) Integrity"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Respect for persons relates to autonomy and consent.",
+      "Incorrect: Justice refers to fair distribution of benefits and burdens.",
+      "Incorrect: Non-maleficence is about avoiding harm, but not maximizing benefits.",
+      "Correct: Beneficence entails both doing good and minimizing harm.",
+      "Incorrect: Integrity is important but not one of the Belmont principles."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: The Belmont Report)"
+  },
+  {
+    "question": "What ethical theory states that the morality of an action depends on its outcome?",
+    "options": [
+      "A) Deontology",
+      "B) Virtue Ethics",
+      "C) Utilitarianism",
+      "D) Rights Theory",
+      "E) Moral Sentimentalism"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Deontology focuses on duties, not outcomes.",
+      "Incorrect: Virtue ethics emphasizes character rather than consequences.",
+      "Correct: Utilitarianism evaluates actions based on their consequences.",
+      "Incorrect: Rights theory centers on individual entitlements.",
+      "Incorrect: Moral sentimentalism is based on emotional responses."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Utilitarianism)"
+  },
+  {
+    "question": "Which philosopher is associated with duty-based ethics?",
+    "options": [
+      "A) Jeremy Bentham",
+      "B) David Hume",
+      "C) Immanuel Kant",
+      "D) Thomas Aquinas",
+      "E) Aristotle"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Bentham is linked to utilitarianism.",
+      "Incorrect: Hume is associated with moral sentimentalism.",
+      "Correct: Kant developed deontology or duty-based ethics.",
+      "Incorrect: Aquinas is known for natural law theory.",
+      "Incorrect: Aristotle contributed to virtue ethics."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Deontology / Duty-based ethics)"
+  },
+  {
+    "question": "Which ethical principle is best demonstrated when disclosing a patient’s HIV status to prevent harm to a third party?",
+    "options": [
+      "A) Autonomy",
+      "B) Justice",
+      "C) Beneficence",
+      "D) Non-maleficence",
+      "E) Confidentiality"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Autonomy relates to self-determination.",
+      "Incorrect: Justice involves fairness, not harm prevention.",
+      "Incorrect: Beneficence promotes good, but not necessarily prevention of harm.",
+      "Correct: Non-maleficence justifies breaching confidentiality to prevent serious harm.",
+      "Incorrect: Confidentiality is important, but not the principle being fulfilled here."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Disclosures in the public interest)"
+  },
+  {
+    "question": "What is the minimum requirement for legally valid consent?",
+    "options": [
+      "A) Written form",
+      "B) No coercion",
+      "C) Age over 18",
+      "D) Medical witness",
+      "E) Family approval"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Consent can be verbal or implied.",
+      "Correct: Consent must be voluntary and free from coercion.",
+      "Incorrect: Age alone is not the sole determinant—competence matters.",
+      "Incorrect: A medical witness is not legally required for all cases.",
+      "Incorrect: Consent is patient-centered, not dependent on family approval."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Legally valid consent)"
+  },
+  {
+    "question": "Which case emphasized the need for informing patients of material risks?",
+    "options": [
+      "A) Gillick v West Norfolk",
+      "B) Re MB",
+      "C) Bolam v Friern",
+      "D) Montgomery v Lanarkshire",
+      "E) Wilsher v Essex"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Gillick dealt with capacity in minors.",
+      "Incorrect: Re MB addressed temporary incapacity.",
+      "Incorrect: Bolam focused on standard of care.",
+      "Correct: Montgomery established a duty to inform about material risks.",
+      "Incorrect: Wilsher dealt with causation and multiple risk factors."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Montgomery v Lanarkshire)"
+  },
+  {
+    "question": "Which study is an example of ethical misconduct due to deception and lack of consent?",
+    "options": [
+      "A) Belmont Report",
+      "B) Tuskagee Syphilis Study",
+      "C) Declaration of Helsinki",
+      "D) Bolitho Study",
+      "E) Re C Case"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Belmont Report outlined ethical principles post-atrocity.",
+      "Correct: Tuskagee involved deception and lack of consent in syphilis research.",
+      "Incorrect: The Declaration of Helsinki is a framework for research ethics.",
+      "Incorrect: Bolitho is a legal judgment on medical opinion.",
+      "Incorrect: Re C is a case about capacity and refusal of treatment."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Tuskagee Syphilis Study)"
+  },
+  {
+    "question": "In which condition would caseous necrosis most likely be seen?",
+    "options": [
+      "A) Sarcoidosis",
+      "B) Cellulitis",
+      "C) Tuberculosis",
+      "D) Impetigo",
+      "E) Psoriasis"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Sarcoid causes granulomas but not caseous necrosis.",
+      "Incorrect: Cellulitis involves acute inflammation.",
+      "Correct: TB produces granulomas with caseous necrosis.",
+      "Incorrect: Impetigo is a superficial bacterial skin infection.",
+      "Incorrect: Psoriasis involves chronic inflammatory skin changes."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Caseous necrosis)"
+  },
+  {
+    "question": "Which of the following is the main cell type in acute bacterial inflammation?",
+    "options": [
+      "A) Lymphocyte",
+      "B) Plasma cell",
+      "C) Eosinophil",
+      "D) Neutrophil",
+      "E) Macrophage"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Lymphocytes are seen more in viral or chronic inflammation.",
+      "Incorrect: Plasma cells appear in chronic inflammation.",
+      "Incorrect: Eosinophils are linked to allergies and parasitic infections.",
+      "Correct: Neutrophils dominate in acute bacterial inflammation.",
+      "Incorrect: Macrophages are prominent in chronic and granulomatous inflammation."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Acute inflammation)"
+  },
+  {
     "question": "Which condition is caused by deficiency of medium-chain acyl-CoA dehydrogenase?",
     "options": [
       "A) Glycogen storage disease",
