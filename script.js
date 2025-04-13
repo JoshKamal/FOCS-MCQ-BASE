@@ -22,6 +22,196 @@
         ],
         slideLink: "Lecture 22 – Enzymes, Krebs, ATP"
     },
+  {
+    "question": "What does a high KA value indicate about a drug’s affinity for its receptor?",
+    "options": [
+      "A) Strong binding and high receptor occupancy",
+      "B) Weak binding and low receptor occupancy",
+      "C) Rapid elimination of the drug",
+      "D) High intrinsic efficacy",
+      "E) Increased maximum response"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Strong binding corresponds to a low KA.",
+      "Correct: A high KA indicates weaker binding affinity, hence low occupancy.",
+      "Incorrect: KA relates to binding, not elimination.",
+      "Incorrect: KA does not describe efficacy.",
+      "Incorrect: Maximum response is related to intrinsic efficacy, not KA."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
+  },
+  {
+    "question": "Which factor does *not* directly influence fractional receptor occupancy by an agonist?",
+    "options": [
+      "A) Agonist concentration",
+      "B) Receptor affinity (KA)",
+      "C) Intrinsic efficacy",
+      "D) Receptor availability",
+      "E) Drug elimination rate"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Higher concentration increases occupancy.",
+      "Incorrect: Affinity (KA) determines binding strength.",
+      "Correct: Intrinsic efficacy affects the response, not occupancy.",
+      "Incorrect: Available receptors limit how many can be occupied.",
+      "Incorrect: Elimination affects drug levels, which indirectly influence concentration."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Receptor Binding - Occupancy)"
+  },
+  {
+    "question": "Which type of antagonist binds irreversibly to a receptor and cannot be overcome by increasing agonist concentration?",
+    "options": [
+      "A) Competitive reversible antagonist",
+      "B) Competitive irreversible antagonist",
+      "C) Non-competitive reversible antagonist",
+      "D) Physiological antagonist",
+      "E) Chemical antagonist"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Competitive reversible antagonism can be overcome with more agonist.",
+      "Correct: Irreversible antagonists bind permanently, rendering receptors unusable.",
+      "Incorrect: These act at different sites and may still be overcome in some cases.",
+      "Incorrect: These act on different pathways, not the same receptors.",
+      "Incorrect: Chemical antagonists neutralize drugs chemically, not through receptor binding."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Competitive Antagonists (2))"
+  },
+  {
+    "question": "What is the effect of a competitive reversible antagonist on the concentration-response curve of an agonist?",
+    "options": [
+      "A) A leftward shift with reduced maximum response",
+      "B) A rightward shift with reduced maximum response",
+      "C) No change in the curve",
+      "D) A rightward shift with no change in maximum response",
+      "E) A flattened curve with no shift"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Reversible antagonists do not increase potency (leftward shift).",
+      "Incorrect: Reversible antagonists do not reduce max response.",
+      "Incorrect: There is a shift in the curve due to competition.",
+      "Correct: The curve shifts rightward but max response remains unchanged.",
+      "Incorrect: This describes a non-competitive antagonist effect."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Effect of a competitive reversible antagonist)"
+  },
+  {
+    "question": "Which of the following best defines a partial agonist?",
+    "options": [
+      "A) A drug that competes with the agonist for the receptor but does not activate it",
+      "B) A drug that binds to a different site than the agonist and enhances its effect",
+      "C) A drug that produces less than the maximum possible response, even at full receptor occupancy",
+      "D) A drug with the highest affinity for the receptor",
+      "E) A drug that irreversibly binds and activates the receptor"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: This describes a competitive antagonist.",
+      "Incorrect: This describes a positive allosteric modulator.",
+      "Correct: Partial agonists have lower intrinsic efficacy and cannot elicit full response.",
+      "Incorrect: Affinity is not the same as efficacy.",
+      "Incorrect: Irreversible binding with activation is not typical of partial agonists."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Partial vs Full Agonist)"
+  },
+  {
+    "question": "Which mechanism best describes how diazepam enhances GABAergic activity?",
+    "options": [
+      "A) It acts as a competitive inhibitor at the GABA binding site.",
+      "B) It blocks voltage-gated sodium channels.",
+      "C) It acts as an allosteric modulator facilitating Cl- channel opening.",
+      "D) It inhibits GABA reuptake transporters.",
+      "E) It increases GABA synthesis in neurons."
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Diazepam does not compete with GABA at the same site.",
+      "Incorrect: That describes the mechanism of local anaesthetics like lidocaine.",
+      "Correct: Diazepam is a positive allosteric modulator of GABAA receptors.",
+      "Incorrect: Diazepam does not affect reuptake.",
+      "Incorrect: It does not increase synthesis, but enhances the response to GABA."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Facilitator Modulator (+ve))"
+  },
+  {
+    "question": "What is the primary mechanism of action of furosemide?",
+    "options": [
+      "A) Inhibits Na+/K+ ATPase",
+      "B) Blocks Na+K+2Cl− co-transporter in renal tubules",
+      "C) Inhibits aldosterone receptors",
+      "D) Acts as an osmotic diuretic",
+      "E) Enhances water reabsorption in collecting duct"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: This is the action of cardiac glycosides like digoxin.",
+      "Correct: Furosemide blocks the Na+K+2Cl− co-transporter in the loop of Henle.",
+      "Incorrect: That describes spironolactone, not furosemide.",
+      "Incorrect: Mannitol is an osmotic diuretic, not furosemide.",
+      "Incorrect: Furosemide promotes diuresis, not water reabsorption."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Transporter Protein Inhibitors)"
+  },
+  {
+    "question": "Which molecule acts as a false substrate for amine transporters and prolongs neurotransmitter action?",
+    "options": [
+      "A) Lidocaine",
+      "B) Furosemide",
+      "C) Amphetamine",
+      "D) Atenolol",
+      "E) Salbutamol"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Lidocaine blocks sodium channels.",
+      "Incorrect: Furosemide affects renal ion transporters.",
+      "Correct: Amphetamine acts as a false substrate for amine reuptake transporters.",
+      "Incorrect: Atenolol is a beta-blocker, not a false substrate.",
+      "Incorrect: Salbutamol is a beta-2 agonist used for bronchodilation."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: False Substrates)"
+  },
+  {
+    "question": "Which class of drugs acts by blocking the voltage-gated calcium channels in vascular smooth muscle?",
+    "options": [
+      "A) Beta-blockers",
+      "B) ACE inhibitors",
+      "C) Calcium channel blockers",
+      "D) Nitrates",
+      "E) Diuretics"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Beta-blockers act on beta-adrenoceptors, not calcium channels.",
+      "Incorrect: ACE inhibitors block the angiotensin-converting enzyme.",
+      "Correct: Calcium channel blockers like amlodipine inhibit calcium influx in smooth muscle.",
+      "Incorrect: Nitrates increase NO but don’t block calcium channels directly.",
+      "Incorrect: Diuretics affect renal ion transporters."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Inhibitor Modulator (-ve))"
+  },
+  {
+    "question": "Which type of drug interaction occurs when one drug alters the metabolism of another?",
+    "options": [
+      "A) Chemical antagonism",
+      "B) Pharmacokinetic antagonism",
+      "C) Physiological antagonism",
+      "D) Competitive antagonism",
+      "E) Non-competitive antagonism"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Chemical antagonism involves direct interaction between drugs.",
+      "Correct: Pharmacokinetic antagonists alter absorption, metabolism, or excretion.",
+      "Incorrect: Physiological antagonism involves opposing actions via different pathways.",
+      "Incorrect: Competitive antagonists act on the same receptor site.",
+      "Incorrect: Non-competitive antagonists act on separate sites or downstream."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Pharmacokinetic Antagonist)"
+  },
     {
 	  question: "Which of the following structures is directly responsible for detecting body temperature changes in the context of thermoregulation?",
 	  options: [
