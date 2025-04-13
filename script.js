@@ -61,6 +61,101 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Receptor Binding - Occupancy)"
   },
   {
+    "question": "What is the definition of a drug according to pharmacological principles?",
+    "options": [
+      "A) A compound that cures all diseases",
+      "B) A chemical that alters physiological functions in a specific way",
+      "C) Any natural substance extracted from plants",
+      "D) A substance of abuse or recreational use",
+      "E) A compound that only acts locally"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Not all drugs cure diseases.",
+      "Correct: A drug is any chemical that affects physiological function in a specific way.",
+      "Incorrect: Not all drugs are plant-derived.",
+      "Incorrect: Some drugs are misused, but that’s not the definition.",
+      "Incorrect: Many drugs act systemically, not just locally."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: What is a Drug?)"
+  },
+  {
+    "question": "Which component is found in both innate and adaptive immune responses?",
+    "options": [
+      "A) Memory B cells",
+      "B) CD8+ T cells",
+      "C) Dendritic cells",
+      "D) Antibodies",
+      "E) Helper T cells"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Memory B cells are part of adaptive immunity only.",
+      "Incorrect: CD8+ T cells are adaptive immune cells.",
+      "Correct: Dendritic cells are key in innate immunity and initiate adaptive immunity.",
+      "Incorrect: Antibodies are part of the humoral adaptive immune response.",
+      "Incorrect: Helper T cells are part of the adaptive immune system."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Interface between innate and adaptive systems)"
+  },
+  {
+    "question": "Which immunoglobulin is primarily responsible for the secondary immune response?",
+    "options": [
+      "A) IgA",
+      "B) IgD",
+      "C) IgE",
+      "D) IgG",
+      "E) IgM"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: IgA protects mucosal surfaces.",
+      "Incorrect: IgD is involved in B cell activation but not predominant in responses.",
+      "Incorrect: IgE is involved in allergies and parasitic infections.",
+      "Correct: IgG is the main antibody in the secondary response and provides long-term immunity.",
+      "Incorrect: IgM is the first antibody produced in primary responses."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Antibody structure and function)"
+  },
+  {
+    "question": "Which of the following is true about MHC class I molecules?",
+    "options": [
+      "A) Present extracellular antigens to CD4+ T cells",
+      "B) Are found only on antigen-presenting cells",
+      "C) Present intracellular peptides to CD8+ T cells",
+      "D) Activate B cell antibody production",
+      "E) Are not involved in viral infection recognition"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: MHC class I presents *intracellular* peptides.",
+      "Incorrect: MHC I is found on nearly all nucleated cells.",
+      "Correct: MHC I presents intracellular peptides to cytotoxic CD8+ T cells.",
+      "Incorrect: B cells use antibodies, not MHC I, for antigen recognition.",
+      "Incorrect: MHC I is key for recognizing viral infections."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Presentation of antigen to T cells)"
+  },
+  {
+    "question": "Which statistical value reflects the variability of a sampling distribution?",
+    "options": [
+      "A) Mean",
+      "B) Median",
+      "C) Standard error",
+      "D) Interquartile range",
+      "E) Confidence level"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: The mean is a measure of central tendency.",
+      "Incorrect: The median also measures central location, not spread.",
+      "Correct: Standard error quantifies variability in the sampling distribution.",
+      "Incorrect: IQR reflects spread in data, not sampling distributions.",
+      "Incorrect: Confidence level is a probability, not a measure of variability."
+    ],
+    "slideLink": "2 Confidence intervals 2022 PDF.pdf (Slide: 2.3 Sampling distributions and standard errors)"
+  },
+  {
     "question": "Which type of antagonist binds irreversibly to a receptor and cannot be overcome by increasing agonist concentration?",
     "options": [
       "A) Competitive reversible antagonist",
