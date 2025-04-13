@@ -61,6 +61,196 @@
     "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Confidentiality)"
   },
   {
+    "question": "Which of the following best defines an odds ratio?",
+    "options": [
+      "A) Proportion of the exposed who develop disease",
+      "B) Ratio of incidence rates between groups",
+      "C) Ratio of odds of exposure in cases versus controls",
+      "D) Number of new cases per population at risk",
+      "E) Difference in disease prevalence across groups"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That describes risk, not odds.",
+      "Incorrect: That describes relative risk, not odds ratio.",
+      "Correct: Odds ratio compares the odds of exposure among cases to controls.",
+      "Incorrect: That is the incidence rate.",
+      "Incorrect: That describes absolute difference in prevalence, not odds."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Measures of association - outcome odds ratio)"
+  },
+  {
+    "question": "Which ethical principle underpins the concept of informed consent?",
+    "options": [
+      "A) Non-maleficence",
+      "B) Beneficence",
+      "C) Justice",
+      "D) Autonomy",
+      "E) Fidelity"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Non-maleficence is about avoiding harm.",
+      "Incorrect: Beneficence is about doing good.",
+      "Incorrect: Justice refers to fairness and equity.",
+      "Correct: Informed consent respects a patient’s autonomy.",
+      "Incorrect: Fidelity refers to loyalty or honesty but is not one of the four principles."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Legally valid consent: three essential criteria)"
+  },
+  {
+    "question": "Which chromosome abnormality causes Turner syndrome?",
+    "options": [
+      "A) 47,XXY",
+      "B) Trisomy 21",
+      "C) Monosomy X",
+      "D) Trisomy 13",
+      "E) Trisomy 18"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That is Klinefelter syndrome.",
+      "Incorrect: That is Down syndrome.",
+      "Correct: Turner syndrome results from having only one X chromosome (45,X).",
+      "Incorrect: That is Patau syndrome.",
+      "Incorrect: That is Edwards syndrome."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: When Things Go Wrong…)"
+  },
+  {
+    "question": "Which best describes the role of the GMC in UK medical practice?",
+    "options": [
+      "A) Offers legal defense for doctors",
+      "B) Approves hospital guidelines",
+      "C) Licenses and regulates doctors’ professional behavior",
+      "D) Conducts clinical trials",
+      "E) Funds continuing professional development"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Legal defense is handled by other bodies like MDU or MPS.",
+      "Incorrect: Hospital policies are typically developed internally or through NICE.",
+      "Correct: The GMC sets standards, licenses doctors, and regulates conduct.",
+      "Incorrect: Clinical trials are not part of the GMC’s remit.",
+      "Incorrect: CPD funding comes from NHS trusts or postgraduate bodies."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Good Medical Practice)"
+  },
+  {
+    "question": "Which of the following is true about mitochondrial DNA (mtDNA)?",
+    "options": [
+      "A) It contains introns",
+      "B) It is inherited paternally",
+      "C) It is circular and double-stranded",
+      "D) It is located in the nucleus",
+      "E) It is composed of 46 chromosomes"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: mtDNA is intron-less.",
+      "Incorrect: mtDNA is typically maternally inherited.",
+      "Correct: mtDNA is circular, double-stranded, and intron-free.",
+      "Incorrect: It is located in mitochondria, not the nucleus.",
+      "Incorrect: mtDNA consists of a single chromosome."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: Mitochondrial Chromosome)"
+  },
+  {
+    "question": "Which of the following is a secondary lymphoid tissue?",
+    "options": [
+      "A) Thymus",
+      "B) Bone marrow",
+      "C) Peyer’s patches",
+      "D) Liver",
+      "E) Pancreas"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Thymus is a primary lymphoid organ.",
+      "Incorrect: Bone marrow is a primary lymphoid organ.",
+      "Correct: Peyer’s patches are secondary lymphoid tissues in the gut.",
+      "Incorrect: Liver is not a lymphoid organ.",
+      "Incorrect: Pancreas plays no role in lymphoid tissue."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Lymphoid tissue types)"
+  },
+  {
+    "question": "What is the main ethical justification for population-wide vaccination programs?",
+    "options": [
+      "A) Autonomy",
+      "B) Justice",
+      "C) Non-maleficence",
+      "D) Utilitarianism",
+      "E) Deontology"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Autonomy may conflict with compulsory vaccination.",
+      "Incorrect: Justice relates to fairness, not maximizing good.",
+      "Incorrect: Non-maleficence is about avoiding harm, not maximizing benefits.",
+      "Correct: Utilitarianism supports vaccination for the greatest good for the greatest number.",
+      "Incorrect: Deontology would focus on duty, regardless of outcomes."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Utilitarianism)"
+  },
+  {
+    "question": "Which type of bias occurs when a diagnosis is more likely because of previous similar diagnoses?",
+    "options": [
+      "A) Anchoring bias",
+      "B) Availability bias",
+      "C) Diagnosis momentum",
+      "D) Outcome bias",
+      "E) Confirmation bias"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Anchoring is fixating on initial impressions.",
+      "Incorrect: Availability bias refers to relying on easily recalled examples.",
+      "Correct: Diagnosis momentum describes the 'stickiness' of prior labels.",
+      "Incorrect: Outcome bias occurs when the result affects the diagnosis.",
+      "Incorrect: Confirmation bias is seeking evidence to support an initial diagnosis."
+    ],
+    "slideLink": "Introduction to Clinical Reasoning C25 2024 update for upload.pdf (Slide: Dangerous biases)"
+  },
+  {
+    "question": "Which process explains genetic diversity between gametes?",
+    "options": [
+      "A) Sister chromatid segregation",
+      "B) Mitosis",
+      "C) Telophase arrest",
+      "D) Homologous recombination",
+      "E) Centromere duplication"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Sister chromatids are genetically identical.",
+      "Incorrect: Mitosis does not contribute to gamete diversity.",
+      "Incorrect: Telophase arrest is not involved in recombination.",
+      "Correct: Crossing over between homologous chromosomes increases variation.",
+      "Incorrect: Centromere duplication is not a source of genetic diversity."
+    ],
+    "slideLink": "Lecture_Mitosis, Meiosis, and Chromosome Abnormalities_AJ_081024.pdf (Slide: Increasing Diversity)"
+  },
+  {
+    "question": "Which type of study is most appropriate to evaluate the effect of a new medication on disease progression?",
+    "options": [
+      "A) Case-control study",
+      "B) Cross-sectional study",
+      "C) Ecological study",
+      "D) Randomised controlled trial",
+      "E) Retrospective cohort"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Case-control studies assess risk factors, not interventions.",
+      "Incorrect: Cross-sectional studies cannot determine causality.",
+      "Incorrect: Ecological studies operate at population levels.",
+      "Correct: RCTs are the gold standard for assessing treatment effects.",
+      "Incorrect: Retrospective cohorts are observational and less robust for intervention testing."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Epidemiological Methods - 5 basic study designs)"
+  },
+  {
     "question": "What was the outcome of the case Gillick v West Norfolk regarding medical consent?",
     "options": [
       "A) Children under 16 cannot consent to treatment",
