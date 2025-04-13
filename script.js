@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which part of the clinical reasoning process involves checking whether a working diagnosis fits all findings?",
+    "options": [
+      "A) Hypothesis generation",
+      "B) Data gathering",
+      "C) Hypothesis testing",
+      "D) Reflection and explanation",
+      "E) Diagnostic closure"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Hypothesis generation involves forming initial possibilities.",
+      "Incorrect: Data gathering involves collecting history and exam findings.",
+      "Incorrect: Testing confirms or eliminates hypotheses.",
+      "Correct: Reflection ensures all available evidence aligns with the diagnosis.",
+      "Incorrect: Diagnostic closure is the endpoint, not the reflective stage."
+    ],
+    "slideLink": "Introduction to Clinical Reasoning C25 2024 update for upload.pdf (Slide: Reflection / explanation)"
+  },
+  {
+    "question": "What principle from the Mental Capacity Act 2016 states that unwise decisions do not equal incapacity?",
+    "options": [
+      "A) Presumption of incapacity",
+      "B) Supported decision-making",
+      "C) Least restrictive option",
+      "D) Respect for wishes and feelings",
+      "E) No assumptions based on unwise decisions"
+    ],
+    "correctIndex": 4,
+    "explanations": [
+      "Incorrect: The Act presumes capacity until proven otherwise.",
+      "Incorrect: Supported decision-making is another principle, but not this one.",
+      "Incorrect: Least restrictive option concerns intervention choice.",
+      "Incorrect: This refers to best interests considerations.",
+      "Correct: Making unwise choices does not imply incapacity under the Act."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Northern Ireland MCA Principles)"
+  },
+  {
+    "question": "Which form of reasoning involves starting with general rules to reach specific conclusions?",
+    "options": [
+      "A) Inductive",
+      "B) Deductive",
+      "C) Abductive",
+      "D) Hypothetical",
+      "E) Analogical"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Inductive reasoning goes from specific to general.",
+      "Correct: Deductive reasoning applies general rules to particular situations.",
+      "Incorrect: Abductive reasoning is an informed guess.",
+      "Incorrect: Hypothetical reasoning is not the same as deductive.",
+      "Incorrect: Analogical reasoning is based on similarity."
+    ],
+    "slideLink": "Introduction to Clinical Reasoning C25 2024 update for upload.pdf (Slide: Deduction)"
+  },
+  {
+    "question": "What is the main ethical issue raised by the Tuskagee Syphilis Study?",
+    "options": [
+      "A) Overuse of placebos",
+      "B) Genetic discrimination",
+      "C) Lack of informed consent",
+      "D) Coercion of participants",
+      "E) Excessive financial incentives"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: The issue was not about placebo use.",
+      "Incorrect: Genetics was not the focus of the study.",
+      "Correct: Participants were not told they had syphilis or that treatment was withheld.",
+      "Incorrect: Coercion was less of an issue than deception.",
+      "Incorrect: Participants were not given large incentives."
+    ],
+    "slideLink": "Introducing Ethics 2 Medicine & the Law.pdf (Slide: Tuskagee Syphilis Study)"
+  },
+  {
+    "question": "Which type of necrosis is typically seen in tuberculosis?",
+    "options": [
+      "A) Coagulative",
+      "B) Liquefactive",
+      "C) Caseous",
+      "D) Fat necrosis",
+      "E) Fibrinoid"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Coagulative necrosis is seen in infarcts.",
+      "Incorrect: Liquefactive necrosis occurs in brain infarcts and abscesses.",
+      "Correct: Caseous necrosis is a hallmark of tuberculosis.",
+      "Incorrect: Fat necrosis is seen in pancreatitis or trauma.",
+      "Incorrect: Fibrinoid necrosis occurs in immune reactions in vessels."
+    ],
+    "slideLink": "Histopathology - Inflammation.pdf (Slide: Caseous necrosis)"
+  },
+  {
+    "question": "What is a key advantage of standardised mortality ratios (SMRs)?",
+    "options": [
+      "A) Adjusts for absolute population numbers",
+      "B) Accounts for differences in age structure",
+      "C) Determines cause of death",
+      "D) Useful for evaluating prevalence",
+      "E) Calculates case fatality rate"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: SMRs adjust for risk, not just size.",
+      "Correct: SMRs account for age and sex distribution when comparing populations.",
+      "Incorrect: They do not identify causes of death.",
+      "Incorrect: SMRs do not assess prevalence.",
+      "Incorrect: Case fatality rate is a different metric."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Standardised Rates - Indirect Method)"
+  },
+  {
+    "question": "Which level of moral discourse involves applying personal convictions beyond abstract rules?",
+    "options": [
+      "A) Expressive-evocative",
+      "B) Rules",
+      "C) Principles",
+      "D) Post-ethical convictions",
+      "E) Emotional heuristics"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Expressive judgments lack reasoning.",
+      "Incorrect: Rules apply directly, without deeper abstraction.",
+      "Incorrect: Principles are general but not foundational.",
+      "Correct: Post-ethical convictions are foundational beliefs driving deeper ethical frameworks.",
+      "Incorrect: Emotional heuristics are not a defined ethical discourse level."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Levels of moral discourse)"
+  },
+  {
+    "question": "Which type of prevention focuses on reducing disease incidence through population-level strategies?",
+    "options": [
+      "A) Primary prevention - high-risk",
+      "B) Secondary prevention",
+      "C) Tertiary prevention",
+      "D) Primary prevention - population-based",
+      "E) Quaternary prevention"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: High-risk prevention targets individuals.",
+      "Incorrect: Secondary prevention is about early detection.",
+      "Incorrect: Tertiary prevention focuses on limiting impact of disease.",
+      "Correct: Population-based primary prevention targets everyone to reduce incidence.",
+      "Incorrect: Quaternary prevention refers to avoiding overmedicalisation."
+    ],
+    "slideLink": "Introduction to Epidemiology.pdf (Slide: Primary Prevention – Population-based)"
+  },
+  {
+    "question": "What does the A in AMPLE history stand for during emergency assessment?",
+    "options": [
+      "A) Anxiety level",
+      "B) Allergies",
+      "C) Activity level",
+      "D) Airway status",
+      "E) Appetite"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Anxiety is not the focus of A in AMPLE.",
+      "Correct: A stands for Allergies in the AMPLE secondary survey.",
+      "Incorrect: Activity is not part of AMPLE.",
+      "Incorrect: Airway is part of DRABCD, not AMPLE.",
+      "Incorrect: Appetite is not assessed in emergencies."
+    ],
+    "slideLink": "FirstResponder24.pptx (Slide: Secondary Survey - AMPLE)"
+  },
+  {
+    "question": "Which best describes a virtue ethics approach?",
+    "options": [
+      "A) Focuses on rules and duties",
+      "B) Evaluates consequences of actions",
+      "C) Emphasizes development of good character",
+      "D) Prioritizes autonomy over all else",
+      "E) Centers on universal human rights"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That’s deontological ethics.",
+      "Incorrect: That’s consequentialism.",
+      "Correct: Virtue ethics is about becoming a good person and cultivating moral character.",
+      "Incorrect: Autonomy is a principle, not a virtue theory focus.",
+      "Incorrect: Rights theory addresses human entitlements."
+    ],
+    "slideLink": "Introducing Ethics 1 27.9.24 for upload.pdf (Slide: Classical virtues)"
+  },
+  {
     "question": "Which principle is most directly upheld by maintaining patient confidentiality?",
     "options": [
       "A) Beneficence",
