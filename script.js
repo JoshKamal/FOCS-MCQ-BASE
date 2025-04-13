@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "What is the primary effect of voltage-gated sodium channel inactivation during an action potential?",
+    "options": [
+      "A) Initiates depolarization",
+      "B) Causes overshoot of the membrane potential",
+      "C) Enables the relative refractory period",
+      "D) Prevents further sodium influx",
+      "E) Activates potassium leak channels"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Depolarization is caused by the opening of sodium channels, not their inactivation.",
+      "Incorrect: Overshoot is due to Na+ influx, not inactivation.",
+      "Incorrect: The relative refractory period follows inactivation but is more related to K+ channels.",
+      "Correct: Inactivation of sodium channels prevents further Na+ entry and stops depolarization.",
+      "Incorrect: Leak channels are not voltage-gated and are not activated by sodium inactivation."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 20 - Action Potentials 2024 accessibility for Canvas.pdf (Slide: Voltage-gated ion channels)"
+  },
+  {
+    "question": "Which factor contributes most to the fast conduction velocity in myelinated axons?",
+    "options": [
+      "A) Increased membrane capacitance",
+      "B) Increased resistance in the axoplasm",
+      "C) Even distribution of Na+ channels",
+      "D) Saltatory conduction via nodes of Ranvier",
+      "E) Constant repolarization along the entire axon"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Myelination reduces membrane capacitance.",
+      "Incorrect: Axoplasmic resistance is reduced in larger axons, not increased.",
+      "Incorrect: Na+ channels are concentrated at nodes, not evenly distributed.",
+      "Correct: Saltatory conduction allows APs to jump between nodes, speeding conduction.",
+      "Incorrect: Repolarization occurs mainly at nodes, not continuously along the axon."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 20 - Action Potentials 2024 accessibility for Canvas.pdf (Slide: Saltatory conduction)"
+  },
+  {
+    "question": "Which molecule is directly responsible for hydrolysing ATP to ADP and Pi during oxidative phosphorylation?",
+    "options": [
+      "A) NADH dehydrogenase",
+      "B) ATP synthase",
+      "C) Cytochrome c oxidase",
+      "D) FADH2",
+      "E) Coenzyme Q"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: NADH dehydrogenase is Complex I and initiates electron transfer.",
+      "Correct: ATP synthase catalyzes ATP production and hydrolysis of ATP in reverse.",
+      "Incorrect: Cytochrome c oxidase reduces O2, not involved in ATP hydrolysis.",
+      "Incorrect: FADH2 donates electrons but does not hydrolyze ATP.",
+      "Incorrect: CoQ is an electron carrier, not an enzyme."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: ATP synthase - Complex V)"
+  },
+  {
+    "question": "What is the function of NADH and FADH2 in the electron transport chain?",
+    "options": [
+      "A) Pump protons across mitochondrial membrane",
+      "B) Act as terminal electron acceptors",
+      "C) Generate ATP directly",
+      "D) Transfer electrons to the chain",
+      "E) Convert ADP to AMP"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Protein complexes pump protons, not NADH/FADH2.",
+      "Incorrect: Oxygen is the terminal electron acceptor, not these carriers.",
+      "Incorrect: They don't directly generate ATP.",
+      "Correct: NADH and FADH2 donate electrons to the ETC.",
+      "Incorrect: ADP to AMP conversion is unrelated."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: Oxidative phosphorylation)"
+  },
+  {
+    "question": "Which of the following would inhibit ATP synthesis by directly blocking Complex IV?",
+    "options": [
+      "A) Rotenone",
+      "B) Valinomycin",
+      "C) Cyanide",
+      "D) Oligomycin",
+      "E) Dinitrophenol"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Rotenone blocks Complex I.",
+      "Incorrect: Valinomycin is an ionophore that disrupts gradients.",
+      "Correct: Cyanide binds Complex IV and prevents electron transfer to O2.",
+      "Incorrect: Oligomycin blocks ATP synthase, not Complex IV.",
+      "Incorrect: DNP uncouples proton gradient but doesn’t inhibit complexes directly."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: Inhibitors of oxidative phosphorylation)"
+  },
+  {
+    "question": "What is the role of the urea cycle?",
+    "options": [
+      "A) Convert glucose into fatty acids",
+      "B) Generate ATP from ADP",
+      "C) Eliminate nitrogen waste from amino acid catabolism",
+      "D) Produce NADH from NAD+",
+      "E) Regulate blood glucose"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Lipogenesis is unrelated to the urea cycle.",
+      "Incorrect: ATP generation is a separate process.",
+      "Correct: The urea cycle converts toxic ammonium to urea for safe excretion.",
+      "Incorrect: NADH production occurs in catabolic pathways, not the urea cycle.",
+      "Incorrect: The urea cycle does not regulate glucose."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Urea Cycle)"
+  },
+  {
+    "question": "Which amino acid is essential and ketogenic only?",
+    "options": [
+      "A) Valine",
+      "B) Lysine",
+      "C) Phenylalanine",
+      "D) Threonine",
+      "E) Isoleucine"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Valine is glucogenic.",
+      "Correct: Lysine is essential and strictly ketogenic.",
+      "Incorrect: Phenylalanine is both glucogenic and ketogenic.",
+      "Incorrect: Threonine is both glucogenic and ketogenic.",
+      "Incorrect: Isoleucine is both glucogenic and ketogenic."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Glucogenic vs Ketogenic Amino Acids)"
+  },
+  {
+    "question": "Which of the following is an example of a stage model of health behaviour?",
+    "options": [
+      "A) Health Belief Model",
+      "B) Theory of Planned Behaviour",
+      "C) Protection Motivation Theory",
+      "D) COM-B Model",
+      "E) Transtheoretical Model"
+    ],
+    "correctIndex": 4,
+    "explanations": [
+      "Incorrect: HBM is a continuum/static model.",
+      "Incorrect: TPB is also a static model.",
+      "Incorrect: Protection Motivation Theory is a continuum model.",
+      "Incorrect: COM-B is not stage-based.",
+      "Correct: The Transtheoretical Model is a stage model outlining progression through change."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 31 - Understanding Patients Health Behaviours.pdf (Slide: Major models of health behaviours)"
+  },
+  {
+    "question": "In Protection Motivation Theory, what is a key factor that influences motivation to change health behaviour?",
+    "options": [
+      "A) Emotional distress",
+      "B) Perceived severity of threat",
+      "C) Dietary habits",
+      "D) Sleep patterns",
+      "E) Social media exposure"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: While emotional state matters, it is not a central factor in PMT.",
+      "Correct: Perceived severity and vulnerability drive protective health actions in PMT.",
+      "Incorrect: PMT focuses on threat and coping appraisal, not habits.",
+      "Incorrect: Sleep is a behaviour, not a driver in PMT.",
+      "Incorrect: Not specifically part of PMT."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 31 - Understanding Patients Health Behaviours.pdf (Slide: Protection Motivation Theory)"
+  },
+  {
+    "question": "According to the Transtheoretical Model, a patient who is not considering quitting smoking is in which stage?",
+    "options": [
+      "A) Action",
+      "B) Preparation",
+      "C) Precontemplation",
+      "D) Maintenance",
+      "E) Contemplation"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Action implies active change has started.",
+      "Incorrect: Preparation involves readiness to change soon.",
+      "Correct: Precontemplation is the stage where a person is not yet considering change.",
+      "Incorrect: Maintenance comes after action.",
+      "Incorrect: Contemplation involves considering change in the near future."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 31 - Understanding Patients Health Behaviours.pdf (Slide: Applying Stages of Change Model – precontemplation)"
+  },
+  {
     "question": "Which skin layer contains fibroblasts and a dense irregular connective tissue matrix rich in collagen?",
     "options": [
       "A) Epidermis",
