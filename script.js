@@ -61,6 +61,196 @@
   "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase I)"
 },
 {
+  "question": "Which epithelium type lines blood vessels and is referred to as 'endothelium'?",
+  "options": [
+    "A) Simple cuboidal",
+    "B) Stratified squamous",
+    "C) Simple squamous",
+    "D) Transitional",
+    "E) Pseudostratified columnar"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Simple cuboidal lines small ducts, not blood vessels.",
+    "Incorrect: Stratified squamous is protective and found in areas like the skin or mouth.",
+    "Correct: Simple squamous epithelium lines blood vessels and is called endothelium.",
+    "Incorrect: Transitional epithelium lines the urinary tract, not vessels.",
+    "Incorrect: Pseudostratified columnar is found in the respiratory tract."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Epithelium – Where is it found?)"
+},
+{
+  "question": "What structure joins cardiac muscle cells and allows synchronized contraction?",
+  "options": [
+    "A) Tight junctions",
+    "B) Gap junctions",
+    "C) Desmosomes",
+    "D) Intercalated discs",
+    "E) Sarcomeres"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Tight junctions prevent leakage but do not synchronize contraction.",
+    "Incorrect: Gap junctions are part of intercalated discs but not the full structure.",
+    "Incorrect: Desmosomes provide strength but not synchronization alone.",
+    "Correct: Intercalated discs contain gap junctions and desmosomes for coordinated contraction.",
+    "Incorrect: Sarcomeres are the contractile unit but not responsible for cell-to-cell connection."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Ultrastructural Features of Cardiac Muscle)"
+},
+{
+  "question": "Which type of connective tissue provides resistance in a single direction?",
+  "options": [
+    "A) Loose areolar",
+    "B) Dense irregular",
+    "C) Dense regular",
+    "D) Adipose tissue",
+    "E) Reticular tissue"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Loose areolar tissue is not specialized for directional strength.",
+    "Incorrect: Dense irregular tissue resists stress in multiple directions.",
+    "Correct: Dense regular connective tissue has aligned collagen fibers for unidirectional strength.",
+    "Incorrect: Adipose tissue stores fat, not for mechanical support.",
+    "Incorrect: Reticular tissue provides delicate support in organs like lymph nodes."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Dense Regular)"
+},
+{
+  "question": "Which pharmacokinetic model assumes instantaneous distribution of drug in body tissues?",
+  "options": [
+    "A) Two-compartment model",
+    "B) Non-compartmental model",
+    "C) One-compartment model",
+    "D) Multi-compartment model",
+    "E) Zero-order model"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Two-compartment models involve a distribution phase.",
+    "Incorrect: Non-compartmental analysis uses statistical methods, not assumptions.",
+    "Correct: One-compartment models assume rapid uniform distribution.",
+    "Incorrect: Multi-compartment models account for more complex distribution.",
+    "Incorrect: Zero-order describes elimination kinetics, not distribution."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: One-compartment model)"
+},
+{
+  "question": "Which GAG is most abundant in cartilage and contributes to its compressive strength?",
+  "options": [
+    "A) Hyaluronic acid",
+    "B) Chondroitin sulphate",
+    "C) Keratan sulphate",
+    "D) Heparan sulphate",
+    "E) Dermatan sulphate"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Hyaluronic acid is very hydratable but not the main GAG in cartilage.",
+    "Correct: Chondroitin sulphate is a key component of cartilage providing strength.",
+    "Incorrect: Keratan sulphate is also found in cartilage but less abundant.",
+    "Incorrect: Heparan sulphate is found in basement membranes.",
+    "Incorrect: Dermatan sulphate is present in skin and blood vessels, not cartilage."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Glycosaminoglycans)"
+},
+{
+  "question": "Which homeostatic control system involves long-distance signalling via nerves or hormones?",
+  "options": [
+    "A) Reflex (extrinsic) control",
+    "B) Local (intrinsic) control",
+    "C) Negative feedback",
+    "D) Positive feedback",
+    "E) Set-point control"
+  ],
+  "correctIndex": 0,
+  "explanations": [
+    "Correct: Reflex (extrinsic) control uses the nervous or endocrine systems for systemic regulation.",
+    "Incorrect: Intrinsic control is localized to the affected organ.",
+    "Incorrect: Negative feedback is a mechanism, not a control type.",
+    "Incorrect: Positive feedback amplifies responses, not long-distance control.",
+    "Incorrect: Set-point is the target value, not the control type."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 59 - Homeostasis and Control Systems upload.pdf (Slide: Extrinsic/Reflex Control Systems)"
+},
+{
+  "question": "Which gland type uses exocytosis to release secretion without loss of cellular material?",
+  "options": [
+    "A) Apocrine",
+    "B) Merocrine",
+    "C) Holocrine",
+    "D) Endocrine",
+    "E) Paracrine"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Apocrine glands release membrane-bound vesicles with part of the cell membrane.",
+    "Correct: Merocrine glands release contents via exocytosis only.",
+    "Incorrect: Holocrine glands release whole cells.",
+    "Incorrect: Endocrine glands secrete into blood, not via ducts.",
+    "Incorrect: Paracrine is local cell signaling, not glandular discharge."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Classification of Exocrine Glands – Method of discharge)"
+},
+{
+  "question": "In pharmacokinetics, which process does not depend on concentration and follows a constant rate?",
+  "options": [
+    "A) First-order elimination",
+    "B) Zero-order elimination",
+    "C) Absorption",
+    "D) Distribution",
+    "E) Metabolism"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: First-order elimination is proportional to concentration.",
+    "Correct: Zero-order elimination occurs at a constant rate, independent of concentration.",
+    "Incorrect: Absorption rates are usually concentration-dependent.",
+    "Incorrect: Distribution is reversible and dynamic.",
+    "Incorrect: Metabolism often follows first-order kinetics."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: First order vs. zero order)"
+},
+{
+  "question": "What defines the 'functional unit' of striated muscle?",
+  "options": [
+    "A) Myofibril",
+    "B) Myofilament",
+    "C) Sarcomere",
+    "D) Z-line",
+    "E) A-band"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Myofibrils contain many sarcomeres but aren’t the unit of contraction.",
+    "Incorrect: Myofilaments are actin and myosin but not the full unit.",
+    "Correct: The sarcomere, from Z-line to Z-line, is the contractile unit of muscle.",
+    "Incorrect: Z-lines anchor actin but are not the full unit.",
+    "Incorrect: A-band is part of the sarcomere, not the entire unit."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Sarcomere = Functional unit)"
+},
+{
+  "question": "Which connective tissue type is primarily composed of lipid-storing cells?",
+  "options": [
+    "A) Dense regular",
+    "B) Reticular",
+    "C) Adipose",
+    "D) Loose areolar",
+    "E) Hyaline cartilage"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Dense regular tissue is composed mainly of collagen.",
+    "Incorrect: Reticular tissue supports lymphoid organs, not fat storage.",
+    "Correct: Adipose tissue stores energy as triglycerides in adipocytes.",
+    "Incorrect: Loose areolar has mixed components, not specialized for fat.",
+    "Incorrect: Hyaline cartilage supports joints, not for fat storage."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Adipose Tissue)"
+},
+{
   "question": "Which part of the autonomic nervous system is responsible for increased salivary secretion and decreased heart rate?",
   "options": [
     "A) Sympathetic nervous system",
