@@ -80,6 +80,196 @@
     "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagen mutations can cause Junctional Epidermolysis Bullosa)"
   },
   {
+    "question": "Which organelle is most involved in packaging proteins for secretion?",
+    "options": [
+      "A) Nucleus",
+      "B) Mitochondrion",
+      "C) Golgi apparatus",
+      "D) Lysosome",
+      "E) Peroxisome"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: The nucleus stores DNA and makes RNA.",
+      "Incorrect: Mitochondria produce ATP, not package proteins.",
+      "Correct: The Golgi modifies and packages proteins for secretion.",
+      "Incorrect: Lysosomes degrade cellular waste.",
+      "Incorrect: Peroxisomes break down fatty acids."
+    ],
+    "slideLink": "Lecture 08 The Cell-The Basics Student Version.pdf (Slide: Mammalian cells contain a plasma membrane and inner compartments)"
+  },
+  {
+    "question": "Which cytoskeletal filament is composed of tubulin dimers?",
+    "options": [
+      "A) Intermediate filaments",
+      "B) Actin filaments",
+      "C) Microtubules",
+      "D) Keratin fibers",
+      "E) Lamins"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Intermediate filaments are composed of keratin, vimentin, etc.",
+      "Incorrect: Actin filaments are made of actin monomers.",
+      "Correct: Microtubules are built from alpha and beta tubulin dimers.",
+      "Incorrect: Keratin forms intermediate filaments.",
+      "Incorrect: Lamins are nuclear intermediate filaments."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Microtubules grow out of an ‘organizing centre’ in the cell)"
+  },
+  {
+    "question": "Which vitamin is required by prolyl hydroxylase during collagen synthesis?",
+    "options": [
+      "A) Vitamin A",
+      "B) Vitamin B12",
+      "C) Vitamin C",
+      "D) Vitamin D",
+      "E) Vitamin E"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Vitamin A is important for vision and epithelium.",
+      "Incorrect: B12 is important for red blood cell production.",
+      "Correct: Vitamin C is essential for prolyl hydroxylase function in collagen synthesis.",
+      "Incorrect: Vitamin D regulates calcium metabolism.",
+      "Incorrect: Vitamin E is an antioxidant, not a coenzyme for collagen enzymes."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: Collagens are covalently cross-linked)"
+  },
+  {
+    "question": "Which structure maintains the tensile strength of the skin?",
+    "options": [
+      "A) Actin filaments",
+      "B) Collagen type IV",
+      "C) Intermediate filaments",
+      "D) Laminin",
+      "E) Elastin"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Actin filaments are for cell movement and shape.",
+      "Incorrect: Type IV collagen is in basal lamina, not skin bulk.",
+      "Correct: Intermediate filaments (keratin) resist mechanical stress and give skin its strength.",
+      "Incorrect: Laminin connects cells to basal lamina but does not resist tension.",
+      "Incorrect: Elastin allows stretch, but keratin provides strength."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Intermediate Filaments provide a strong cytoskeleton)"
+  },
+  {
+    "question": "Which sugar is the main storage form of glucose in animals?",
+    "options": [
+      "A) Cellulose",
+      "B) Starch",
+      "C) Glycogen",
+      "D) Sucrose",
+      "E) Fructose"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Cellulose is a structural component in plants.",
+      "Incorrect: Starch is the storage form in plants.",
+      "Correct: Glycogen is the primary glucose storage polymer in animals.",
+      "Incorrect: Sucrose is a disaccharide, not a storage molecule.",
+      "Incorrect: Fructose is a monosaccharide used in metabolism, not storage."
+    ],
+    "slideLink": "Lecture 10 Macromolecules Part 1.pdf (Slide: Glycogen: The Stable Storage Form of Glucose in the Body)"
+  },
+  {
+    "question": "Which of the following best defines molarity (M)?",
+    "options": [
+      "A) Moles per kilogram",
+      "B) Grams per liter",
+      "C) Moles per liter",
+      "D) Grams per mole",
+      "E) Liters per mole"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Moles per kilogram is molality.",
+      "Incorrect: This defines concentration but not in molar terms.",
+      "Correct: Molarity is the number of moles of solute per liter of solution.",
+      "Incorrect: This defines molecular weight.",
+      "Incorrect: Inverse of molarity."
+    ],
+    "slideLink": "Lecture 13 Numeracy Student Version.pdf (Slide: Amount and concentration have different units)"
+  },
+  {
+    "question": "Which cytoskeletal element is most closely associated with the nuclear lamina?",
+    "options": [
+      "A) Actin",
+      "B) Tubulin",
+      "C) Keratin",
+      "D) Lamin",
+      "E) Vimentin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Actin is involved in cell shape and movement.",
+      "Incorrect: Tubulin forms microtubules.",
+      "Incorrect: Keratin is found in epithelial intermediate filaments.",
+      "Correct: Lamin proteins form the nuclear lamina providing nuclear structure.",
+      "Incorrect: Vimentin is present in mesenchymal cells."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: The nucleus is strengthened by special IFs called lamins)"
+  },
+  {
+    "question": "What cellular structure is primarily responsible for breaking down fatty acids?",
+    "options": [
+      "A) Nucleus",
+      "B) Endoplasmic reticulum",
+      "C) Peroxisome",
+      "D) Golgi apparatus",
+      "E) Ribosome"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: The nucleus stores genetic material.",
+      "Incorrect: ER is more involved in protein and lipid synthesis.",
+      "Correct: Peroxisomes oxidize fatty acids and detoxify hydrogen peroxide.",
+      "Incorrect: Golgi modifies proteins and lipids.",
+      "Incorrect: Ribosomes synthesize proteins."
+    ],
+    "slideLink": "Lecture 08 The Cell-The Basics Student Version.pdf (Slide: Mammalian cells contain a plasma membrane and inner compartments)"
+  },
+  {
+    "question": "Which cytoskeletal protein is involved in forming filopodia?",
+    "options": [
+      "A) Tubulin",
+      "B) Lamin",
+      "C) Vimentin",
+      "D) Actin",
+      "E) Myosin"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Tubulin forms microtubules.",
+      "Incorrect: Lamin supports the nuclear envelope.",
+      "Incorrect: Vimentin forms intermediate filaments.",
+      "Correct: Actin filaments create finger-like projections called filopodia.",
+      "Incorrect: Myosin is a motor protein, not structural for filopodia."
+    ],
+    "slideLink": "Lecture 12 Cytoskeleton Cilia Student Version.pdf (Slide: Actin filaments contribute to many structures and functions)"
+  },
+  {
+    "question": "Which disorder results from defective lysyl hydroxylase activity?",
+    "options": [
+      "A) Ehlers-Danlos syndrome",
+      "B) Marfan syndrome",
+      "C) Duchenne muscular dystrophy",
+      "D) Neurofibromatosis",
+      "E) Huntington's disease"
+    ],
+    "correctIndex": 0,
+    "explanations": [
+      "Correct: Defective lysyl hydroxylase leads to abnormal collagen cross-linking in Ehlers-Danlos.",
+      "Incorrect: Marfan syndrome involves fibrillin-1 mutation.",
+      "Incorrect: DMD is caused by dystrophin gene mutations.",
+      "Incorrect: Neurofibromatosis involves NF1/NF2 genes.",
+      "Incorrect: Huntington’s is due to CAG expansion in HTT gene."
+    ],
+    "slideLink": "Lecture 33 Extracellular Matrix Part 1.pdf (Slide: What happens if procollagen peptidases don’t work properly?)"
+  },
+  {
     "question": "What is the role of integrins in connective tissue?",
     "options": [
       "A) They degrade ECM proteins",
