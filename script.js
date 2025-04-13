@@ -61,6 +61,196 @@
   "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase I)"
 },
 {
+  "question": "What is the correct definition of bioavailability (F) in pharmacokinetics?",
+  "options": [
+    "A) Time for half of the drug to be eliminated",
+    "B) Fraction of drug absorbed from the gut",
+    "C) Fraction of drug reaching systemic circulation",
+    "D) Volume of plasma cleared per unit time",
+    "E) Drug concentration at the site of action"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: This describes elimination half-life.",
+    "Incorrect: This only refers to absorption, not systemic availability.",
+    "Correct: Bioavailability is the fraction of administered drug reaching systemic circulation.",
+    "Incorrect: This defines clearance, not bioavailability.",
+    "Incorrect: This is a downstream result of bioavailability, not the definition."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: Oral administration and bioavailability)"
+},
+{
+  "question": "Which structure anchors the actin filaments in skeletal muscle sarcomeres?",
+  "options": [
+    "A) M-line",
+    "B) Z-line",
+    "C) H-zone",
+    "D) A-band",
+    "E) I-band"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: M-line anchors myosin, not actin.",
+    "Correct: Z-lines anchor the actin filaments at either end of the sarcomere.",
+    "Incorrect: The H-zone is the central region of the sarcomere with no actin.",
+    "Incorrect: The A-band contains myosin filaments but doesn’t anchor actin.",
+    "Incorrect: I-band contains actin but anchoring is via Z-lines."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Ultrastructural Basis of Cross-Striations)"
+},
+{
+  "question": "Which connective tissue fiber stains black with silver salts and forms a delicate supportive network?",
+  "options": [
+    "A) Type I collagen",
+    "B) Elastic fibers",
+    "C) Reticular fibers",
+    "D) Keratin",
+    "E) Fibrillin"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Type I collagen is not argyrophilic and forms thick bundles.",
+    "Incorrect: Elastic fibers require special stains but don’t stain black with silver.",
+    "Correct: Reticular fibers (Type III collagen) stain black with silver salts and support delicate tissue.",
+    "Incorrect: Keratin is found in epithelial cells, not connective tissue.",
+    "Incorrect: Fibrillin is part of elastic fiber structure, not a staining feature."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Reticular Fibres)"
+},
+{
+  "question": "Which epithelial type is uniquely adapted to stretch and withstand the toxicity of urine?",
+  "options": [
+    "A) Stratified squamous keratinised",
+    "B) Simple columnar",
+    "C) Pseudostratified columnar",
+    "D) Transitional",
+    "E) Simple cuboidal"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Stratified squamous protects against abrasion, not stretch.",
+    "Incorrect: Simple columnar is specialized for absorption/secretion, not stretch.",
+    "Incorrect: Pseudostratified columnar is found in respiratory tract.",
+    "Correct: Transitional epithelium is found in the urinary system and adapts to stretch.",
+    "Incorrect: Simple cuboidal lines small ducts, not specialized for stretch."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Transitional)"
+},
+{
+  "question": "In the sympathetic nervous system, which neurotransmitter is typically released by postganglionic neurons?",
+  "options": [
+    "A) Acetylcholine",
+    "B) Noradrenaline",
+    "C) Dopamine",
+    "D) Adrenaline",
+    "E) Serotonin"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Acetylcholine is used by parasympathetic postganglionic fibers.",
+    "Correct: Noradrenaline is the main neurotransmitter of sympathetic postganglionic neurons.",
+    "Incorrect: Dopamine is a precursor in catecholamine synthesis, not typically the transmitter.",
+    "Incorrect: Adrenaline is released from the adrenal medulla, not synapses.",
+    "Incorrect: Serotonin is unrelated to sympathetic neurotransmission."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: Catecholamine release & actions in SNS)"
+},
+{
+  "question": "Which muscle type has the greatest ability to regenerate after injury?",
+  "options": [
+    "A) Skeletal muscle",
+    "B) Cardiac muscle",
+    "C) Smooth muscle",
+    "D) Striated muscle",
+    "E) Intercalated muscle"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Skeletal muscle can hypertrophy but has limited regenerative capacity.",
+    "Incorrect: Cardiac muscle lacks regenerative capability.",
+    "Correct: Smooth muscle can regenerate and undergo hypertrophy.",
+    "Incorrect: Striated muscle includes skeletal and cardiac, both limited in regeneration.",
+    "Incorrect: 'Intercalated muscle' is not a recognized category."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: 3. Smooth Muscle)"
+},
+{
+  "question": "Which plasma protein binds primarily to acidic drugs and affects their distribution?",
+  "options": [
+    "A) Transferrin",
+    "B) Albumin",
+    "C) Hemoglobin",
+    "D) Globulin",
+    "E) α1-acid glycoprotein"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Transferrin binds iron, not drugs.",
+    "Correct: Albumin binds acidic drugs and limits their free concentration in plasma.",
+    "Incorrect: Hemoglobin carries oxygen, not drugs.",
+    "Incorrect: Globulin has various immune functions, not major drug binding.",
+    "Incorrect: α1-acid glycoprotein binds basic drugs."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Factors affecting drug distribution)"
+},
+{
+  "question": "Which structure is responsible for the rapid delivery of depolarisation into skeletal muscle fibers?",
+  "options": [
+    "A) Sarcoplasmic reticulum",
+    "B) Sarcolemma",
+    "C) Terminal cisternae",
+    "D) Transverse tubules",
+    "E) Mitochondria"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: The SR stores calcium, but doesn’t carry depolarisation.",
+    "Incorrect: Sarcolemma is the general plasma membrane, not specialized for rapid conduction.",
+    "Incorrect: Terminal cisternae release calcium but do not propagate the signal.",
+    "Correct: T-tubules carry the wave of depolarisation into the fiber interior.",
+    "Incorrect: Mitochondria generate energy, not electrical signals."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Ultrastructural Features of Skeletal Muscle)"
+},
+{
+  "question": "Which gland type discharges its secretion by complete cell rupture?",
+  "options": [
+    "A) Merocrine",
+    "B) Apocrine",
+    "C) Holocrine",
+    "D) Endocrine",
+    "E) Paracrine"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Merocrine glands secrete via exocytosis.",
+    "Incorrect: Apocrine glands release membrane-bound vesicles.",
+    "Correct: Holocrine glands release entire cells which disintegrate.",
+    "Incorrect: Endocrine glands release hormones into the bloodstream.",
+    "Incorrect: Paracrine describes local signaling, not a gland type."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Classification of Exocrine Glands)"
+},
+{
+  "question": "What is the correct term for metabolism plus excretion in pharmacokinetics?",
+  "options": [
+    "A) Distribution",
+    "B) Disposition",
+    "C) Clearance",
+    "D) Elimination",
+    "E) Excretion"
+  ],
+  "correctIndex": 3,
+  "explanations": [
+    "Incorrect: Distribution refers to reversible movement to tissues.",
+    "Incorrect: Disposition includes distribution and elimination.",
+    "Incorrect: Clearance refers to volume of plasma cleared per time.",
+    "Correct: Elimination = metabolism + excretion.",
+    "Incorrect: Excretion is one part of elimination, not the sum."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Pharmacokinetics – ADME and other terms)"
+},
+{
   "question": "Which type of epithelial cell is most commonly associated with absorption and secretion in the gastrointestinal tract?",
   "options": [
     "A) Simple squamous",
