@@ -61,6 +61,196 @@
   "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase I)"
 },
 {
+  "question": "Which component of the basement membrane binds to integrins and helps define epithelial polarity?",
+  "options": [
+    "A) Type I collagen",
+    "B) Laminin",
+    "C) Keratin",
+    "D) Elastin",
+    "E) Fibrillin"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: Type I collagen is found in dermis and bone, not the basement membrane.",
+    "Correct: Laminin binds integrins and helps anchor epithelial cells to the basal lamina.",
+    "Incorrect: Keratin is an intermediate filament inside epithelial cells.",
+    "Incorrect: Elastin is found in elastic connective tissue, not basement membranes.",
+    "Incorrect: Fibrillin is associated with elastic fibers, not basal membranes."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 34 - Tissue Type 1 Epithelium.pdf (Slide: Basement Membrane)"
+},
+{
+  "question": "Which muscle type shows central nuclei, branching cells, and intercalated discs?",
+  "options": [
+    "A) Skeletal",
+    "B) Smooth",
+    "C) Cardiac",
+    "D) Visceral striated",
+    "E) Myoepithelial"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Skeletal muscle has peripheral nuclei and unbranched fibers.",
+    "Incorrect: Smooth muscle cells are spindle-shaped without striations.",
+    "Correct: Cardiac muscle cells are branched, striated, and connected by intercalated discs.",
+    "Incorrect: Visceral striated refers to skeletal muscle in pharynx/esophagus.",
+    "Incorrect: Myoepithelial cells surround glandular acini, not muscle tissue."
+  ],
+  "slideLink": "MED1028 Tissue Types 3 - Muscle Lecture 2023.pdf (Slide: Cardiac Muscle)"
+},
+{
+  "question": "What best defines a first-order elimination process?",
+  "options": [
+    "A) A fixed amount of drug is removed per unit time",
+    "B) The rate of elimination is proportional to drug concentration",
+    "C) Drug metabolism occurs at a constant rate",
+    "D) Clearance decreases as concentration increases",
+    "E) Elimination is independent of plasma levels"
+  ],
+  "correctIndex": 1,
+  "explanations": [
+    "Incorrect: That describes zero-order kinetics.",
+    "Correct: In first-order kinetics, a constant fraction is eliminated per time.",
+    "Incorrect: A constant rate applies to zero-order elimination.",
+    "Incorrect: Clearance remains constant in first-order processes.",
+    "Incorrect: Independence from concentration defines zero-order kinetics."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part2 RPlumb accessible Oct21.pdf (Slide: First order vs. zero order)"
+},
+{
+  "question": "Which major autonomic neurotransmitter stimulates muscarinic receptors?",
+  "options": [
+    "A) Noradrenaline",
+    "B) Adrenaline",
+    "C) Acetylcholine",
+    "D) Dopamine",
+    "E) Serotonin"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Noradrenaline stimulates adrenergic receptors.",
+    "Incorrect: Adrenaline is secreted by adrenal medulla and acts systemically.",
+    "Correct: Acetylcholine activates muscarinic receptors at parasympathetic effector organs.",
+    "Incorrect: Dopamine is a CNS neurotransmitter with limited autonomic role.",
+    "Incorrect: Serotonin is not a key ANS neurotransmitter."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: Parasympathetic transmitters & receptors)"
+},
+{
+  "question": "Which organ is exclusively innervated by the sympathetic nervous system?",
+  "options": [
+    "A) Salivary glands",
+    "B) Small intestine",
+    "C) Adrenal medulla",
+    "D) Urinary bladder",
+    "E) Heart"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Salivary glands have dual autonomic innervation.",
+    "Incorrect: The intestine receives both sympathetic and parasympathetic fibers.",
+    "Correct: The adrenal medulla acts as a modified sympathetic ganglion and has no parasympathetic input.",
+    "Incorrect: The bladder is regulated by both autonomic divisions.",
+    "Incorrect: The heart has both sympathetic and parasympathetic innervation."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 47 - neuronal control and ANS part 2 A Oct 23.pdf (Slide: Adrenal medullae)"
+},
+{
+  "question": "What connective tissue element is most responsible for resisting tensile stress in one direction?",
+  "options": [
+    "A) Elastic fibers",
+    "B) Ground substance",
+    "C) Dense regular connective tissue",
+    "D) Areolar connective tissue",
+    "E) Reticular connective tissue"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Elastic fibers provide flexibility, not tensile strength.",
+    "Incorrect: Ground substance is gel-like and not load-bearing.",
+    "Correct: Dense regular CT, with aligned collagen, resists tensile stress directionally.",
+    "Incorrect: Areolar CT is loosely organized and not stress-resistant.",
+    "Incorrect: Reticular CT supports soft organs, not tensile loads."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Dense Regular)"
+},
+{
+  "question": "Which phase of metabolism involves conjugation reactions to increase water solubility?",
+  "options": [
+    "A) Phase 0",
+    "B) Phase I",
+    "C) Phase II",
+    "D) Excretion",
+    "E) Absorption"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: There is no defined 'Phase 0' in drug metabolism.",
+    "Incorrect: Phase I includes oxidation, reduction, or hydrolysis.",
+    "Correct: Phase II includes conjugation (e.g., glucuronidation) to enhance water solubility.",
+    "Incorrect: Excretion follows metabolism, not a metabolic phase itself.",
+    "Incorrect: Absorption occurs before metabolism."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Metabolism – Phase II)"
+},
+{
+  "question": "Which extracellular matrix molecule is a large, non-sulfated GAG that resists compression?",
+  "options": [
+    "A) Heparan sulfate",
+    "B) Keratan sulfate",
+    "C) Hyaluronic acid",
+    "D) Chondroitin sulfate",
+    "E) Collagen type III"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Heparan sulfate is sulfated and found in basement membranes.",
+    "Incorrect: Keratan sulfate is found in cartilage and cornea.",
+    "Correct: Hyaluronic acid is a large, unsulfated GAG contributing to ECM hydration and resilience.",
+    "Incorrect: Chondroitin sulfate is sulfated and part of cartilage matrix.",
+    "Incorrect: Collagen is a fiber protein, not a GAG."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 42 - Tissue Type 2 Ordinary Connective Tissue 2022.pptx (Slide: Glycosaminoglycans)"
+},
+{
+  "question": "Which process best describes movement of drugs from blood into tissues?",
+  "options": [
+    "A) Metabolism",
+    "B) Absorption",
+    "C) Distribution",
+    "D) Excretion",
+    "E) Clearance"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Metabolism involves chemical transformation of drugs.",
+    "Incorrect: Absorption is drug movement into the blood.",
+    "Correct: Distribution is the reversible transfer of drug between blood and tissues.",
+    "Incorrect: Excretion is the removal of drug from the body.",
+    "Incorrect: Clearance quantifies elimination, not tissue transfer."
+  ],
+  "slideLink": "MED1028 FoCS Lecture Pre-rec - Drug Handling Processes Pharmacokinetics part1 RPlumb accessible Oct21.pdf (Slide: Distribution)"
+},
+{
+  "question": "In a reflex control system, what component processes input and initiates the response?",
+  "options": [
+    "A) Effector",
+    "B) Sensor",
+    "C) Control centre",
+    "D) Target organ",
+    "E) Homeostat"
+  ],
+  "correctIndex": 2,
+  "explanations": [
+    "Incorrect: Effectors carry out the response but do not process signals.",
+    "Incorrect: Sensors detect change but do not initiate response.",
+    "Correct: The control centre processes input and coordinates output to effectors.",
+    "Incorrect: Target organs respond but are not integrative.",
+    "Incorrect: 'Homeostat' is not a standard term in control system physiology."
+  ],
+  "slideLink": "MED1028 FoCS Lecture 59 - Homeostasis and Control Systems upload.pdf (Slide: Homeostatic Control Systems)"
+},
+{
   "question": "Which epithelium type lines blood vessels and is referred to as 'endothelium'?",
   "options": [
     "A) Simple cuboidal",
