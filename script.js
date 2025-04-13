@@ -42,6 +42,196 @@
     "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Occupancy Equation for Agonist Drug A)"
   },
   {
+    "question": "Which of the following is NOT a typical function of the complement system?",
+    "options": [
+      "A) Opsonization",
+      "B) Direct bacterial lysis",
+      "C) Induction of fever",
+      "D) Chemotaxis of immune cells",
+      "E) Enhancing phagocytosis"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Opsonization is a major complement function.",
+      "Incorrect: Membrane attack complex lyses bacteria.",
+      "Correct: Fever is mediated by cytokines, not complement.",
+      "Incorrect: Complement proteins attract phagocytes.",
+      "Incorrect: Complement enhances immune cell recognition."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Complement system)"
+  },
+  {
+    "question": "What statistical concept does standard deviation measure?",
+    "options": [
+      "A) Central tendency",
+      "B) Skewness",
+      "C) Spread of data around the mean",
+      "D) Median",
+      "E) Mode"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Central tendency is measured by mean or median.",
+      "Incorrect: Skewness describes asymmetry.",
+      "Correct: SD measures variability around the mean.",
+      "Incorrect: Median is a location measure.",
+      "Incorrect: Mode is the most frequent value."
+    ],
+    "slideLink": "1 Introduction to statistics 2022 PDF.pdf (Slide: Measures of spread)"
+  },
+  {
+    "question": "Which molecule neutralizes heparin in overdose situations?",
+    "options": [
+      "A) Warfarin",
+      "B) Vitamin K",
+      "C) Protamine sulfate",
+      "D) Aspirin",
+      "E) Clopidogrel"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Warfarin is another anticoagulant.",
+      "Incorrect: Vitamin K reverses warfarin, not heparin.",
+      "Correct: Protamine sulfate binds and neutralizes heparin.",
+      "Incorrect: Aspirin inhibits platelets, not heparin.",
+      "Incorrect: Clopidogrel inhibits ADP receptors, not related to heparin."
+    ],
+    "slideLink": "2024 Treatment Lecture 2 Pharmacodynamics.pdf (Slide: Chemical antagonists)"
+  },
+  {
+    "question": "What does the slope (b) in a simple linear regression equation represent?",
+    "options": [
+      "A) Intercept",
+      "B) Error term",
+      "C) Mean of y",
+      "D) Change in y per unit change in x",
+      "E) Standard deviation of x"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: The intercept is a.",
+      "Incorrect: The error term is residual variance.",
+      "Incorrect: Mean is not the slope.",
+      "Correct: b shows how much y changes per 1 unit change in x.",
+      "Incorrect: SD is unrelated to slope."
+    ],
+    "slideLink": "4 Other hypothesis tests 2022 PDF.pdf (Slide: Linear regression)"
+  },
+  {
+    "question": "Which immune cell releases histamine during allergic reactions?",
+    "options": [
+      "A) Neutrophils",
+      "B) T cells",
+      "C) Mast cells",
+      "D) Macrophages",
+      "E) Dendritic cells"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Neutrophils are phagocytic.",
+      "Incorrect: T cells don’t release histamine.",
+      "Correct: Mast cells degranulate and release histamine.",
+      "Incorrect: Macrophages present antigen and secrete cytokines.",
+      "Incorrect: Dendritic cells are antigen-presenting cells."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Mast cells)"
+  },
+  {
+    "question": "What does a hazard ratio of 1.0 imply in survival analysis?",
+    "options": [
+      "A) Increased risk in treatment group",
+      "B) Decreased risk in treatment group",
+      "C) No difference in risk between groups",
+      "D) Data error",
+      "E) Study is invalid"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: HR > 1 indicates increased risk.",
+      "Incorrect: HR < 1 indicates reduced risk.",
+      "Correct: HR of 1.0 means equal risk across groups.",
+      "Incorrect: A value of 1.0 is valid.",
+      "Incorrect: Study can still be valid with HR = 1."
+    ],
+    "slideLink": "4 Other hypothesis tests 2022 PDF.pdf (Slide: Treatment effects for time-to-event data)"
+  },
+  {
+    "question": "What type of immunity is gained from vaccination?",
+    "options": [
+      "A) Passive natural",
+      "B) Passive artificial",
+      "C) Active natural",
+      "D) Active artificial",
+      "E) Innate immunity"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Passive natural occurs via placenta/breast milk.",
+      "Incorrect: Passive artificial is antibody injection.",
+      "Incorrect: Active natural results from infection.",
+      "Correct: Vaccines induce active artificial immunity by stimulating an immune response.",
+      "Incorrect: Innate immunity is nonspecific and not vaccine-related."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Types of adaptive immunity)"
+  },
+  {
+    "question": "Which drug class ends with the suffix “-pril”?",
+    "options": [
+      "A) Beta-blockers",
+      "B) Calcium channel blockers",
+      "C) ACE inhibitors",
+      "D) Diuretics",
+      "E) Statins"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Beta-blockers usually end in -olol.",
+      "Incorrect: Calcium channel blockers vary (e.g., -dipine).",
+      "Correct: ACE inhibitors like enalapril and lisinopril share the -pril ending.",
+      "Incorrect: Diuretics don’t follow this naming pattern.",
+      "Incorrect: Statins end in -statin."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Drug Names)"
+  },
+  {
+    "question": "What is a key feature of adaptive immunity compared to innate immunity?",
+    "options": [
+      "A) Faster response",
+      "B) Lack of specificity",
+      "C) Memory formation",
+      "D) Physical barriers",
+      "E) Inflammation"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Innate immunity is faster.",
+      "Incorrect: Adaptive immunity is highly specific.",
+      "Correct: Adaptive immunity generates memory cells for future response.",
+      "Incorrect: Barriers are part of innate immunity.",
+      "Incorrect: Inflammation is typically an innate response."
+    ],
+    "slideLink": "2024_RCOLLMED Y1 FCOS immunology.pptx (Slide: Innate vs adaptive)"
+  },
+  {
+    "question": "Which phase of a clinical trial assesses drug efficacy in a large population?",
+    "options": [
+      "A) Phase 0",
+      "B) Phase 1",
+      "C) Phase 2",
+      "D) Phase 3",
+      "E) Phase 4"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Phase 0 is exploratory.",
+      "Incorrect: Phase 1 focuses on safety.",
+      "Incorrect: Phase 2 assesses dosing and efficacy in small groups.",
+      "Correct: Phase 3 assesses efficacy in large populations before approval.",
+      "Incorrect: Phase 4 monitors post-marketing safety."
+    ],
+    "slideLink": "2024 Treatment Lecture 1 Introduction.pdf (Slide: Drug development pipeline)"
+  },
+  {
     "question": "Which organ is considered a primary lymphoid organ?",
     "options": [
       "A) Lymph node",
