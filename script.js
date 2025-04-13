@@ -61,6 +61,215 @@
     "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: Reactive Oxygen Species/Free Radicals)"
   },
   {
+    "question": "What is the primary function of carbamoyl phosphate synthetase in the urea cycle?",
+    "options": [
+      "A) Converts arginine to urea",
+      "B) Combines ornithine with citrulline",
+      "C) Synthesizes carbamoyl phosphate from NH4+ and CO2",
+      "D) Transfers nitrogen to glutamine",
+      "E) Converts ammonia directly to urea"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Arginase converts arginine to urea, not CPS.",
+      "Incorrect: This step involves ornithine transcarbamoylase.",
+      "Correct: CPS catalyzes formation of carbamoyl phosphate using ammonia and CO2.",
+      "Incorrect: Nitrogen transfer to glutamine is not part of the urea cycle.",
+      "Incorrect: Urea formation involves several intermediate steps."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 32 - Amino Acids 151124.pdf (Slide: Amino Acid Catabolism)"
+  },
+  {
+    "question": "Which type of mutation involves a purine being replaced by another purine?",
+    "options": [
+      "A) Missense",
+      "B) Nonsense",
+      "C) Transversion",
+      "D) Transition",
+      "E) Silent"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Missense changes one amino acid to another.",
+      "Incorrect: Nonsense introduces a premature stop codon.",
+      "Incorrect: Transversion is purine to pyrimidine (or vice versa).",
+      "Correct: Transition is a purine to purine or pyrimidine to pyrimidine substitution.",
+      "Incorrect: Silent mutations do not change amino acids but are not defined by purine/pyrimidine swap."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Transitions and Transversions)"
+  },
+  {
+    "question": "In the health belief model, which of the following is considered a 'cue to action'?",
+    "options": [
+      "A) Confidence in overcoming barriers",
+      "B) Family member reminding patient to attend screening",
+      "C) Perceived susceptibility",
+      "D) Response efficacy",
+      "E) Self-efficacy"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: This relates to self-efficacy.",
+      "Correct: External events like reminders are considered cues to action.",
+      "Incorrect: This refers to belief about likelihood of disease.",
+      "Incorrect: Response efficacy is about perceived benefit of action.",
+      "Incorrect: This refers to belief in one’s ability to act."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 31 - Understanding Patients Health Behaviours.pdf (Slide: Applying the HBM to behaviour change)"
+  },
+  {
+    "question": "In DNA replication, what joins Okazaki fragments together?",
+    "options": [
+      "A) DNA helicase",
+      "B) RNA primase",
+      "C) DNA ligase",
+      "D) DNA polymerase I",
+      "E) Topoisomerase"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Helicase unwinds DNA.",
+      "Incorrect: Primase adds RNA primers, not ligates fragments.",
+      "Correct: DNA ligase forms phosphodiester bonds between Okazaki fragments.",
+      "Incorrect: DNA Pol I removes primers but doesn't ligate fragments.",
+      "Incorrect: Topoisomerase reduces supercoiling, not ligation."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 19 - DNA - The Basics 2022.pdf (Slide: DNA synthesis – the lagging strand)"
+  },
+  {
+    "question": "Which type of sequencing allows parallel analysis of millions of DNA fragments?",
+    "options": [
+      "A) Sanger sequencing",
+      "B) Northern blotting",
+      "C) Western blotting",
+      "D) Next Generation Sequencing (NGS)",
+      "E) PCR"
+    ],
+    "correctIndex": 3,
+    "explanations": [
+      "Incorrect: Sanger sequencing reads one fragment at a time.",
+      "Incorrect: Northern blotting detects RNA, not for sequencing.",
+      "Incorrect: Western blotting detects proteins.",
+      "Correct: NGS enables massively parallel sequencing.",
+      "Incorrect: PCR amplifies DNA but does not sequence."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Next generation genetic analysis)"
+  },
+  {
+    "question": "What is a defining feature of the stratum corneum?",
+    "options": [
+      "A) Contains actively dividing cells",
+      "B) Contains dispersed keratohyalin",
+      "C) Contains dead cells surrounded by lipids",
+      "D) Contains lamellar body release",
+      "E) Contains mitotic basal cells"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: That is stratum basale.",
+      "Incorrect: Dispersed keratohyalin is in stratum lucidum.",
+      "Correct: Stratum corneum contains dead cells with keratin, surrounded by lipids.",
+      "Incorrect: Lamellar body release occurs in the granulosum.",
+      "Incorrect: Basal layer has mitotic activity, not corneum."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 15 - P5. Keratinocyte dev_MED21.pdf (Slide: Stratum corneum)"
+  },
+  {
+    "question": "Which neurotransmitter’s effect is disrupted in multiple sclerosis due to demyelination?",
+    "options": [
+      "A) Acetylcholine",
+      "B) Dopamine",
+      "C) Serotonin",
+      "D) Glutamate",
+      "E) Action potential conduction"
+    ],
+    "correctIndex": 4,
+    "explanations": [
+      "Incorrect: Neurotransmitter type is not the issue in MS.",
+      "Incorrect: Dopaminergic systems are not the focus.",
+      "Incorrect: Serotonin is unrelated to MS conduction deficits.",
+      "Incorrect: Glutamate imbalance occurs in other conditions.",
+      "Correct: Demyelination disrupts AP conduction, not a neurotransmitter directly."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 20 - Action Potentials 2024 accessibility for Canvas.pdf (Slide: Clinical context – MS)"
+  },
+  {
+    "question": "Which part of a gene contains the transcription start site?",
+    "options": [
+      "A) Enhancer",
+      "B) Intron",
+      "C) Promoter",
+      "D) 3' UTR",
+      "E) Exon"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Enhancers influence transcription but don’t contain the start site.",
+      "Incorrect: Introns are non-coding intervening sequences.",
+      "Correct: Promoter contains the transcription start site and TATA box.",
+      "Incorrect: 3' UTR is downstream of coding region.",
+      "Incorrect: Exons are coding sequences transcribed after initiation."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 19 - DNA - The Basics 2022.pdf (Slide: All genes contain key elements for transcription)"
+  },
+  {
+    "question": "Which of the following best describes frameshift mutations?",
+    "options": [
+      "A) Result from substitution of one base",
+      "B) Always create a silent mutation",
+      "C) Are caused by insertions or deletions not in multiples of three",
+      "D) Only affect non-coding regions",
+      "E) Increase transcription factor binding"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Substitution causes point mutations, not frameshifts.",
+      "Incorrect: Frameshifts typically alter protein coding, not silent.",
+      "Correct: Insertion/deletion not in multiples of 3 alters reading frame.",
+      "Incorrect: Can affect coding regions critically.",
+      "Incorrect: No effect on TF binding."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 24 - DNA - Reading the code.pdf (Slide: Frameshift mutations)"
+  },
+  {
+    "question": "Which metabolic pathway connects carbohydrate, protein, and fat metabolism?",
+    "options": [
+      "A) Glycolysis",
+      "B) Krebs cycle",
+      "C) Beta-oxidation",
+      "D) Gluconeogenesis",
+      "E) Pentose phosphate pathway"
+    ],
+    "correctIndex": 1,
+    "explanations": [
+      "Incorrect: Glycolysis only handles carbohydrates.",
+      "Correct: The Krebs cycle is central to carbohydrate, amino acid, and fat metabolism via Acetyl-CoA.",
+      "Incorrect: Beta-oxidation only involves fats.",
+      "Incorrect: Gluconeogenesis makes glucose from non-carbs.",
+      "Incorrect: Pentose phosphate pathway is for NADPH and ribose."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: TCA cycle)"
+  },
+  {
+    "question": "What is the function of acetyl-CoA in metabolism?",
+    "options": [
+      "A) Activates transcription",
+      "B) Carries nitrogen for urea cycle",
+      "C) Links glycolysis and the TCA cycle",
+      "D) Inhibits electron transport",
+      "E) Transports glucose into mitochondria"
+    ],
+    "correctIndex": 2,
+    "explanations": [
+      "Incorrect: Acetyl-CoA does not regulate transcription.",
+      "Incorrect: It does not carry nitrogen.",
+      "Correct: Acetyl-CoA is formed from pyruvate and enters the Krebs cycle.",
+      "Incorrect: It fuels, not inhibits respiration.",
+      "Incorrect: Glucose entry uses different transporters."
+    ],
+    "slideLink": "MED1028 FoCS Lecture 22 - Enzymes Krebs ATP.pdf (Slide: Acetyl-CoA and TCA)"
+  },
+  {
     "question": "Which antioxidant is lipid-soluble and protects cell membranes from oxidative damage?",
     "options": [
       "A) Vitamin C",
