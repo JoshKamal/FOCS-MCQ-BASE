@@ -7978,5 +7978,5 @@ const focsData5 = [
     "Incorrect: The musculoskeletal system provides structural support, not homeostatic regulation."
   ],
   "slideLink": "Lecture57_FOCS.pdf"
-},
+}
 ];
