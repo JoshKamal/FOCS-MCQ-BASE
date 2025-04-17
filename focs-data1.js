@@ -1,5 +1,5 @@
 // focs-data.js
-const focsData = [
+const focsData1 = [
   
   {
                                  question: "A 23-year-old student has been feeling increasingly fatigued and notices his heart rate is elevated. A blood test reveals increased serum lactate levels. Which of the following best explains why a lack of oxygen leads to lactate accumulation?",
