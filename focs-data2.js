@@ -7370,5 +7370,5 @@ const focsData2 = [
     "Incorrect: The change in RMP is specifically due to the inhibition of the pump."
   ],
   "slideLink": "Lecture14_FOCS.pdf"
-},
+}
 ];
