@@ -7408,5 +7408,5 @@ const focsData4 = [
     "Incorrect: Ion pumps regulate ion gradients but are not central to signal specificity."
   ],
   "slideLink": "Lecture41_FOCS.pdf"
-},
+}
 ];
