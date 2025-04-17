@@ -1,4 +1,4 @@
-questions.push(...focsData);
+questions.push(...focsData1, ...focsData2, ...focsData3, ...focsData4, ...focsData5);
 
 
 
