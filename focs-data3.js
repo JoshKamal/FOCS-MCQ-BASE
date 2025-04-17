@@ -7408,5 +7408,5 @@ const focsData3 = [
     "Incorrect: ATP concentration regulates other pathways but does not initiate ketogenesis."
   ],
   "slideLink": "Lecture27_FOCS.pdf"
-},
+}
 ];
