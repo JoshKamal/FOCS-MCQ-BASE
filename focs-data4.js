@@ -1,4 +1,4 @@
-const focsData4 = [
+const focsData4 = [ 
 {
   "question": "What does a 95% confidence interval for a population mean indicate?",
   "options": [
