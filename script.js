@@ -1,5 +1,5 @@
 questions.push(...focsData2, ...focsData3, ...focsData4, ...focsData5);
-
+questions = questions.map((q, i) => ({ ...q, originalIndex: i }))
 
 
 
@@ -250,12 +250,8 @@ function loginUser() {
 
   const progress = getProgress();
   activeQuestions = questions
-  .map((q, i) => ({ ...q, originalIndex: i }))
-  .filter(q => {
-    const seen = progress[q.originalIndex];
-    const reviewed = window.reviewedIndices?.has(q.originalIndex);
-    return !seen && !reviewed;
-  });
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
 
   shuffleQuestions(activeQuestions);
   switchTab('quiz');
@@ -326,12 +322,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const progress = getProgress();
   activeQuestions = questions
-  .map((q, i) => ({ ...q, originalIndex: i }))
-  .filter(q => {
-    const seen = progress[q.originalIndex];
-    const reviewed = window.reviewedIndices?.has(q.originalIndex);
-    return !seen && !reviewed;
-  });
+    .map((q, i) => ({ ...q, originalIndex: i }))
+    .filter(q => !progress[q.originalIndex]);
 
   shuffleQuestions(activeQuestions);
   switchTab('quiz')
