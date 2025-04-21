@@ -190,6 +190,7 @@ function startReview(filterType = 'incorrect') {
   const filtered = questions
     .map((q, i) => ({ ...q, originalIndex: i }))
     .filter(q => progress[q.originalIndex] === filterType);
+  window.reviewedIndices = new Set(filtered.map(q => q.originalIndex));
 
   if (filtered.length === 0) {
     alert(`No ${filterType} questions to review.`);
@@ -249,8 +250,12 @@ function loginUser() {
 
   const progress = getProgress();
   activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]);
+  .map((q, i) => ({ ...q, originalIndex: i }))
+  .filter(q => {
+    const seen = progress[q.originalIndex];
+    const reviewed = window.reviewedIndices?.has(q.originalIndex);
+    return !seen && !reviewed;
+  });
 
   shuffleQuestions(activeQuestions);
   switchTab('quiz');
@@ -321,8 +326,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const progress = getProgress();
   activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]); // only show unseen
+  .map((q, i) => ({ ...q, originalIndex: i }))
+  .filter(q => {
+    const seen = progress[q.originalIndex];
+    const reviewed = window.reviewedIndices?.has(q.originalIndex);
+    return !seen && !reviewed;
+  });
 
   shuffleQuestions(activeQuestions);
   switchTab('quiz')
