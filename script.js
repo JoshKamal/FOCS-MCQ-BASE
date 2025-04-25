@@ -1,8 +1,4 @@
 questions.push(...focsData2, ...focsData3, ...focsData4, ...focsData5);
-questions = questions.map((q, i) => ({ ...q, originalIndex: i }))
-
-
-
 
 let currentQuestionIndex = 0;
 let incorrectAnswers = [];
@@ -47,7 +43,7 @@ if (currentUser) {
     const answered = Object.keys(progress).length;
     const correct = Object.values(progress).filter(v => v === 'correct').length;
     document.getElementById("user-stats").style.display = "block";
-    document.getElementById("stats-summary").innerText = `You've answered ${answered} questions — ${correct} correct.`;
+    document.getElementById("stats-summary").innerText = You've answered ${answered} questions — ${correct} correct.;
   }
 
   if (currentList.length === 0) {
@@ -63,7 +59,7 @@ if (currentUser) {
   }
 
   const q = currentList[currentQuestionIndex];
-  questionText.innerText = `Q${currentQuestionIndex + 1}: ${q.question}`;
+  questionText.innerText = Q${currentQuestionIndex + 1}: ${q.question};
   optionsContainer.innerHTML = "";
   feedbackBox.style.display = "none";
   feedbackBox.innerHTML = "";
@@ -103,22 +99,22 @@ function checkAnswer(selectedIndex) {
   }
 
   feedbackBox.style.display = "block";
-  feedbackBox.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
-  feedbackBox.innerHTML = `<strong>${isCorrect ? "Correct!" : "Incorrect."}</strong><br><br>`;
-  feedbackBox.innerHTML += `<div class="explanations">` +
+  feedbackBox.className = feedback ${isCorrect ? "correct" : "incorrect"};
+  feedbackBox.innerHTML = <strong>${isCorrect ? "Correct!" : "Incorrect."}</strong><br><br>;
+  feedbackBox.innerHTML += <div class="explanations"> +
   q.explanations.map((exp, idx) => {
     const isCorrect = exp.startsWith("Correct:");
-    const label = isCorrect ? `<strong>Correct:</strong>` : `<strong>Incorrect:</strong>`;
+    const label = isCorrect ? <strong>Correct:</strong> : <strong>Incorrect:</strong>;
     const explanationText = exp.replace(/^Correct:|^Incorrect:/, "").trim();
-    return `
+    return 
       <div style="margin-bottom: 12px;">
         <strong>${q.options[idx]}</strong><br>
         ${label} ${explanationText}
       </div>
-    `;
+    ;
   }).join("") +
-  `</div>`;
-  feedbackBox.innerHTML += `<p><em>Source: ${q.slideLink}</em></p>`;
+  </div>;
+  feedbackBox.innerHTML += <p><em>Source: ${q.slideLink}</em></p>;
 
   updateScore();
   saveQuestionStatus(q.originalIndex ?? currentQuestionIndex, isCorrect);
@@ -154,7 +150,7 @@ function updateDropdown() {
   activeQuestions.forEach((q, idx) => {
     const option = document.createElement("option");
     option.value = idx;
-    option.text = `Q${idx + 1}`;
+    option.text = Q${idx + 1};
     if (idx === currentQuestionIndex) option.selected = true;
     select.appendChild(option);
   });
@@ -162,7 +158,7 @@ function updateDropdown() {
 
 function updateProgress() {
   const percent = ((currentQuestionIndex + 1) / activeQuestions.length) * 100;
-  progressBar.style.width = `${percent}%`;
+  progressBar.style.width = ${percent}%;
 }
 
 function updateScore() {
@@ -173,8 +169,8 @@ function updateScore() {
   }
 
   const percent = Math.round((correctCount / totalAnswered) * 100);
-  scoreFill.style.width = `${percent}%`;
-  scoreLabel.innerText = `${correctCount}/${totalAnswered} correct (${percent}%)`;
+  scoreFill.style.width = ${percent}%;
+  scoreLabel.innerText = ${correctCount}/${totalAnswered} correct (${percent}%);
 
   if (percent >= 80) {
     scoreFill.style.backgroundColor = "#38a169";
@@ -190,10 +186,9 @@ function startReview(filterType = 'incorrect') {
   const filtered = questions
     .map((q, i) => ({ ...q, originalIndex: i }))
     .filter(q => progress[q.originalIndex] === filterType);
-  window.reviewedIndices = new Set(filtered.map(q => q.originalIndex));
 
   if (filtered.length === 0) {
-    alert(`No ${filterType} questions to review.`);
+    alert(No ${filterType} questions to review.);
     return;
   }
 
@@ -234,18 +229,18 @@ function loginUser() {
   if (!username) return;
 
   currentUser = username;
-  const key = `${currentUser}_progress`;
+  const key = ${currentUser}_progress;
   const existing = localStorage.getItem(key);
 
   if (existing) {
-    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
+    alert(Welcome back, ${username}! Your previous progress will be loaded.);
   } else {
-    alert(`Hello ${username}, let's get started!`);
+    alert(Hello ${username}, let's get started!);
   }
 
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
-  document.getElementById("auth-status").innerText = `Signed in as ${username}`;
+  document.getElementById("auth-status").innerText = Signed in as ${username};
   document.getElementById("logout-btn").style.display = "block";
 
   const progress = getProgress();
@@ -274,13 +269,13 @@ function logoutUser() {
 // LocalStorage-based progress per username
 function getProgress() {
   if (!currentUser) return {};
-  const key = `${currentUser}_progress`;
+  const key = ${currentUser}_progress;
   return JSON.parse(localStorage.getItem(key)) || {};
 }
 
 function saveQuestionStatus(index, isCorrect) {
   if (!currentUser) return;
-  const key = `${currentUser}_progress`;
+  const key = ${currentUser}_progress;
   const progress = JSON.parse(localStorage.getItem(key)) || {};
   progress[index] = isCorrect ? 'correct' : 'incorrect';
   localStorage.setItem(key, JSON.stringify(progress));
@@ -288,7 +283,7 @@ function saveQuestionStatus(index, isCorrect) {
 
 function resetProgress() {
   if (currentUser && confirm("Are you sure you want to reset all your progress?")) {
-    localStorage.removeItem(`${currentUser}_progress`);
+    localStorage.removeItem(${currentUser}_progress);
     location.reload();
   }
 }
@@ -311,7 +306,6 @@ function switchTab(tab) {
   }
 }
 
-
 window.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".summary-toggle").forEach(button => {
     button.addEventListener("click", () => {
@@ -323,9 +317,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const progress = getProgress();
   activeQuestions = questions
     .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]);
+    .filter(q => !progress[q.originalIndex]); // only show unseen
 
   shuffleQuestions(activeQuestions);
   switchTab('quiz')
   renderQuestion();
-});
+}); ——— how do I make sure any questions in the redo correct questions or redo incorrect questions are not included in the main practice session
