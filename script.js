@@ -306,6 +306,24 @@ function switchTab(tab) {
   }
 }
 
+function renderAnsweredSection(containerId, questionList, title) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  if (questionList.length === 0) {
+    container.innerHTML = `<h3>${title}</h3><p>No questions yet.</p>`;
+    return;
+  }
+
+  const html = questionList.map((q, idx) => `
+    <div class="answered-question" style="margin-bottom: 12px;">
+      <strong>Q${q.originalIndex + 1}:</strong> ${q.question}
+    </div>
+  `).join("");
+
+  container.innerHTML = `<h3>${title}</h3>${html}`;
+}
+
 
 window.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".summary-toggle").forEach(button => {
@@ -316,11 +334,30 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]); // only show unseen
 
+  const previouslyCorrect = [];
+  const previouslyIncorrect = [];
+  const newQuestions = [];
+
+  questions.forEach((q, i) => {
+    const qWithIndex = { ...q, originalIndex: i };
+    const status = progress[i];
+
+    if (status === 'correct') {
+      previouslyCorrect.push(qWithIndex);
+    } else if (status === 'incorrect') {
+      previouslyIncorrect.push(qWithIndex);
+    } else {
+      newQuestions.push(qWithIndex);
+    }
+  });
+
+  activeQuestions = newQuestions;
   shuffleQuestions(activeQuestions);
-  switchTab('quiz')
+
+  renderAnsweredSection("previous-correct-section", previouslyCorrect, "Previously Answered Correctly");
+  renderAnsweredSection("previous-incorrect-section", previouslyIncorrect, "Previously Answered Incorrectly");
+
+  switchTab('quiz');
   renderQuestion();
 });
