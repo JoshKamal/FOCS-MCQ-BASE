@@ -1,5 +1,9 @@
 questions.push(...focsData2, ...focsData3, ...focsData4, ...focsData5);
 
+questions.forEach((q, i) => {
+  q.originalIndex = i;
+});
+
 let currentQuestionIndex = 0;
 let incorrectAnswers = [];
 let correctCount = 0;
