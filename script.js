@@ -356,32 +356,4 @@ window.addEventListener("DOMContentLoaded", () => {
       content.style.display = content.style.display === "block" ? "none" : "block";
     });
   });
-
-  const progress = getProgress();
-
-  const previouslyCorrect = [];
-  const previouslyIncorrect = [];
-  const newQuestions = [];
-
-  questions.forEach((q, i) => {
-    const qWithIndex = { ...q, originalIndex: i };
-    const status = progress[i];
-
-    if (status === 'correct') {
-      previouslyCorrect.push(qWithIndex);
-    } else if (status === 'incorrect') {
-      previouslyIncorrect.push(qWithIndex);
-    } else {
-      newQuestions.push(qWithIndex);
-    }
-  });
-
-  activeQuestions = newQuestions;
-  shuffleQuestions(activeQuestions);
-
-  renderAnsweredSection("previous-correct-section", previouslyCorrect, "Previously Answered Correctly");
-  renderAnsweredSection("previous-incorrect-section", previouslyIncorrect, "Previously Answered Incorrectly");
-
-  switchTab('quiz');
-  renderQuestion();
 });
