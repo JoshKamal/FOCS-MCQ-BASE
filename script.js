@@ -225,7 +225,8 @@ let currentUser = null; // will hold the entered username
 
 // Prompt for a username and log them in locally
 function loginUser() {
-  const username = prompt("Enter your username:");
+  const usernameInput = document.getElementById("username-input");
+  const username = usernameInput ? usernameInput.value.trim() : prompt("Enter your username:");
   if (!username) return;
 
   currentUser = username;
@@ -244,11 +245,30 @@ function loginUser() {
   document.getElementById("logout-btn").style.display = "block";
 
   const progress = getProgress();
-  activeQuestions = questions
-    .map((q, i) => ({ ...q, originalIndex: i }))
-    .filter(q => !progress[q.originalIndex]);
 
+  const previouslyCorrect = [];
+  const previouslyIncorrect = [];
+  const newQuestions = [];
+
+  questions.forEach((q, i) => {
+    const qWithIndex = { ...q, originalIndex: i };
+    const status = progress[i];
+
+    if (status === 'correct') {
+      previouslyCorrect.push(qWithIndex);
+    } else if (status === 'incorrect') {
+      previouslyIncorrect.push(qWithIndex);
+    } else {
+      newQuestions.push(qWithIndex);
+    }
+  });
+
+  activeQuestions = newQuestions;
   shuffleQuestions(activeQuestions);
+
+  renderAnsweredSection("previous-correct-section", previouslyCorrect, "Previously Answered Correctly");
+  renderAnsweredSection("previous-incorrect-section", previouslyIncorrect, "Previously Answered Incorrectly");
+
   switchTab('quiz');
   renderQuestion();
 }
