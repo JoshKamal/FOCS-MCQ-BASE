@@ -1,17 +1,18 @@
+// 1️⃣ Populate `questions` and give each an `originalIndex`
 questions.push(...focsData2, ...focsData3, ...focsData4, ...focsData5);
+questions.forEach((q, i) => q.originalIndex = i);
 
-questions.forEach((q, i) => {
-  q.originalIndex = i;
-});
-
+// 2️⃣ Prepare globals
 let currentQuestionIndex = 0;
 let incorrectAnswers = [];
 let correctCount = 0;
 let totalAnswered = 0;
 let inReviewMode = false;
 let lastPracticeIndex = 0;
-let activeQuestions = [...questions]; // mutable copy
-let practiceQuestions = []; // backup of active practice set
+let activeQuestions = [];      // will be set at login
+let practiceQuestions = [];
+let currentUser = null;
+
 
 const STORAGE_KEY = 'focsProgress';
 const questionText = document.getElementById("question-text");
@@ -225,55 +226,50 @@ function exitReview() {
   renderQuestion();
 }
 
-let currentUser = null; // will hold the entered username
 
-// Prompt for a username and log them in locally
+
 function loginUser() {
-  const usernameInput = document.getElementById("username-input");
-  const username = usernameInput ? usernameInput.value.trim() : prompt("Enter your username:");
+  const nameInput = document.getElementById("username-input");
+  const username = nameInput.value.trim();
   if (!username) return;
 
   currentUser = username;
-  const key = `${currentUser}_progress`;
-  const existing = localStorage.getItem(key);
+  const key = `${username}_progress`;
+  const stored = localStorage.getItem(key);
 
-  if (existing) {
-    alert(`Welcome back, ${username}! Your previous progress will be loaded.`);
-  } else {
-    alert(`Hello ${username}, let's get started!`);
-  }
+  alert(stored
+    ? `Welcome back, ${username}!`
+    : `Hello ${username}, let's get started!`
+  );
 
+  // show app, hide login
   document.getElementById("auth-section").style.display = "none";
   document.getElementById("app-container").style.display = "block";
   document.getElementById("auth-status").innerText = `Signed in as ${username}`;
-  document.getElementById("logout-btn").style.display = "block";
 
-  const progress = getProgress();
+  // load progress
+  const progress = JSON.parse(localStorage.getItem(key) || "{}");
+  const prevCorrect   = [];
+  const prevIncorrect = [];
+  const newQs         = [];
 
-  const previouslyCorrect = [];
-  const previouslyIncorrect = [];
-  const newQuestions = [];
-
-  questions.forEach((q, i) => {
-    const qWithIndex = { ...q, originalIndex: i };
-    const status = progress[i];
-
-    if (status === 'correct') {
-      previouslyCorrect.push(qWithIndex);
-    } else if (status === 'incorrect') {
-      previouslyIncorrect.push(qWithIndex);
-    } else {
-      newQuestions.push(qWithIndex);
-    }
+  questions.forEach(q => {
+    const status = progress[q.originalIndex];
+    if      (status === "correct")   prevCorrect.push(q);
+    else if (status === "incorrect") prevIncorrect.push(q);
+    else                              newQs.push(q);
   });
 
-  activeQuestions = newQuestions;
+  // Only new (unseen) questions go live
+  activeQuestions = [...newQs];
   shuffleQuestions(activeQuestions);
 
-  renderAnsweredSection("previous-correct-section", previouslyCorrect, "Previously Answered Correctly");
-  renderAnsweredSection("previous-incorrect-section", previouslyIncorrect, "Previously Answered Incorrectly");
+  // render the two “previously answered” panels
+  renderAnsweredSection("previous-correct-section",   prevCorrect,   "Previously Answered Correctly");
+  renderAnsweredSection("previous-incorrect-section", prevIncorrect, "Previously Answered Incorrectly");
 
-  switchTab('quiz');
+  // finally kick off the quiz
+  switchTab("quiz");
   renderQuestion();
 }
 
